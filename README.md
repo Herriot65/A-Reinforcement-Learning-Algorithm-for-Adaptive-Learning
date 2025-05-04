@@ -4,9 +4,38 @@ This project applies **Reinforcement Learning** (specifically **Proximal Policy 
 
 ---
 
-## ⚙️ Setup with Poetry
+### ⚙️ Setup with Poetry
 
 This project uses [Poetry](https://python-poetry.org/) for dependency and virtual environment management.
+
+### 📁 Project Strucutre
+RL_for_AL/
+│
+├── data/ # Curriculum datasets (JSON)
+├── environments/ # Custom Gym environment
+│ └── AdaptiveLearningEnv.py
+├── models/ # PPO agent implementation
+│ ├── checkpoints/ # Saved model weights
+│ └── ppo_model/
+│ ├── ActorCritic.py
+│ ├── PPO.py
+│ └── utils.py
+├── tests/ # Unit and integration tests
+│ ├── init.py
+│ └── test.py
+├── training/ # Training configuration & scripts
+│ ├── config.yaml
+│ └── train.py
+├── utils/ # Data loading, logging, plotting
+│ ├── config_loader.py
+│ ├── data_generator.py
+│ ├── load_dataset.py
+│ ├── logger.py
+│ └── plot_rewards.py
+├── logs/ # Training and testing logs (.csv)
+├── pyproject.toml # Poetry configuration
+├── poetry.lock
+└── README.md # Project description
 
 ### 1. Clone the repository
 
