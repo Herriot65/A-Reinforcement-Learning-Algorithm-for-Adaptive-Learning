@@ -1,0 +1,1357 @@
+{
+  "lessons": [
+    {
+      "lesson_id": "L1",
+      "required_mastery_level": 0.83,
+      "prerequisites": []
+    },
+    {
+      "lesson_id": "L2",
+      "required_mastery_level": 0.71,
+      "prerequisites": []
+    },
+    {
+      "lesson_id": "L3",
+      "required_mastery_level": 0.76,
+      "prerequisites": []
+    },
+    {
+      "lesson_id": "L4",
+      "required_mastery_level": 0.74,
+      "prerequisites": []
+    },
+    {
+      "lesson_id": "L5",
+      "required_mastery_level": 0.85,
+      "prerequisites": []
+    },
+    {
+      "lesson_id": "L6",
+      "required_mastery_level": 0.78,
+      "prerequisites": [
+        {
+          "L5": 0.71
+        }
+      ]
+    },
+    {
+      "lesson_id": "L7",
+      "required_mastery_level": 0.8,
+      "prerequisites": [
+        {
+          "L2": 0.71
+        }
+      ]
+    },
+    {
+      "lesson_id": "L8",
+      "required_mastery_level": 0.78,
+      "prerequisites": [
+        {
+          "L5": 0.79
+        }
+      ]
+    },
+    {
+      "lesson_id": "L9",
+      "required_mastery_level": 0.84,
+      "prerequisites": [
+        {
+          "L1": 0.77
+        },
+        {
+          "L2": 0.73
+        }
+      ]
+    },
+    {
+      "lesson_id": "L10",
+      "required_mastery_level": 0.78,
+      "prerequisites": [
+        {
+          "L1": 0.77
+        },
+        {
+          "L5": 0.77
+        }
+      ]
+    },
+    {
+      "lesson_id": "L11",
+      "required_mastery_level": 0.81,
+      "prerequisites": [
+        {
+          "L1": 0.89
+        },
+        {
+          "L4": 0.78
+        }
+      ]
+    },
+    {
+      "lesson_id": "L12",
+      "required_mastery_level": 0.82,
+      "prerequisites": [
+        {
+          "L5": 0.84
+        },
+        {
+          "L3": 0.71
+        }
+      ]
+    },
+    {
+      "lesson_id": "L13",
+      "required_mastery_level": 0.9,
+      "prerequisites": [
+        {
+          "L3": 0.87
+        }
+      ]
+    },
+    {
+      "lesson_id": "L14",
+      "required_mastery_level": 0.76,
+      "prerequisites": [
+        {
+          "L4": 0.83
+        }
+      ]
+    },
+    {
+      "lesson_id": "L15",
+      "required_mastery_level": 0.77,
+      "prerequisites": [
+        {
+          "L2": 0.83
+        },
+        {
+          "L3": 0.84
+        }
+      ]
+    },
+    {
+      "lesson_id": "L16",
+      "required_mastery_level": 0.83,
+      "prerequisites": [
+        {
+          "L5": 0.81
+        }
+      ]
+    },
+    {
+      "lesson_id": "L17",
+      "required_mastery_level": 0.79,
+      "prerequisites": [
+        {
+          "L2": 0.75
+        }
+      ]
+    },
+    {
+      "lesson_id": "L18",
+      "required_mastery_level": 0.87,
+      "prerequisites": [
+        {
+          "L3": 0.86
+        }
+      ]
+    },
+    {
+      "lesson_id": "L19",
+      "required_mastery_level": 0.86,
+      "prerequisites": [
+        {
+          "L1": 0.78
+        }
+      ]
+    },
+    {
+      "lesson_id": "L20",
+      "required_mastery_level": 0.88,
+      "prerequisites": [
+        {
+          "L2": 0.81
+        }
+      ]
+    },
+    {
+      "lesson_id": "L21",
+      "required_mastery_level": 0.78,
+      "prerequisites": [
+        {
+          "L2": 0.88
+        },
+        {
+          "L4": 0.79
+        }
+      ]
+    },
+    {
+      "lesson_id": "L22",
+      "required_mastery_level": 0.85,
+      "prerequisites": [
+        {
+          "L2": 0.81
+        },
+        {
+          "L5": 0.85
+        }
+      ]
+    },
+    {
+      "lesson_id": "L23",
+      "required_mastery_level": 0.77,
+      "prerequisites": [
+        {
+          "L5": 0.9
+        },
+        {
+          "L4": 0.73
+        }
+      ]
+    },
+    {
+      "lesson_id": "L24",
+      "required_mastery_level": 0.87,
+      "prerequisites": [
+        {
+          "L1": 0.73
+        },
+        {
+          "L5": 0.73
+        }
+      ]
+    },
+    {
+      "lesson_id": "L25",
+      "required_mastery_level": 0.78,
+      "prerequisites": [
+        {
+          "L5": 0.82
+        },
+        {
+          "L1": 0.79
+        }
+      ]
+    },
+    {
+      "lesson_id": "L26",
+      "required_mastery_level": 0.84,
+      "prerequisites": [
+        {
+          "L5": 0.72
+        },
+        {
+          "L1": 0.88
+        }
+      ]
+    },
+    {
+      "lesson_id": "L27",
+      "required_mastery_level": 0.76,
+      "prerequisites": [
+        {
+          "L3": 0.73
+        },
+        {
+          "L1": 0.7
+        }
+      ]
+    },
+    {
+      "lesson_id": "L28",
+      "required_mastery_level": 0.8,
+      "prerequisites": [
+        {
+          "L5": 0.72
+        },
+        {
+          "L2": 0.83
+        }
+      ]
+    },
+    {
+      "lesson_id": "L29",
+      "required_mastery_level": 0.77,
+      "prerequisites": [
+        {
+          "L2": 0.73
+        }
+      ]
+    },
+    {
+      "lesson_id": "L30",
+      "required_mastery_level": 0.76,
+      "prerequisites": [
+        {
+          "L5": 0.7
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "activity_id": "A1",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L3": 0.27
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A2",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L5": 0.23
+      },
+      "style": "auditory",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A3",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L1": 0.43
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A4",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L4": 0.25
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A5",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L5": 0.49
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A6",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L2": 0.29
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A7",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L3": 0.47
+      },
+      "style": "auditory",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A8",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L1": 0.27
+      },
+      "style": "auditory",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A9",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L1": 0.37
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A10",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L2": 0.22
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A11",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L1": 0.22
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A12",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L3": 0.35
+      },
+      "style": "auditory",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A13",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L4": 0.36
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A14",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L5": 0.34
+      },
+      "style": "auditory",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A15",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L4": 0.23
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A16",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L4": 0.33
+      },
+      "style": "auditory",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A17",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L1": 0.4
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A18",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L1": 0.32
+      },
+      "style": "auditory",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A19",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L1": 0.26
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A20",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L4": 0.33
+      },
+      "style": "auditory",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A21",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L4": 0.46
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A22",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L4": 0.23
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A23",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L5": 0.49
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A24",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L2": 0.35
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A25",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L4": 0.25
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A26",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L4": 0.48
+      },
+      "style": "auditory",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A27",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L3": 0.41
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A28",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L5": 0.42
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A29",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L2": 0.27
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A30",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L5": 0.36
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A31",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L3": 0.22
+      },
+      "style": "auditory",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A32",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L5": 0.25
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A33",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L1": 0.22
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A34",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L2": 0.24
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A35",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L2": 0.38
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A36",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L1": 0.4
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A37",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L5": 0.48
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A38",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L3": 0.28
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A39",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L3": 0.29
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A40",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L1": 0.39
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A41",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L3": 0.28
+      },
+      "style": "auditory",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A42",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L29": 0.29
+      },
+      "style": "auditory",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A43",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L20": 0.45,
+        "L26": 0.29
+      },
+      "style": "kinesthetic",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A44",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L29": 0.23
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A45",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L9": 0.26
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A46",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L22": 0.35
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A47",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L21": 0.21
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A48",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L21": 0.42
+      },
+      "style": "kinesthetic",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A49",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L18": 0.48,
+        "L1": 0.41
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A50",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L27": 0.37
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A51",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L2": 0.47
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A52",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L7": 0.23,
+        "L22": 0.43
+      },
+      "style": "auditory",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A53",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L30": 0.49
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A54",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L1": 0.44,
+        "L6": 0.46
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A55",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L6": 0.46,
+        "L26": 0.46
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A56",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L27": 0.29
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A57",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L1": 0.3
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A58",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L12": 0.49,
+        "L21": 0.36
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A59",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L29": 0.37
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A60",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L4": 0.42
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A61",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L20": 0.47,
+        "L17": 0.26
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A62",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L1": 0.33,
+        "L17": 0.48
+      },
+      "style": "auditory",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A63",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L22": 0.47,
+        "L28": 0.35
+      },
+      "style": "kinesthetic",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A64",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L11": 0.24,
+        "L13": 0.33
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A65",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L20": 0.36
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A66",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L10": 0.38,
+        "L7": 0.3
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A67",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L22": 0.25,
+        "L7": 0.23
+      },
+      "style": "kinesthetic",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A68",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L3": 0.29,
+        "L27": 0.44
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A69",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L2": 0.38
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A70",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L14": 0.41,
+        "L29": 0.35
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A71",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L21": 0.43
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A72",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L26": 0.37
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A73",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L5": 0.36,
+        "L26": 0.37
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A74",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L20": 0.33,
+        "L27": 0.25
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A75",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L9": 0.28,
+        "L25": 0.43
+      },
+      "style": "auditory",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A76",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L9": 0.41
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A77",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L11": 0.25,
+        "L29": 0.31
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A78",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L3": 0.3
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A79",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L2": 0.47,
+        "L7": 0.38
+      },
+      "style": "kinesthetic",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A80",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L28": 0.2
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A81",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L25": 0.42,
+        "L13": 0.36
+      },
+      "style": "kinesthetic",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A82",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L16": 0.33
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A83",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L11": 0.25,
+        "L22": 0.34
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A84",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L30": 0.37
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A85",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L21": 0.46
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A86",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L9": 0.26
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A87",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L25": 0.43,
+        "L29": 0.45
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A88",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L16": 0.36
+      },
+      "style": "auditory",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A89",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L21": 0.21
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A90",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L7": 0.25
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A91",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L22": 0.41,
+        "L4": 0.43
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A92",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L25": 0.23
+      },
+      "style": "visual",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A93",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L19": 0.48,
+        "L22": 0.26
+      },
+      "style": "kinesthetic",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A94",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L4": 0.38
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A95",
+      "max_selection_limit": 4,
+      "lesson_contributions": {
+        "L12": 0.31
+      },
+      "style": "kinesthetic",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A96",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L1": 0.23,
+        "L28": 0.49
+      },
+      "style": "kinesthetic",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A97",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L23": 0.42,
+        "L5": 0.49
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A98",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L15": 0.46,
+        "L14": 0.45
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A99",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L29": 0.37,
+        "L15": 0.4
+      },
+      "style": "auditory",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A100",
+      "max_selection_limit": 2,
+      "lesson_contributions": {
+        "L16": 0.35
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A101",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L8": 0.78
+      },
+      "style": "auditory",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A102",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L10": 0.4
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A103",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L11": 0.07
+      },
+      "style": "kinesthetic",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A104",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L12": 0.02
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A105",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L13": 0.21
+      },
+      "style": "kinesthetic",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A106",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L17": 0.05
+      },
+      "style": "visual",
+      "difficulty": "easy"
+    },
+    {
+      "activity_id": "A107",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L18": 0.39
+      },
+      "style": "kinesthetic",
+      "difficulty": "medium"
+    },
+    {
+      "activity_id": "A108",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L19": 0.38
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A109",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L23": 0.35
+      },
+      "style": "visual",
+      "difficulty": "hard"
+    },
+    {
+      "activity_id": "A110",
+      "max_selection_limit": 3,
+      "lesson_contributions": {
+        "L24": 0.87
+      },
+      "style": "auditory",
+      "difficulty": "hard"
+    }
+  ],
+  "sprints": {
+    "1": {
+      "lessons": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10"
+      ]
+    },
+    "2": {
+      "lessons": [
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20"
+      ]
+    },
+    "3": {
+      "lessons": [
+        "L21",
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L26",
+        "L27",
+        "L28",
+        "L29",
+        "L30"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Configuration file for training parameters
+training:
+  n_episodes: 5000
+  learning_rate: 0.0003
+  gamma: 0.99
+  lamda: 0.95
+  epochs: 10
+  clip_epsilon: 0.2
+  entropy_coef: 0.01
+  minibatch_size: 64
+  freq_update: 2048

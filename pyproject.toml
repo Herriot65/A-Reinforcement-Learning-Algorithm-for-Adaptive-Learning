@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rl-for-al"
+version = "0.1.0"
+description = ""
+authors = ["herriot <herriotdagoudi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gymnasium = "^1.1.1"
+torch = "^2.7.0"
+pyyaml = "^6.0.2"
+pandas = "^2.2.3"
+matplotlib = "^3.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
