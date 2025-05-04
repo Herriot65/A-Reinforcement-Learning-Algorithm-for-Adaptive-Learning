@@ -1,5 +1,5 @@
 ```markdown
-# 🧠 Reiforcement Learning for Adaptive Learning (RL_for_AL)
+# 🧠 Reinforcement Learning for Adaptive Learning (RL_for_AL)
 
 This project applies **Reinforcement Learning** (specifically **Proximal Policy Optimization - PPO**) to an **Adaptive Learning environment**. The RL agent learns to personalize educational activities for students with different learning styles and velocities.
 
@@ -9,33 +9,33 @@ This project applies **Reinforcement Learning** (specifically **Proximal Policy 
 
 ```
 
-RL_for_AL/
-│
+RL\_for\_AL/
 ├── data/                     # Curriculum datasets (JSON)
 ├── environments/             # Custom Gym environment
 │   └── AdaptiveLearningEnv.py
 ├── models/                   # PPO agent implementation
 │   ├── checkpoints/          # Saved model weights
-│   └── ppo_model/
+│   └── ppo\_model/
 │       ├── ActorCritic.py
 │       ├── PPO.py
 │       └── utils.py
 ├── tests/                    # Unit and integration tests
-│   ├── __init__.py
+│   ├── **init**.py
 │   └── test.py
 ├── training/                 # Training configuration & scripts
 │   ├── config.yaml
 │   └── train.py
 ├── utils/                    # Data loading, logging, plotting
-│   ├── config_loader.py
-│   ├── data_generator.py
-│   ├── load_dataset.py
+│   ├── config\_loader.py
+│   ├── data\_generator.py
+│   ├── load\_dataset.py
 │   ├── logger.py
-│   └── plot_rewards.py
+│   └── plot\_rewards.py
 ├── logs/                     # Training and testing logs (.csv)
 ├── pyproject.toml            # Poetry configuration
 ├── poetry.lock
-└── README.md                 # Project description 
+└── README.md                 # Project description
+
 ````
 
 ---
@@ -137,7 +137,7 @@ This file is loaded automatically during training and testing. You can modify th
 
 ## 📚 Dataset
 
-Dataset follow this structure:
+Dataset follows this structure:
 
 ```json
 {
@@ -147,6 +147,4 @@ Dataset follow this structure:
 }
 ```
 
-Place your dataset in the `data/` folder.
 
----
