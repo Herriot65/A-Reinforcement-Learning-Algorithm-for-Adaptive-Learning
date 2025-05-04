@@ -1,4 +1,3 @@
-````markdown
 # 🧠 Reinforcement Learning for Adaptive Learning (RL_for_AL)
 
 This project applies **Reinforcement Learning** (specifically **Proximal Policy Optimization - PPO**) to an **Adaptive Learning environment**. The RL agent learns to personalize educational activities for students with different learning styles and velocities.
