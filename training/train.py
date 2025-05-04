@@ -9,12 +9,12 @@ from utils.logger import TrainingLogger
 from utils.config_loader import load_config
 
 lessons, activities, sprints = load_adaptive_learning_dataset(
-    filepath='../data/curriculum_adaptive_learning_dataset.json'
+    filepath='data/curriculum_adaptive_learning_dataset.json'
 )
 env = AdaptiveLearningEnv(lessons, activities, sprints, max_activities=100)
 
 def train_model():
-    config = load_config("../training/config.yaml")  
+    config = load_config("training/config.yaml")  
     train_cfg = config["training"]
 
     environment = env
@@ -32,11 +32,11 @@ def train_model():
         freq_update=train_cfg["freq_update"]
     )
 
-    logger = TrainingLogger(log_path=train_cfg.get("log_path", "../logs/training_logs.csv"))
+    logger = TrainingLogger(log_path=train_cfg.get("log_path", "logs/training_logs_2.csv"))
 
     model.train(
         environment,
-        save_path=train_cfg.get("save_path", "../models/checkpoints/ppo_model_5000.pt"),
+        save_path=train_cfg.get("save_path", "models/checkpoints/ppo_model_20.pt"),
         logger=logger
     )
 

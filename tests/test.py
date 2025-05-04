@@ -22,7 +22,7 @@ def create_student_env(style, velocity, max_activities):
     env.style_one_hot = env._encode_style(style)
     return env
 
-def test_model(model_path, num_students=5, max_activities=100, output_file="../logs/test_results.csv"):
+def test_model(model_path, num_students=5, max_activities=100, output_file="logs/test_results.csv"):
     print("\n=== TESTING TRAINED PPO ON ARTIFICIAL STUDENTS ===\n")
 
     # Prepare CSV writing
@@ -76,8 +76,8 @@ def test_model(model_path, num_students=5, max_activities=100, output_file="../l
 
 if __name__ == "__main__":
     test_model(
-        model_path="../models/checkpoints/ppo_model.pt",
+        model_path="models/checkpoints/ppo_model.pt",
         num_students=5,
         max_activities=100,
-        output_file="../logs/test_results.csv"
+        output_file="logs/test_results.csv"
     )
