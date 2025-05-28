@@ -1,0 +1,230 @@
+GLOBAL LEARNING PATH
+Student: Visual_80pct_Student
+================================================================================
+
+COMPLETE LEARNING SEQUENCE:
+(To master all subjects, follow this activity sequence)
+------------------------------------------------------------
+
+EPISODE 1:
+   1. A4 (Performance: 0.37)
+      Mastery impacts:
+        L1: 0.372 (+0.372)
+   2. A43 (Performance: 0.31)
+      Mastery impacts:
+        L1: 0.681 (+0.308)
+   3. A56 (Performance: 0.26)
+      Mastery impacts:
+        L1: 0.945 (+0.265)
+   4. A13 (Performance: 0.38)
+      Mastery impacts:
+        L1: 1.000 (+0.055)
+        L3: 0.041 (+0.041)
+   5. A54 (Performance: 0.52)
+      Mastery impacts:
+        L2: 0.026 (+0.026)
+        L3: 0.261 (+0.219)
+   6. A38 (Performance: 0.32)
+      Mastery impacts:
+        L2: 0.045 (+0.019)
+        L3: 0.308 (+0.047)
+   7. A216 (Performance: 0.53)
+      Mastery impacts:
+        L2: 0.151 (+0.106)
+        L3: 0.657 (+0.349)
+   8. A288 (Performance: 0.29)
+      Mastery impacts:
+        L3: 0.815 (+0.158)
+   9. A48 (Performance: 0.25)
+      Mastery impacts:
+        L2: 0.163 (+0.013)
+        L3: 0.882 (+0.068)
+  10. A424 (Performance: 0.30)
+      Mastery impacts:
+        L3: 1.000 (+0.118)
+  11. A74 (Performance: 0.35)
+      Mastery impacts:
+        L2: 0.279 (+0.116)
+  12. A276 (Performance: 0.38)
+      Mastery impacts:
+        L2: 0.436 (+0.157)
+  13. A51 (Performance: 0.28)
+      Mastery impacts:
+        L2: 0.485 (+0.048)
+  14. A62 (Performance: 0.20)
+      Mastery impacts:
+        L2: 0.502 (+0.018)
+  15. A231 (Performance: 0.33)
+      Mastery impacts:
+        L2: 0.639 (+0.136)
+  16. A408 (Performance: 0.25)
+      Mastery impacts:
+        L2: 0.716 (+0.077)
+  17. A434 (Performance: 0.38)
+      Mastery impacts:
+        L2: 0.780 (+0.064)
+        L4: 0.004 (+0.004)
+  18. A116 (Performance: 0.48)
+      Mastery impacts:
+        L2: 1.000 (+0.220)
+        L4: 0.023 (+0.019)
+  19. A59 (Performance: 0.51)
+      Mastery impacts:
+        L4: 0.058 (+0.036)
+  20. A96 (Performance: 0.37)
+      Mastery impacts:
+        L4: 0.110 (+0.052)
+  21. A272 (Performance: 0.48)
+      Mastery impacts:
+        L4: 0.139 (+0.029)
+  22. A239 (Performance: 0.30)
+      Mastery impacts:
+        L4: 0.142 (+0.003)
+  23. A218 (Performance: 0.49)
+      Mastery impacts:
+        L4: 0.195 (+0.054)
+  24. A433 (Performance: 0.36)
+      Mastery impacts:
+        L4: 0.217 (+0.022)
+  25. A154 (Performance: 0.19)
+      Mastery impacts:
+        L4: 0.225 (+0.008)
+  26. A90 (Performance: 0.29)
+      Mastery impacts:
+        L4: 0.233 (+0.009)
+  27. A46 (Performance: 0.29)
+      Mastery impacts:
+        L4: 0.245 (+0.012)
+  28. A21 (Performance: 0.37)
+      Mastery impacts:
+        L4: 0.260 (+0.015)
+  29. A284 (Performance: 0.33)
+      Mastery impacts:
+        L4: 0.290 (+0.030)
+  30. A245 (Performance: 0.30)
+      Mastery impacts:
+        L4: 0.302 (+0.012)
+  31. A341 (Performance: 0.19)
+      Mastery impacts:
+        L4: 0.487 (+0.185)
+  32. A243 (Performance: 0.24)
+      Mastery impacts:
+        L4: 0.492 (+0.005)
+  33. A162 (Performance: 0.25)
+      Mastery impacts:
+        L4: 0.504 (+0.012)
+  34. A181 (Performance: 0.33)
+      Mastery impacts:
+        L4: 0.527 (+0.023)
+  35. A128 (Performance: 0.27)
+      Mastery impacts:
+        L4: 0.530 (+0.003)
+  36. A34 (Performance: 0.37)
+      Mastery impacts:
+        L4: 0.570 (+0.040)
+  37. A439 (Performance: 0.27)
+      Mastery impacts:
+        L4: 0.581 (+0.011)
+  38. A151 (Performance: 0.30)
+      Mastery impacts:
+        L4: 0.605 (+0.024)
+  39. A200 (Performance: 0.27)
+      Mastery impacts:
+        L4: 0.624 (+0.019)
+  40. A164 (Performance: 0.28)
+      Mastery impacts:
+        L4: 0.652 (+0.028)
+  41. A120 (Performance: 0.31)
+      Mastery impacts:
+        L4: 0.686 (+0.034)
+  42. A93 (Performance: 0.28)
+      Mastery impacts:
+        L4: 0.689 (+0.003)
+  43. A8 (Performance: 0.35)
+      Mastery impacts:
+        L4: 0.728 (+0.039)
+  44. A157 (Performance: 0.22)
+      Mastery impacts:
+        L4: 0.737 (+0.009)
+  45. A407 (Performance: 0.21)
+      Mastery impacts:
+        L4: 0.751 (+0.014)
+  46. A323 (Performance: 0.31)
+      Mastery impacts:
+        L4: 1.000 (+0.249)
+
+RECOMMENDED LEARNING SEQUENCE:
+----------------------------------------
+Optimal activity sequence (deduplicated):
+ 1. A4 (Avg Performance: 0.37)
+ 2. A43 (Avg Performance: 0.31)
+ 3. A56 (Avg Performance: 0.26)
+ 4. A13 (Avg Performance: 0.38)
+ 5. A54 (Avg Performance: 0.52)
+ 6. A38 (Avg Performance: 0.32)
+ 7. A216 (Avg Performance: 0.53)
+ 8. A288 (Avg Performance: 0.29)
+ 9. A48 (Avg Performance: 0.25)
+10. A424 (Avg Performance: 0.30)
+11. A74 (Avg Performance: 0.35)
+12. A276 (Avg Performance: 0.38)
+13. A51 (Avg Performance: 0.28)
+14. A62 (Avg Performance: 0.20)
+15. A231 (Avg Performance: 0.33)
+16. A408 (Avg Performance: 0.25)
+17. A434 (Avg Performance: 0.38)
+18. A116 (Avg Performance: 0.48)
+19. A59 (Avg Performance: 0.51)
+20. A96 (Avg Performance: 0.37)
+21. A272 (Avg Performance: 0.48)
+22. A239 (Avg Performance: 0.30)
+23. A218 (Avg Performance: 0.49)
+24. A433 (Avg Performance: 0.36)
+25. A154 (Avg Performance: 0.19)
+26. A90 (Avg Performance: 0.29)
+27. A46 (Avg Performance: 0.29)
+28. A21 (Avg Performance: 0.37)
+29. A284 (Avg Performance: 0.33)
+30. A245 (Avg Performance: 0.30)
+31. A341 (Avg Performance: 0.19)
+32. A243 (Avg Performance: 0.24)
+33. A162 (Avg Performance: 0.25)
+34. A181 (Avg Performance: 0.33)
+35. A128 (Avg Performance: 0.27)
+36. A34 (Avg Performance: 0.37)
+37. A439 (Avg Performance: 0.27)
+38. A151 (Avg Performance: 0.30)
+39. A200 (Avg Performance: 0.27)
+40. A164 (Avg Performance: 0.28)
+41. A120 (Avg Performance: 0.31)
+42. A93 (Avg Performance: 0.28)
+43. A8 (Avg Performance: 0.35)
+44. A157 (Avg Performance: 0.22)
+45. A407 (Avg Performance: 0.21)
+46. A323 (Avg Performance: 0.31)
+
+Total unique activities: 46
+
+ACTIVITY EFFECTIVENESS ANALYSIS:
+----------------------------------------
+Most effective activities (by average performance):
+  A216: 0.530 (used 1 times)
+    Best for: L3 (0.349), L2 (0.106)
+  A54: 0.520 (used 1 times)
+    Best for: L3 (0.219), L2 (0.026)
+  A59: 0.510 (used 1 times)
+    Best for: L4 (0.036)
+  A218: 0.490 (used 1 times)
+    Best for: L4 (0.054)
+  A116: 0.480 (used 1 times)
+    Best for: L2 (0.220), L4 (0.019)
+  A272: 0.480 (used 1 times)
+    Best for: L4 (0.029)
+  A13: 0.380 (used 1 times)
+    Best for: L1 (0.055), L3 (0.041)
+  A276: 0.380 (used 1 times)
+    Best for: L2 (0.157)
+  A434: 0.380 (used 1 times)
+    Best for: L2 (0.064), L4 (0.004)
+  A4: 0.370 (used 1 times)
+    Best for: L1 (0.372)

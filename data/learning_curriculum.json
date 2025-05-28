@@ -1,0 +1,6181 @@
+{
+  "lessons": [
+    {
+      "id": "L1",
+      "prerequisites": {}
+    },
+    {
+      "id": "L2",
+      "prerequisites": {
+        "L1": 0.61
+      }
+    },
+    {
+      "id": "L3",
+      "prerequisites": {
+        "L2": 0.66
+      }
+    },
+    {
+      "id": "L4",
+      "prerequisites": {
+        "L2": 0.51
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "A1",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.12,
+        "auditory": 0.36,
+        "read_write": 0.34,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A2",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.18,
+        "auditory": 0.31,
+        "read_write": 0.35,
+        "kinesthetic": 0.15
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A3",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.5,
+        "auditory": 0.07,
+        "read_write": 0.01,
+        "kinesthetic": 0.42
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A4",
+      "lessons": {
+        "L1": 0.83,
+        "L4": 0.13,
+        "L3": 0.04
+      },
+      "style": {
+        "visual": 0.06,
+        "auditory": 0.47,
+        "read_write": 0.08,
+        "kinesthetic": 0.38
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A5",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.02,
+        "read_write": 0.31,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A6",
+      "lessons": {
+        "L1": 0.85,
+        "L4": 0.14,
+        "L3": 0.01
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.46,
+        "read_write": 0.19,
+        "kinesthetic": 0.11
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A7",
+      "lessons": {
+        "L1": 0.81,
+        "L3": 0.19
+      },
+      "style": {
+        "visual": 0.55,
+        "auditory": 0.0,
+        "read_write": 0.13,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A8",
+      "lessons": {
+        "L1": 0.55,
+        "L4": 0.45
+      },
+      "style": {
+        "visual": 0.2,
+        "auditory": 0.41,
+        "read_write": 0.09,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A9",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.14,
+        "auditory": 0.29,
+        "read_write": 0.23,
+        "kinesthetic": 0.34
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A10",
+      "lessons": {
+        "L1": 0.89,
+        "L3": 0.07,
+        "L4": 0.04
+      },
+      "style": {
+        "visual": 0.05,
+        "auditory": 0.41,
+        "read_write": 0.28,
+        "kinesthetic": 0.27
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A11",
+      "lessons": {
+        "L1": 0.88,
+        "L4": 0.04,
+        "L2": 0.08
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.29,
+        "read_write": 0.24,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A12",
+      "lessons": {
+        "L1": 0.65,
+        "L3": 0.35
+      },
+      "style": {
+        "visual": 0.47,
+        "auditory": 0.3,
+        "read_write": 0.07,
+        "kinesthetic": 0.17
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A13",
+      "lessons": {
+        "L1": 0.83,
+        "L2": 0.16,
+        "L4": 0.01
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.05,
+        "read_write": 0.37,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A14",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.05,
+        "auditory": 0.12,
+        "read_write": 0.07,
+        "kinesthetic": 0.76
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A15",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.24,
+        "read_write": 0.14,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A16",
+      "lessons": {
+        "L1": 0.54,
+        "L2": 0.16,
+        "L3": 0.3
+      },
+      "style": {
+        "visual": 0.34,
+        "auditory": 0.4,
+        "read_write": 0.06,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A17",
+      "lessons": {
+        "L1": 0.59,
+        "L3": 0.27,
+        "L2": 0.14
+      },
+      "style": {
+        "visual": 0.53,
+        "auditory": 0.2,
+        "read_write": 0.2,
+        "kinesthetic": 0.07
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A18",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.2,
+        "auditory": 0.25,
+        "read_write": 0.29,
+        "kinesthetic": 0.26
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A19",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.07,
+        "auditory": 0.19,
+        "read_write": 0.46,
+        "kinesthetic": 0.27
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A20",
+      "lessons": {
+        "L1": 0.78,
+        "L2": 0.22
+      },
+      "style": {
+        "visual": 0.07,
+        "auditory": 0.13,
+        "read_write": 0.04,
+        "kinesthetic": 0.75
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A21",
+      "lessons": {
+        "L1": 0.61,
+        "L2": 0.3,
+        "L3": 0.09
+      },
+      "style": {
+        "visual": 0.28,
+        "auditory": 0.31,
+        "read_write": 0.39,
+        "kinesthetic": 0.03
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A22",
+      "lessons": {
+        "L1": 0.75,
+        "L4": 0.14,
+        "L3": 0.11
+      },
+      "style": {
+        "visual": 0.11,
+        "auditory": 0.37,
+        "read_write": 0.21,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A23",
+      "lessons": {
+        "L1": 0.54,
+        "L4": 0.46
+      },
+      "style": {
+        "visual": 0.05,
+        "auditory": 0.13,
+        "read_write": 0.46,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A24",
+      "lessons": {
+        "L1": 0.76,
+        "L2": 0.24
+      },
+      "style": {
+        "visual": 0.37,
+        "auditory": 0.44,
+        "read_write": 0.06,
+        "kinesthetic": 0.14
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A25",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.44,
+        "auditory": 0.3,
+        "read_write": 0.2,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A26",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.3,
+        "auditory": 0.34,
+        "read_write": 0.08,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A27",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.37,
+        "auditory": 0.13,
+        "read_write": 0.36,
+        "kinesthetic": 0.13
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A28",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.0,
+        "auditory": 0.3,
+        "read_write": 0.29,
+        "kinesthetic": 0.41
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A29",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.48,
+        "auditory": 0.36,
+        "read_write": 0.11,
+        "kinesthetic": 0.05
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A30",
+      "lessons": {
+        "L1": 0.63,
+        "L2": 0.25,
+        "L3": 0.12
+      },
+      "style": {
+        "visual": 0.24,
+        "auditory": 0.29,
+        "read_write": 0.27,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A31",
+      "lessons": {
+        "L1": 0.82,
+        "L3": 0.17,
+        "L2": 0.01
+      },
+      "style": {
+        "visual": 0.21,
+        "auditory": 0.27,
+        "read_write": 0.12,
+        "kinesthetic": 0.4
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A32",
+      "lessons": {
+        "L1": 0.81,
+        "L3": 0.08,
+        "L2": 0.11
+      },
+      "style": {
+        "visual": 0.47,
+        "auditory": 0.32,
+        "read_write": 0.03,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A33",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.28,
+        "auditory": 0.3,
+        "read_write": 0.19,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A34",
+      "lessons": {
+        "L1": 0.5,
+        "L2": 0.5
+      },
+      "style": {
+        "visual": 0.03,
+        "auditory": 0.28,
+        "read_write": 0.34,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A35",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.26,
+        "read_write": 0.11,
+        "kinesthetic": 0.37
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A36",
+      "lessons": {
+        "L1": 0.84,
+        "L2": 0.01,
+        "L4": 0.15
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.1,
+        "read_write": 0.4,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A37",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.01,
+        "auditory": 0.64,
+        "read_write": 0.25,
+        "kinesthetic": 0.1
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A38",
+      "lessons": {
+        "L1": 0.86,
+        "L3": 0.1,
+        "L2": 0.04
+      },
+      "style": {
+        "visual": 0.17,
+        "auditory": 0.45,
+        "read_write": 0.35,
+        "kinesthetic": 0.03
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A39",
+      "lessons": {
+        "L1": 0.61,
+        "L4": 0.14,
+        "L3": 0.25
+      },
+      "style": {
+        "visual": 0.17,
+        "auditory": 0.09,
+        "read_write": 0.42,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A40",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.62,
+        "auditory": 0.1,
+        "read_write": 0.25,
+        "kinesthetic": 0.04
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A41",
+      "lessons": {
+        "L1": 0.5,
+        "L2": 0.33,
+        "L4": 0.17
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.06,
+        "read_write": 0.21,
+        "kinesthetic": 0.62
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A42",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.44,
+        "auditory": 0.29,
+        "read_write": 0.26,
+        "kinesthetic": 0.01
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A43",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.09,
+        "auditory": 0.25,
+        "read_write": 0.28,
+        "kinesthetic": 0.38
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A44",
+      "lessons": {
+        "L1": 0.88,
+        "L2": 0.04,
+        "L3": 0.08
+      },
+      "style": {
+        "visual": 0.15,
+        "auditory": 0.12,
+        "read_write": 0.5,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A45",
+      "lessons": {
+        "L1": 0.83,
+        "L4": 0.08,
+        "L3": 0.09
+      },
+      "style": {
+        "visual": 0.14,
+        "auditory": 0.35,
+        "read_write": 0.28,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A46",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.25,
+        "read_write": 0.38,
+        "kinesthetic": 0.1
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A47",
+      "lessons": {
+        "L1": 0.75,
+        "L3": 0.25
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.26,
+        "read_write": 0.39,
+        "kinesthetic": 0.13
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A48",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.02,
+        "auditory": 0.3,
+        "read_write": 0.03,
+        "kinesthetic": 0.66
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A49",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.27,
+        "read_write": 0.28,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A50",
+      "lessons": {
+        "L1": 0.75,
+        "L3": 0.22,
+        "L4": 0.03
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.1,
+        "read_write": 0.23,
+        "kinesthetic": 0.37
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A51",
+      "lessons": {
+        "L1": 0.87,
+        "L4": 0.02,
+        "L2": 0.11
+      },
+      "style": {
+        "visual": 0.28,
+        "auditory": 0.14,
+        "read_write": 0.27,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A52",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.3,
+        "auditory": 0.21,
+        "read_write": 0.37,
+        "kinesthetic": 0.11
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A53",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.35,
+        "auditory": 0.19,
+        "read_write": 0.08,
+        "kinesthetic": 0.38
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A54",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.35,
+        "auditory": 0.35,
+        "read_write": 0.08,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A55",
+      "lessons": {
+        "L1": 0.58,
+        "L2": 0.25,
+        "L4": 0.17
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.16,
+        "read_write": 0.49,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A56",
+      "lessons": {
+        "L1": 0.63,
+        "L3": 0.37
+      },
+      "style": {
+        "visual": 0.36,
+        "auditory": 0.26,
+        "read_write": 0.34,
+        "kinesthetic": 0.04
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A57",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.36,
+        "auditory": 0.17,
+        "read_write": 0.27,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A58",
+      "lessons": {
+        "L1": 0.64,
+        "L2": 0.36
+      },
+      "style": {
+        "visual": 0.35,
+        "auditory": 0.36,
+        "read_write": 0.24,
+        "kinesthetic": 0.05
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A59",
+      "lessons": {
+        "L1": 0.71,
+        "L4": 0.29
+      },
+      "style": {
+        "visual": 0.14,
+        "auditory": 0.33,
+        "read_write": 0.32,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A60",
+      "lessons": {
+        "L1": 0.64,
+        "L4": 0.36
+      },
+      "style": {
+        "visual": 0.37,
+        "auditory": 0.4,
+        "read_write": 0.18,
+        "kinesthetic": 0.05
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A61",
+      "lessons": {
+        "L1": 0.61,
+        "L4": 0.39
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.21,
+        "read_write": 0.23,
+        "kinesthetic": 0.27
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A62",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.18,
+        "read_write": 0.2,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A63",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.38,
+        "read_write": 0.3,
+        "kinesthetic": 0.09
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A64",
+      "lessons": {
+        "L1": 0.53,
+        "L3": 0.12,
+        "L4": 0.35
+      },
+      "style": {
+        "visual": 0.44,
+        "auditory": 0.1,
+        "read_write": 0.16,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A65",
+      "lessons": {
+        "L1": 0.5,
+        "L3": 0.5
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.41,
+        "read_write": 0.05,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A66",
+      "lessons": {
+        "L1": 0.55,
+        "L3": 0.2,
+        "L2": 0.25
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.07,
+        "read_write": 0.04,
+        "kinesthetic": 0.58
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A67",
+      "lessons": {
+        "L1": 0.76,
+        "L3": 0.24
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.06,
+        "read_write": 0.31,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A68",
+      "lessons": {
+        "L1": 0.61,
+        "L4": 0.39
+      },
+      "style": {
+        "visual": 0.42,
+        "auditory": 0.31,
+        "read_write": 0.06,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A69",
+      "lessons": {
+        "L1": 0.78,
+        "L3": 0.22
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.32,
+        "read_write": 0.1,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A70",
+      "lessons": {
+        "L1": 0.63,
+        "L4": 0.2,
+        "L3": 0.17
+      },
+      "style": {
+        "visual": 0.21,
+        "auditory": 0.27,
+        "read_write": 0.37,
+        "kinesthetic": 0.15
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A71",
+      "lessons": {
+        "L1": 0.65,
+        "L2": 0.35
+      },
+      "style": {
+        "visual": 0.17,
+        "auditory": 0.33,
+        "read_write": 0.42,
+        "kinesthetic": 0.09
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A72",
+      "lessons": {
+        "L1": 0.8,
+        "L3": 0.02,
+        "L4": 0.18
+      },
+      "style": {
+        "visual": 0.09,
+        "auditory": 0.32,
+        "read_write": 0.25,
+        "kinesthetic": 0.34
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A73",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.44,
+        "read_write": 0.26,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A74",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.18,
+        "auditory": 0.4,
+        "read_write": 0.15,
+        "kinesthetic": 0.27
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A75",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.05,
+        "auditory": 0.33,
+        "read_write": 0.28,
+        "kinesthetic": 0.34
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A76",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.04,
+        "auditory": 0.35,
+        "read_write": 0.33,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A77",
+      "lessons": {
+        "L1": 0.76,
+        "L3": 0.24
+      },
+      "style": {
+        "visual": 0.24,
+        "auditory": 0.05,
+        "read_write": 0.28,
+        "kinesthetic": 0.43
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A78",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.03,
+        "auditory": 0.03,
+        "read_write": 0.18,
+        "kinesthetic": 0.76
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A79",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.36,
+        "auditory": 0.34,
+        "read_write": 0.05,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A80",
+      "lessons": {
+        "L1": 0.61,
+        "L2": 0.39
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.39,
+        "read_write": 0.39,
+        "kinesthetic": 0.14
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A81",
+      "lessons": {
+        "L1": 0.81,
+        "L2": 0.1,
+        "L4": 0.09
+      },
+      "style": {
+        "visual": 0.18,
+        "auditory": 0.17,
+        "read_write": 0.34,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A82",
+      "lessons": {
+        "L1": 0.68,
+        "L4": 0.32
+      },
+      "style": {
+        "visual": 0.34,
+        "auditory": 0.4,
+        "read_write": 0.25,
+        "kinesthetic": 0.01
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A83",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.19,
+        "auditory": 0.16,
+        "read_write": 0.43,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A84",
+      "lessons": {
+        "L1": 0.89,
+        "L2": 0.03,
+        "L4": 0.08
+      },
+      "style": {
+        "visual": 0.05,
+        "auditory": 0.34,
+        "read_write": 0.38,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A85",
+      "lessons": {
+        "L1": 0.86,
+        "L3": 0.14
+      },
+      "style": {
+        "visual": 0.28,
+        "auditory": 0.26,
+        "read_write": 0.19,
+        "kinesthetic": 0.27
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A86",
+      "lessons": {
+        "L1": 0.79,
+        "L4": 0.18,
+        "L2": 0.03
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.19,
+        "read_write": 0.43,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A87",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.21,
+        "auditory": 0.06,
+        "read_write": 0.33,
+        "kinesthetic": 0.41
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A88",
+      "lessons": {
+        "L1": 0.61,
+        "L4": 0.02,
+        "L2": 0.37
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.05,
+        "read_write": 0.36,
+        "kinesthetic": 0.37
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A89",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.24,
+        "auditory": 0.32,
+        "read_write": 0.11,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A90",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.24,
+        "auditory": 0.33,
+        "read_write": 0.21,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A91",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.44,
+        "auditory": 0.34,
+        "read_write": 0.16,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A92",
+      "lessons": {
+        "L1": 0.7,
+        "L2": 0.3
+      },
+      "style": {
+        "visual": 0.14,
+        "auditory": 0.4,
+        "read_write": 0.21,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A93",
+      "lessons": {
+        "L1": 0.66,
+        "L3": 0.34
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.07,
+        "read_write": 0.33,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A94",
+      "lessons": {
+        "L1": 0.7,
+        "L2": 0.04,
+        "L4": 0.26
+      },
+      "style": {
+        "visual": 0.43,
+        "auditory": 0.23,
+        "read_write": 0.01,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A95",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.49,
+        "auditory": 0.12,
+        "read_write": 0.03,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A96",
+      "lessons": {
+        "L1": 0.84,
+        "L3": 0.16
+      },
+      "style": {
+        "visual": 0.34,
+        "auditory": 0.29,
+        "read_write": 0.32,
+        "kinesthetic": 0.05
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A97",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.27,
+        "read_write": 0.15,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A98",
+      "lessons": {
+        "L1": 0.76,
+        "L2": 0.07,
+        "L3": 0.17
+      },
+      "style": {
+        "visual": 0.36,
+        "auditory": 0.06,
+        "read_write": 0.57,
+        "kinesthetic": 0.01
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A99",
+      "lessons": {
+        "L1": 0.84,
+        "L3": 0.14,
+        "L2": 0.02
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.27,
+        "read_write": 0.39,
+        "kinesthetic": 0.05
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A100",
+      "lessons": {
+        "L1": 1.0
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.34,
+        "read_write": 0.07,
+        "kinesthetic": 0.37
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A101",
+      "lessons": {
+        "L2": 0.79,
+        "L4": 0.21
+      },
+      "style": {
+        "visual": 0.19,
+        "auditory": 0.1,
+        "read_write": 0.17,
+        "kinesthetic": 0.53
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A102",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.53,
+        "read_write": 0.18,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A103",
+      "lessons": {
+        "L2": 0.87,
+        "L3": 0.13
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.13,
+        "read_write": 0.41,
+        "kinesthetic": 0.15
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A104",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.15,
+        "auditory": 0.01,
+        "read_write": 0.45,
+        "kinesthetic": 0.4
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A105",
+      "lessons": {
+        "L2": 0.76,
+        "L4": 0.24
+      },
+      "style": {
+        "visual": 0.01,
+        "auditory": 0.4,
+        "read_write": 0.49,
+        "kinesthetic": 0.1
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A106",
+      "lessons": {
+        "L2": 0.89,
+        "L1": 0.11
+      },
+      "style": {
+        "visual": 0.09,
+        "auditory": 0.07,
+        "read_write": 0.4,
+        "kinesthetic": 0.43
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A107",
+      "lessons": {
+        "L2": 0.88,
+        "L3": 0.12
+      },
+      "style": {
+        "visual": 0.34,
+        "auditory": 0.33,
+        "read_write": 0.14,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A108",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.17,
+        "auditory": 0.34,
+        "read_write": 0.27,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A109",
+      "lessons": {
+        "L2": 0.84,
+        "L3": 0.16
+      },
+      "style": {
+        "visual": 0.21,
+        "auditory": 0.37,
+        "read_write": 0.12,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A110",
+      "lessons": {
+        "L2": 0.69,
+        "L3": 0.31
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.31,
+        "read_write": 0.29,
+        "kinesthetic": 0.07
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A111",
+      "lessons": {
+        "L2": 0.51,
+        "L4": 0.49
+      },
+      "style": {
+        "visual": 0.35,
+        "auditory": 0.22,
+        "read_write": 0.05,
+        "kinesthetic": 0.39
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A112",
+      "lessons": {
+        "L2": 0.62,
+        "L4": 0.1,
+        "L1": 0.28
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.15,
+        "read_write": 0.29,
+        "kinesthetic": 0.34
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A113",
+      "lessons": {
+        "L2": 0.73,
+        "L4": 0.13,
+        "L1": 0.14
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.1,
+        "read_write": 0.32,
+        "kinesthetic": 0.35
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A114",
+      "lessons": {
+        "L2": 0.6,
+        "L1": 0.37,
+        "L3": 0.03
+      },
+      "style": {
+        "visual": 0.58,
+        "auditory": 0.13,
+        "read_write": 0.2,
+        "kinesthetic": 0.09
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A115",
+      "lessons": {
+        "L2": 0.64,
+        "L1": 0.36
+      },
+      "style": {
+        "visual": 0.05,
+        "auditory": 0.38,
+        "read_write": 0.14,
+        "kinesthetic": 0.43
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A116",
+      "lessons": {
+        "L2": 0.61,
+        "L4": 0.01,
+        "L3": 0.38
+      },
+      "style": {
+        "visual": 0.21,
+        "auditory": 0.42,
+        "read_write": 0.35,
+        "kinesthetic": 0.02
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A117",
+      "lessons": {
+        "L2": 0.5,
+        "L4": 0.5
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.15,
+        "read_write": 0.5,
+        "kinesthetic": 0.05
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A118",
+      "lessons": {
+        "L2": 0.79,
+        "L4": 0.21
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.03,
+        "read_write": 0.43,
+        "kinesthetic": 0.16
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A119",
+      "lessons": {
+        "L2": 0.8,
+        "L3": 0.2
+      },
+      "style": {
+        "visual": 0.18,
+        "auditory": 0.37,
+        "read_write": 0.41,
+        "kinesthetic": 0.03
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A120",
+      "lessons": {
+        "L2": 0.89,
+        "L3": 0.05,
+        "L1": 0.06
+      },
+      "style": {
+        "visual": 0.57,
+        "auditory": 0.03,
+        "read_write": 0.27,
+        "kinesthetic": 0.13
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A121",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.19,
+        "auditory": 0.21,
+        "read_write": 0.32,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A122",
+      "lessons": {
+        "L2": 0.76,
+        "L4": 0.18,
+        "L3": 0.06
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.07,
+        "read_write": 0.24,
+        "kinesthetic": 0.39
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A123",
+      "lessons": {
+        "L2": 0.73,
+        "L3": 0.27
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.43,
+        "read_write": 0.08,
+        "kinesthetic": 0.17
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A124",
+      "lessons": {
+        "L2": 0.59,
+        "L4": 0.34,
+        "L1": 0.07
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.48,
+        "read_write": 0.05,
+        "kinesthetic": 0.09
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A125",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.21,
+        "auditory": 0.2,
+        "read_write": 0.31,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A126",
+      "lessons": {
+        "L2": 0.83,
+        "L3": 0.07,
+        "L1": 0.1
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.54,
+        "read_write": 0.22,
+        "kinesthetic": 0.01
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A127",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.77,
+        "auditory": 0.11,
+        "read_write": 0.08,
+        "kinesthetic": 0.03
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A128",
+      "lessons": {
+        "L2": 0.51,
+        "L4": 0.16,
+        "L3": 0.33
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.31,
+        "read_write": 0.31,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A129",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.25,
+        "read_write": 0.14,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A130",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.07,
+        "auditory": 0.36,
+        "read_write": 0.26,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A131",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.2,
+        "auditory": 0.32,
+        "read_write": 0.38,
+        "kinesthetic": 0.1
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A132",
+      "lessons": {
+        "L2": 0.65,
+        "L3": 0.35
+      },
+      "style": {
+        "visual": 0.5,
+        "auditory": 0.31,
+        "read_write": 0.1,
+        "kinesthetic": 0.1
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A133",
+      "lessons": {
+        "L2": 0.56,
+        "L3": 0.44
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.47,
+        "read_write": 0.01,
+        "kinesthetic": 0.26
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A134",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.04,
+        "auditory": 0.48,
+        "read_write": 0.25,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A135",
+      "lessons": {
+        "L2": 0.56,
+        "L1": 0.44
+      },
+      "style": {
+        "visual": 0.37,
+        "auditory": 0.32,
+        "read_write": 0.18,
+        "kinesthetic": 0.13
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A136",
+      "lessons": {
+        "L2": 0.85,
+        "L1": 0.15
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.49,
+        "read_write": 0.23,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A137",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.16,
+        "auditory": 0.14,
+        "read_write": 0.31,
+        "kinesthetic": 0.39
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A138",
+      "lessons": {
+        "L2": 0.79,
+        "L1": 0.21
+      },
+      "style": {
+        "visual": 0.12,
+        "auditory": 0.46,
+        "read_write": 0.37,
+        "kinesthetic": 0.05
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A139",
+      "lessons": {
+        "L2": 0.74,
+        "L4": 0.26
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.2,
+        "read_write": 0.09,
+        "kinesthetic": 0.37
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A140",
+      "lessons": {
+        "L2": 0.58,
+        "L4": 0.16,
+        "L3": 0.26
+      },
+      "style": {
+        "visual": 0.39,
+        "auditory": 0.2,
+        "read_write": 0.15,
+        "kinesthetic": 0.26
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A141",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.12,
+        "read_write": 0.21,
+        "kinesthetic": 0.4
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A142",
+      "lessons": {
+        "L2": 0.76,
+        "L1": 0.03,
+        "L3": 0.21
+      },
+      "style": {
+        "visual": 0.07,
+        "auditory": 0.33,
+        "read_write": 0.27,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A143",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.14,
+        "read_write": 0.27,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A144",
+      "lessons": {
+        "L2": 0.89,
+        "L1": 0.08,
+        "L3": 0.03
+      },
+      "style": {
+        "visual": 0.41,
+        "auditory": 0.0,
+        "read_write": 0.33,
+        "kinesthetic": 0.26
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A145",
+      "lessons": {
+        "L2": 0.64,
+        "L4": 0.34,
+        "L1": 0.02
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.1,
+        "read_write": 0.01,
+        "kinesthetic": 0.79
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A146",
+      "lessons": {
+        "L2": 0.84,
+        "L3": 0.06,
+        "L1": 0.1
+      },
+      "style": {
+        "visual": 0.3,
+        "auditory": 0.1,
+        "read_write": 0.15,
+        "kinesthetic": 0.46
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A147",
+      "lessons": {
+        "L2": 0.9,
+        "L4": 0.1
+      },
+      "style": {
+        "visual": 0.21,
+        "auditory": 0.19,
+        "read_write": 0.31,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A148",
+      "lessons": {
+        "L2": 0.7,
+        "L1": 0.2,
+        "L4": 0.1
+      },
+      "style": {
+        "visual": 0.12,
+        "auditory": 0.01,
+        "read_write": 0.27,
+        "kinesthetic": 0.6
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A149",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.41,
+        "auditory": 0.49,
+        "read_write": 0.06,
+        "kinesthetic": 0.03
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A150",
+      "lessons": {
+        "L2": 0.64,
+        "L1": 0.36
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.14,
+        "read_write": 0.24,
+        "kinesthetic": 0.4
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A151",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.07,
+        "auditory": 0.33,
+        "read_write": 0.29,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A152",
+      "lessons": {
+        "L2": 0.7,
+        "L4": 0.3
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.16,
+        "read_write": 0.45,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A153",
+      "lessons": {
+        "L2": 0.6,
+        "L4": 0.2,
+        "L3": 0.2
+      },
+      "style": {
+        "visual": 0.37,
+        "auditory": 0.24,
+        "read_write": 0.25,
+        "kinesthetic": 0.15
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A154",
+      "lessons": {
+        "L2": 0.76,
+        "L4": 0.12,
+        "L1": 0.12
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.21,
+        "read_write": 0.1,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A155",
+      "lessons": {
+        "L2": 0.88,
+        "L4": 0.12
+      },
+      "style": {
+        "visual": 0.28,
+        "auditory": 0.29,
+        "read_write": 0.13,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A156",
+      "lessons": {
+        "L2": 0.77,
+        "L3": 0.01,
+        "L4": 0.22
+      },
+      "style": {
+        "visual": 0.14,
+        "auditory": 0.16,
+        "read_write": 0.41,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A157",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.42,
+        "auditory": 0.39,
+        "read_write": 0.0,
+        "kinesthetic": 0.19
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A158",
+      "lessons": {
+        "L2": 0.62,
+        "L3": 0.3,
+        "L4": 0.08
+      },
+      "style": {
+        "visual": 0.14,
+        "auditory": 0.7,
+        "read_write": 0.14,
+        "kinesthetic": 0.01
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A159",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.07,
+        "auditory": 0.11,
+        "read_write": 0.69,
+        "kinesthetic": 0.12
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A160",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.21,
+        "auditory": 0.03,
+        "read_write": 0.46,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A161",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.13,
+        "read_write": 0.33,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A162",
+      "lessons": {
+        "L2": 0.52,
+        "L3": 0.48
+      },
+      "style": {
+        "visual": 0.0,
+        "auditory": 0.36,
+        "read_write": 0.32,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A163",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.26,
+        "read_write": 0.09,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A164",
+      "lessons": {
+        "L2": 0.68,
+        "L4": 0.13,
+        "L1": 0.19
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.23,
+        "read_write": 0.33,
+        "kinesthetic": 0.04
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A165",
+      "lessons": {
+        "L2": 0.67,
+        "L4": 0.14,
+        "L1": 0.19
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.26,
+        "read_write": 0.24,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A166",
+      "lessons": {
+        "L2": 0.63,
+        "L4": 0.21,
+        "L1": 0.16
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.32,
+        "read_write": 0.4,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A167",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.07,
+        "read_write": 0.28,
+        "kinesthetic": 0.38
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A168",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.42,
+        "auditory": 0.05,
+        "read_write": 0.33,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A169",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.42,
+        "auditory": 0.44,
+        "read_write": 0.04,
+        "kinesthetic": 0.11
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A170",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.04,
+        "read_write": 0.26,
+        "kinesthetic": 0.43
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A171",
+      "lessons": {
+        "L2": 0.85,
+        "L3": 0.14,
+        "L1": 0.01
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.21,
+        "read_write": 0.19,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A172",
+      "lessons": {
+        "L2": 0.55,
+        "L3": 0.45
+      },
+      "style": {
+        "visual": 0.3,
+        "auditory": 0.34,
+        "read_write": 0.17,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A173",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.05,
+        "read_write": 0.44,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A174",
+      "lessons": {
+        "L2": 0.61,
+        "L4": 0.39
+      },
+      "style": {
+        "visual": 0.14,
+        "auditory": 0.4,
+        "read_write": 0.42,
+        "kinesthetic": 0.04
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A175",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.19,
+        "auditory": 0.3,
+        "read_write": 0.29,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A176",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.13,
+        "read_write": 0.26,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A177",
+      "lessons": {
+        "L2": 0.77,
+        "L4": 0.23
+      },
+      "style": {
+        "visual": 0.11,
+        "auditory": 0.23,
+        "read_write": 0.32,
+        "kinesthetic": 0.35
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A178",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.07,
+        "read_write": 0.15,
+        "kinesthetic": 0.39
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A179",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.04,
+        "auditory": 0.37,
+        "read_write": 0.5,
+        "kinesthetic": 0.09
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A180",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.54,
+        "auditory": 0.06,
+        "read_write": 0.26,
+        "kinesthetic": 0.14
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A181",
+      "lessons": {
+        "L2": 0.65,
+        "L3": 0.35
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.08,
+        "read_write": 0.12,
+        "kinesthetic": 0.5
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A182",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.08,
+        "read_write": 0.21,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A183",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.37,
+        "auditory": 0.11,
+        "read_write": 0.18,
+        "kinesthetic": 0.34
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A184",
+      "lessons": {
+        "L2": 0.77,
+        "L1": 0.23
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.05,
+        "read_write": 0.07,
+        "kinesthetic": 0.65
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A185",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.35,
+        "auditory": 0.34,
+        "read_write": 0.15,
+        "kinesthetic": 0.16
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A186",
+      "lessons": {
+        "L2": 0.57,
+        "L4": 0.39,
+        "L1": 0.04
+      },
+      "style": {
+        "visual": 0.24,
+        "auditory": 0.16,
+        "read_write": 0.3,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A187",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.16,
+        "auditory": 0.11,
+        "read_write": 0.46,
+        "kinesthetic": 0.27
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A188",
+      "lessons": {
+        "L2": 0.82,
+        "L4": 0.18
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.31,
+        "read_write": 0.39,
+        "kinesthetic": 0.03
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A189",
+      "lessons": {
+        "L2": 0.62,
+        "L1": 0.38
+      },
+      "style": {
+        "visual": 0.54,
+        "auditory": 0.01,
+        "read_write": 0.04,
+        "kinesthetic": 0.42
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A190",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.17,
+        "auditory": 0.25,
+        "read_write": 0.31,
+        "kinesthetic": 0.26
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A191",
+      "lessons": {
+        "L2": 0.81,
+        "L4": 0.19
+      },
+      "style": {
+        "visual": 0.44,
+        "auditory": 0.06,
+        "read_write": 0.12,
+        "kinesthetic": 0.38
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A192",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.3,
+        "auditory": 0.03,
+        "read_write": 0.36,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A193",
+      "lessons": {
+        "L2": 0.81,
+        "L3": 0.11,
+        "L1": 0.08
+      },
+      "style": {
+        "visual": 0.14,
+        "auditory": 0.37,
+        "read_write": 0.2,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A194",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.02,
+        "auditory": 0.14,
+        "read_write": 0.17,
+        "kinesthetic": 0.66
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A195",
+      "lessons": {
+        "L2": 0.76,
+        "L1": 0.12,
+        "L4": 0.12
+      },
+      "style": {
+        "visual": 0.15,
+        "auditory": 0.4,
+        "read_write": 0.06,
+        "kinesthetic": 0.4
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A196",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.13,
+        "auditory": 0.4,
+        "read_write": 0.02,
+        "kinesthetic": 0.45
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A197",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.25,
+        "read_write": 0.23,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A198",
+      "lessons": {
+        "L2": 1.0
+      },
+      "style": {
+        "visual": 0.46,
+        "auditory": 0.09,
+        "read_write": 0.17,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A199",
+      "lessons": {
+        "L2": 0.54,
+        "L4": 0.46
+      },
+      "style": {
+        "visual": 0.44,
+        "auditory": 0.21,
+        "read_write": 0.33,
+        "kinesthetic": 0.02
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A200",
+      "lessons": {
+        "L2": 0.82,
+        "L3": 0.15,
+        "L1": 0.03
+      },
+      "style": {
+        "visual": 0.2,
+        "auditory": 0.25,
+        "read_write": 0.39,
+        "kinesthetic": 0.16
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A201",
+      "lessons": {
+        "L3": 0.87,
+        "L4": 0.13
+      },
+      "style": {
+        "visual": 0.19,
+        "auditory": 0.41,
+        "read_write": 0.22,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A202",
+      "lessons": {
+        "L3": 0.62,
+        "L2": 0.38
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.26,
+        "read_write": 0.3,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A203",
+      "lessons": {
+        "L3": 0.82,
+        "L1": 0.18
+      },
+      "style": {
+        "visual": 0.11,
+        "auditory": 0.33,
+        "read_write": 0.13,
+        "kinesthetic": 0.43
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A204",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.54,
+        "auditory": 0.23,
+        "read_write": 0.15,
+        "kinesthetic": 0.07
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A205",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.26,
+        "read_write": 0.18,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A206",
+      "lessons": {
+        "L3": 0.61,
+        "L4": 0.33,
+        "L1": 0.06
+      },
+      "style": {
+        "visual": 0.24,
+        "auditory": 0.32,
+        "read_write": 0.15,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A207",
+      "lessons": {
+        "L3": 0.81,
+        "L1": 0.15,
+        "L2": 0.04
+      },
+      "style": {
+        "visual": 0.41,
+        "auditory": 0.3,
+        "read_write": 0.07,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A208",
+      "lessons": {
+        "L3": 0.66,
+        "L1": 0.34
+      },
+      "style": {
+        "visual": 0.59,
+        "auditory": 0.15,
+        "read_write": 0.05,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A209",
+      "lessons": {
+        "L3": 0.88,
+        "L1": 0.1,
+        "L4": 0.02
+      },
+      "style": {
+        "visual": 0.09,
+        "auditory": 0.38,
+        "read_write": 0.22,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A210",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.54,
+        "read_write": 0.19,
+        "kinesthetic": 0.02
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A211",
+      "lessons": {
+        "L3": 0.61,
+        "L1": 0.39
+      },
+      "style": {
+        "visual": 0.36,
+        "auditory": 0.26,
+        "read_write": 0.31,
+        "kinesthetic": 0.07
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A212",
+      "lessons": {
+        "L3": 0.57,
+        "L4": 0.43
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.09,
+        "read_write": 0.28,
+        "kinesthetic": 0.38
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A213",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.05,
+        "auditory": 0.62,
+        "read_write": 0.17,
+        "kinesthetic": 0.16
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A214",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.36,
+        "read_write": 0.35,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A215",
+      "lessons": {
+        "L3": 0.8,
+        "L4": 0.16,
+        "L1": 0.04
+      },
+      "style": {
+        "visual": 0.16,
+        "auditory": 0.16,
+        "read_write": 0.32,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A216",
+      "lessons": {
+        "L3": 0.59,
+        "L4": 0.29,
+        "L1": 0.12
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.21,
+        "read_write": 0.36,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A217",
+      "lessons": {
+        "L3": 0.86,
+        "L2": 0.14
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.08,
+        "read_write": 0.36,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A218",
+      "lessons": {
+        "L3": 0.61,
+        "L2": 0.39
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.33,
+        "read_write": 0.26,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A219",
+      "lessons": {
+        "L3": 0.53,
+        "L4": 0.47
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.23,
+        "read_write": 0.15,
+        "kinesthetic": 0.34
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A220",
+      "lessons": {
+        "L3": 0.76,
+        "L4": 0.18,
+        "L1": 0.06
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.22,
+        "read_write": 0.29,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A221",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.56,
+        "read_write": 0.28,
+        "kinesthetic": 0.08
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A222",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.37,
+        "read_write": 0.25,
+        "kinesthetic": 0.14
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A223",
+      "lessons": {
+        "L3": 0.56,
+        "L1": 0.26,
+        "L2": 0.18
+      },
+      "style": {
+        "visual": 0.37,
+        "auditory": 0.15,
+        "read_write": 0.25,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A224",
+      "lessons": {
+        "L3": 0.62,
+        "L4": 0.38
+      },
+      "style": {
+        "visual": 0.45,
+        "auditory": 0.41,
+        "read_write": 0.11,
+        "kinesthetic": 0.04
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A225",
+      "lessons": {
+        "L3": 0.68,
+        "L4": 0.32
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.28,
+        "read_write": 0.19,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A226",
+      "lessons": {
+        "L3": 0.76,
+        "L1": 0.14,
+        "L2": 0.1
+      },
+      "style": {
+        "visual": 0.43,
+        "auditory": 0.18,
+        "read_write": 0.24,
+        "kinesthetic": 0.14
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A227",
+      "lessons": {
+        "L3": 0.69,
+        "L1": 0.31
+      },
+      "style": {
+        "visual": 0.47,
+        "auditory": 0.28,
+        "read_write": 0.11,
+        "kinesthetic": 0.13
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A228",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.06,
+        "auditory": 0.06,
+        "read_write": 0.06,
+        "kinesthetic": 0.82
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A229",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.28,
+        "auditory": 0.21,
+        "read_write": 0.3,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A230",
+      "lessons": {
+        "L3": 0.54,
+        "L4": 0.46
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.27,
+        "read_write": 0.42,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A231",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.35,
+        "read_write": 0.14,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A232",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.24,
+        "read_write": 0.21,
+        "kinesthetic": 0.26
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A233",
+      "lessons": {
+        "L3": 0.54,
+        "L1": 0.39,
+        "L2": 0.07
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.25,
+        "read_write": 0.1,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A234",
+      "lessons": {
+        "L3": 0.57,
+        "L2": 0.43
+      },
+      "style": {
+        "visual": 0.16,
+        "auditory": 0.17,
+        "read_write": 0.39,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A235",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.34,
+        "auditory": 0.33,
+        "read_write": 0.08,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A236",
+      "lessons": {
+        "L3": 0.82,
+        "L1": 0.18
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.2,
+        "read_write": 0.23,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A237",
+      "lessons": {
+        "L3": 0.64,
+        "L1": 0.36
+      },
+      "style": {
+        "visual": 0.52,
+        "auditory": 0.27,
+        "read_write": 0.14,
+        "kinesthetic": 0.07
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A238",
+      "lessons": {
+        "L3": 0.83,
+        "L4": 0.08,
+        "L1": 0.09
+      },
+      "style": {
+        "visual": 0.66,
+        "auditory": 0.05,
+        "read_write": 0.26,
+        "kinesthetic": 0.03
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A239",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.28,
+        "auditory": 0.2,
+        "read_write": 0.21,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A240",
+      "lessons": {
+        "L3": 0.82,
+        "L2": 0.18
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.3,
+        "read_write": 0.26,
+        "kinesthetic": 0.1
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A241",
+      "lessons": {
+        "L3": 0.64,
+        "L1": 0.36
+      },
+      "style": {
+        "visual": 0.2,
+        "auditory": 0.29,
+        "read_write": 0.37,
+        "kinesthetic": 0.13
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A242",
+      "lessons": {
+        "L3": 0.77,
+        "L2": 0.07,
+        "L4": 0.16
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.03,
+        "read_write": 0.43,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A243",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.19,
+        "auditory": 0.14,
+        "read_write": 0.37,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A244",
+      "lessons": {
+        "L3": 0.75,
+        "L4": 0.14,
+        "L2": 0.11
+      },
+      "style": {
+        "visual": 0.06,
+        "auditory": 0.07,
+        "read_write": 0.27,
+        "kinesthetic": 0.61
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A245",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.28,
+        "auditory": 0.15,
+        "read_write": 0.3,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A246",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.22,
+        "read_write": 0.33,
+        "kinesthetic": 0.38
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A247",
+      "lessons": {
+        "L3": 0.83,
+        "L4": 0.17
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.5,
+        "read_write": 0.21,
+        "kinesthetic": 0.04
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A248",
+      "lessons": {
+        "L3": 0.6,
+        "L2": 0.4
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.29,
+        "read_write": 0.28,
+        "kinesthetic": 0.17
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A249",
+      "lessons": {
+        "L3": 0.56,
+        "L4": 0.12,
+        "L2": 0.32
+      },
+      "style": {
+        "visual": 0.09,
+        "auditory": 0.18,
+        "read_write": 0.35,
+        "kinesthetic": 0.38
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A250",
+      "lessons": {
+        "L3": 0.83,
+        "L2": 0.02,
+        "L4": 0.15
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.41,
+        "read_write": 0.06,
+        "kinesthetic": 0.43
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A251",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.41,
+        "auditory": 0.11,
+        "read_write": 0.09,
+        "kinesthetic": 0.39
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A252",
+      "lessons": {
+        "L3": 0.78,
+        "L4": 0.22
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.41,
+        "read_write": 0.11,
+        "kinesthetic": 0.1
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A253",
+      "lessons": {
+        "L3": 0.88,
+        "L1": 0.06,
+        "L2": 0.06
+      },
+      "style": {
+        "visual": 0.35,
+        "auditory": 0.33,
+        "read_write": 0.19,
+        "kinesthetic": 0.13
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A254",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.21,
+        "read_write": 0.39,
+        "kinesthetic": 0.17
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A255",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.23,
+        "read_write": 0.34,
+        "kinesthetic": 0.04
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A256",
+      "lessons": {
+        "L3": 0.66,
+        "L2": 0.34
+      },
+      "style": {
+        "visual": 0.02,
+        "auditory": 0.18,
+        "read_write": 0.44,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A257",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.37,
+        "read_write": 0.06,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A258",
+      "lessons": {
+        "L3": 0.5,
+        "L1": 0.5
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.31,
+        "read_write": 0.3,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A259",
+      "lessons": {
+        "L3": 0.58,
+        "L1": 0.42
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.27,
+        "read_write": 0.26,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A260",
+      "lessons": {
+        "L3": 0.51,
+        "L4": 0.25,
+        "L1": 0.24
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.32,
+        "read_write": 0.25,
+        "kinesthetic": 0.03
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A261",
+      "lessons": {
+        "L3": 0.86,
+        "L4": 0.14
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.21,
+        "read_write": 0.27,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A262",
+      "lessons": {
+        "L3": 0.61,
+        "L1": 0.29,
+        "L4": 0.1
+      },
+      "style": {
+        "visual": 0.02,
+        "auditory": 0.41,
+        "read_write": 0.19,
+        "kinesthetic": 0.38
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A263",
+      "lessons": {
+        "L3": 0.53,
+        "L4": 0.23,
+        "L2": 0.24
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.57,
+        "read_write": 0.01,
+        "kinesthetic": 0.19
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A264",
+      "lessons": {
+        "L3": 0.66,
+        "L1": 0.16,
+        "L4": 0.18
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.36,
+        "read_write": 0.17,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A265",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.3,
+        "read_write": 0.5,
+        "kinesthetic": 0.12
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A266",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.35,
+        "read_write": 0.07,
+        "kinesthetic": 0.19
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A267",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.02,
+        "auditory": 0.3,
+        "read_write": 0.08,
+        "kinesthetic": 0.6
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A268",
+      "lessons": {
+        "L3": 0.89,
+        "L2": 0.05,
+        "L4": 0.06
+      },
+      "style": {
+        "visual": 0.45,
+        "auditory": 0.15,
+        "read_write": 0.34,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A269",
+      "lessons": {
+        "L3": 0.61,
+        "L4": 0.22,
+        "L1": 0.17
+      },
+      "style": {
+        "visual": 0.16,
+        "auditory": 0.25,
+        "read_write": 0.19,
+        "kinesthetic": 0.4
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A270",
+      "lessons": {
+        "L3": 0.64,
+        "L1": 0.13,
+        "L2": 0.23
+      },
+      "style": {
+        "visual": 0.07,
+        "auditory": 0.59,
+        "read_write": 0.19,
+        "kinesthetic": 0.15
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A271",
+      "lessons": {
+        "L3": 0.63,
+        "L2": 0.37
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.34,
+        "read_write": 0.27,
+        "kinesthetic": 0.09
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A272",
+      "lessons": {
+        "L3": 0.56,
+        "L2": 0.34,
+        "L1": 0.1
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.29,
+        "read_write": 0.07,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A273",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.06,
+        "read_write": 0.4,
+        "kinesthetic": 0.13
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A274",
+      "lessons": {
+        "L3": 0.8,
+        "L4": 0.1,
+        "L2": 0.1
+      },
+      "style": {
+        "visual": 0.09,
+        "auditory": 0.63,
+        "read_write": 0.13,
+        "kinesthetic": 0.15
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A275",
+      "lessons": {
+        "L3": 0.54,
+        "L1": 0.46
+      },
+      "style": {
+        "visual": 0.18,
+        "auditory": 0.42,
+        "read_write": 0.03,
+        "kinesthetic": 0.37
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A276",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.32,
+        "read_write": 0.12,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A277",
+      "lessons": {
+        "L3": 0.55,
+        "L2": 0.13,
+        "L4": 0.32
+      },
+      "style": {
+        "visual": 0.12,
+        "auditory": 0.33,
+        "read_write": 0.29,
+        "kinesthetic": 0.26
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A278",
+      "lessons": {
+        "L3": 0.82,
+        "L2": 0.18
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.28,
+        "read_write": 0.12,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A279",
+      "lessons": {
+        "L3": 0.58,
+        "L1": 0.42
+      },
+      "style": {
+        "visual": 0.34,
+        "auditory": 0.37,
+        "read_write": 0.01,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A280",
+      "lessons": {
+        "L3": 0.83,
+        "L4": 0.17
+      },
+      "style": {
+        "visual": 0.13,
+        "auditory": 0.42,
+        "read_write": 0.11,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A281",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.24,
+        "auditory": 0.13,
+        "read_write": 0.37,
+        "kinesthetic": 0.26
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A282",
+      "lessons": {
+        "L3": 0.89,
+        "L1": 0.11
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.14,
+        "read_write": 0.17,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A283",
+      "lessons": {
+        "L3": 0.82,
+        "L4": 0.18
+      },
+      "style": {
+        "visual": 0.61,
+        "auditory": 0.28,
+        "read_write": 0.01,
+        "kinesthetic": 0.11
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A284",
+      "lessons": {
+        "L3": 0.57,
+        "L2": 0.43
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.31,
+        "read_write": 0.26,
+        "kinesthetic": 0.1
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A285",
+      "lessons": {
+        "L3": 0.83,
+        "L2": 0.02,
+        "L4": 0.15
+      },
+      "style": {
+        "visual": 0.37,
+        "auditory": 0.22,
+        "read_write": 0.24,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A286",
+      "lessons": {
+        "L3": 0.75,
+        "L4": 0.25
+      },
+      "style": {
+        "visual": 0.04,
+        "auditory": 0.3,
+        "read_write": 0.27,
+        "kinesthetic": 0.4
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A287",
+      "lessons": {
+        "L3": 0.75,
+        "L1": 0.25
+      },
+      "style": {
+        "visual": 0.45,
+        "auditory": 0.01,
+        "read_write": 0.03,
+        "kinesthetic": 0.51
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A288",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.15,
+        "read_write": 0.28,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A289",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.13,
+        "auditory": 0.27,
+        "read_write": 0.27,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A290",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.13,
+        "auditory": 0.36,
+        "read_write": 0.27,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A291",
+      "lessons": {
+        "L3": 0.74,
+        "L4": 0.26
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.32,
+        "read_write": 0.35,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A292",
+      "lessons": {
+        "L3": 0.58,
+        "L1": 0.42
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.47,
+        "read_write": 0.24,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A293",
+      "lessons": {
+        "L3": 0.83,
+        "L1": 0.05,
+        "L2": 0.12
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.33,
+        "read_write": 0.12,
+        "kinesthetic": 0.17
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A294",
+      "lessons": {
+        "L3": 0.55,
+        "L1": 0.45
+      },
+      "style": {
+        "visual": 0.17,
+        "auditory": 0.32,
+        "read_write": 0.16,
+        "kinesthetic": 0.35
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A295",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.45,
+        "auditory": 0.18,
+        "read_write": 0.05,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A296",
+      "lessons": {
+        "L3": 0.76,
+        "L4": 0.12,
+        "L1": 0.12
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.17,
+        "read_write": 0.39,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A297",
+      "lessons": {
+        "L3": 0.51,
+        "L1": 0.19,
+        "L2": 0.3
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.31,
+        "read_write": 0.2,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A298",
+      "lessons": {
+        "L3": 0.78,
+        "L1": 0.17,
+        "L4": 0.05
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.05,
+        "read_write": 0.42,
+        "kinesthetic": 0.27
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A299",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.28,
+        "read_write": 0.33,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A300",
+      "lessons": {
+        "L3": 1.0
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.06,
+        "read_write": 0.51,
+        "kinesthetic": 0.34
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A301",
+      "lessons": {
+        "L4": 0.87,
+        "L3": 0.05,
+        "L2": 0.08
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.36,
+        "read_write": 0.12,
+        "kinesthetic": 0.13
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A302",
+      "lessons": {
+        "L4": 0.71,
+        "L2": 0.18,
+        "L3": 0.11
+      },
+      "style": {
+        "visual": 0.02,
+        "auditory": 0.2,
+        "read_write": 0.42,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A303",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.36,
+        "auditory": 0.23,
+        "read_write": 0.33,
+        "kinesthetic": 0.08
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A304",
+      "lessons": {
+        "L4": 0.52,
+        "L1": 0.13,
+        "L2": 0.35
+      },
+      "style": {
+        "visual": 0.46,
+        "auditory": 0.44,
+        "read_write": 0.06,
+        "kinesthetic": 0.03
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A305",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.34,
+        "auditory": 0.25,
+        "read_write": 0.18,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A306",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.21,
+        "read_write": 0.28,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A307",
+      "lessons": {
+        "L4": 0.76,
+        "L2": 0.12,
+        "L1": 0.12
+      },
+      "style": {
+        "visual": 0.28,
+        "auditory": 0.26,
+        "read_write": 0.26,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A308",
+      "lessons": {
+        "L4": 0.64,
+        "L3": 0.36
+      },
+      "style": {
+        "visual": 0.28,
+        "auditory": 0.09,
+        "read_write": 0.06,
+        "kinesthetic": 0.56
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A309",
+      "lessons": {
+        "L4": 0.8,
+        "L3": 0.2
+      },
+      "style": {
+        "visual": 0.01,
+        "auditory": 0.05,
+        "read_write": 0.41,
+        "kinesthetic": 0.53
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A310",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.42,
+        "auditory": 0.37,
+        "read_write": 0.06,
+        "kinesthetic": 0.16
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A311",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.01,
+        "auditory": 0.14,
+        "read_write": 0.42,
+        "kinesthetic": 0.43
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A312",
+      "lessons": {
+        "L4": 0.52,
+        "L3": 0.23,
+        "L1": 0.25
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.35,
+        "read_write": 0.28,
+        "kinesthetic": 0.14
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A313",
+      "lessons": {
+        "L4": 0.62,
+        "L3": 0.29,
+        "L1": 0.09
+      },
+      "style": {
+        "visual": 0.43,
+        "auditory": 0.09,
+        "read_write": 0.42,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A314",
+      "lessons": {
+        "L4": 0.55,
+        "L2": 0.45
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.07,
+        "read_write": 0.36,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A315",
+      "lessons": {
+        "L4": 0.85,
+        "L1": 0.02,
+        "L2": 0.13
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.24,
+        "read_write": 0.11,
+        "kinesthetic": 0.35
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A316",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.32,
+        "read_write": 0.27,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A317",
+      "lessons": {
+        "L4": 0.74,
+        "L3": 0.26
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.37,
+        "read_write": 0.37,
+        "kinesthetic": 0.16
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A318",
+      "lessons": {
+        "L4": 0.58,
+        "L2": 0.42
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.05,
+        "read_write": 0.29,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A319",
+      "lessons": {
+        "L4": 0.82,
+        "L2": 0.15,
+        "L1": 0.03
+      },
+      "style": {
+        "visual": 0.39,
+        "auditory": 0.34,
+        "read_write": 0.21,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A320",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.09,
+        "auditory": 0.15,
+        "read_write": 0.56,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A321",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.05,
+        "auditory": 0.47,
+        "read_write": 0.13,
+        "kinesthetic": 0.34
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A322",
+      "lessons": {
+        "L4": 0.8,
+        "L2": 0.08,
+        "L3": 0.12
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.12,
+        "read_write": 0.46,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A323",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.39,
+        "auditory": 0.25,
+        "read_write": 0.2,
+        "kinesthetic": 0.17
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A324",
+      "lessons": {
+        "L4": 0.87,
+        "L2": 0.09,
+        "L1": 0.04
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.01,
+        "read_write": 0.29,
+        "kinesthetic": 0.39
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A325",
+      "lessons": {
+        "L4": 0.78,
+        "L3": 0.01,
+        "L1": 0.21
+      },
+      "style": {
+        "visual": 0.44,
+        "auditory": 0.26,
+        "read_write": 0.16,
+        "kinesthetic": 0.14
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A326",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.35,
+        "auditory": 0.08,
+        "read_write": 0.34,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A327",
+      "lessons": {
+        "L4": 0.9,
+        "L2": 0.06,
+        "L3": 0.04
+      },
+      "style": {
+        "visual": 0.21,
+        "auditory": 0.37,
+        "read_write": 0.14,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A328",
+      "lessons": {
+        "L4": 0.53,
+        "L1": 0.06,
+        "L2": 0.41
+      },
+      "style": {
+        "visual": 0.09,
+        "auditory": 0.12,
+        "read_write": 0.31,
+        "kinesthetic": 0.49
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A329",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.48,
+        "read_write": 0.39,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A330",
+      "lessons": {
+        "L4": 0.9,
+        "L3": 0.1
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.31,
+        "read_write": 0.28,
+        "kinesthetic": 0.15
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A331",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.15,
+        "auditory": 0.35,
+        "read_write": 0.3,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A332",
+      "lessons": {
+        "L4": 0.6,
+        "L3": 0.4
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.29,
+        "read_write": 0.12,
+        "kinesthetic": 0.19
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A333",
+      "lessons": {
+        "L4": 0.54,
+        "L2": 0.46
+      },
+      "style": {
+        "visual": 0.03,
+        "auditory": 0.87,
+        "read_write": 0.08,
+        "kinesthetic": 0.02
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A334",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.32,
+        "read_write": 0.14,
+        "kinesthetic": 0.21
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A335",
+      "lessons": {
+        "L4": 0.85,
+        "L2": 0.15
+      },
+      "style": {
+        "visual": 0.03,
+        "auditory": 0.32,
+        "read_write": 0.55,
+        "kinesthetic": 0.11
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A336",
+      "lessons": {
+        "L4": 0.63,
+        "L3": 0.36,
+        "L1": 0.01
+      },
+      "style": {
+        "visual": 0.14,
+        "auditory": 0.23,
+        "read_write": 0.45,
+        "kinesthetic": 0.17
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A337",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.61,
+        "auditory": 0.12,
+        "read_write": 0.01,
+        "kinesthetic": 0.27
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A338",
+      "lessons": {
+        "L4": 0.67,
+        "L2": 0.33
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.22,
+        "read_write": 0.19,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A339",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.39,
+        "auditory": 0.34,
+        "read_write": 0.07,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A340",
+      "lessons": {
+        "L4": 0.87,
+        "L2": 0.13
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.2,
+        "read_write": 0.16,
+        "kinesthetic": 0.35
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A341",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.44,
+        "auditory": 0.3,
+        "read_write": 0.25,
+        "kinesthetic": 0.01
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A342",
+      "lessons": {
+        "L4": 0.52,
+        "L2": 0.03,
+        "L3": 0.45
+      },
+      "style": {
+        "visual": 0.16,
+        "auditory": 0.41,
+        "read_write": 0.32,
+        "kinesthetic": 0.1
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A343",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.22,
+        "read_write": 0.32,
+        "kinesthetic": 0.13
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A344",
+      "lessons": {
+        "L4": 0.6,
+        "L2": 0.1,
+        "L3": 0.3
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.33,
+        "read_write": 0.34,
+        "kinesthetic": 0.05
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A345",
+      "lessons": {
+        "L4": 0.76,
+        "L1": 0.24
+      },
+      "style": {
+        "visual": 0.12,
+        "auditory": 0.38,
+        "read_write": 0.36,
+        "kinesthetic": 0.15
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A346",
+      "lessons": {
+        "L4": 0.71,
+        "L2": 0.29
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.26,
+        "read_write": 0.1,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A347",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.15,
+        "auditory": 0.24,
+        "read_write": 0.2,
+        "kinesthetic": 0.41
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A348",
+      "lessons": {
+        "L4": 0.52,
+        "L3": 0.48
+      },
+      "style": {
+        "visual": 0.3,
+        "auditory": 0.33,
+        "read_write": 0.29,
+        "kinesthetic": 0.08
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A349",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.35,
+        "read_write": 0.02,
+        "kinesthetic": 0.4
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A350",
+      "lessons": {
+        "L4": 0.64,
+        "L1": 0.36
+      },
+      "style": {
+        "visual": 0.07,
+        "auditory": 0.41,
+        "read_write": 0.33,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A351",
+      "lessons": {
+        "L4": 0.54,
+        "L2": 0.46
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.35,
+        "read_write": 0.09,
+        "kinesthetic": 0.45
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A352",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.51,
+        "auditory": 0.28,
+        "read_write": 0.04,
+        "kinesthetic": 0.17
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A353",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.38,
+        "read_write": 0.09,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A354",
+      "lessons": {
+        "L4": 0.79,
+        "L2": 0.21
+      },
+      "style": {
+        "visual": 0.2,
+        "auditory": 0.0,
+        "read_write": 0.33,
+        "kinesthetic": 0.46
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A355",
+      "lessons": {
+        "L4": 0.73,
+        "L1": 0.27
+      },
+      "style": {
+        "visual": 0.46,
+        "auditory": 0.16,
+        "read_write": 0.21,
+        "kinesthetic": 0.17
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A356",
+      "lessons": {
+        "L4": 0.89,
+        "L3": 0.11
+      },
+      "style": {
+        "visual": 0.2,
+        "auditory": 0.28,
+        "read_write": 0.3,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A357",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.32,
+        "read_write": 0.19,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A358",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.12,
+        "auditory": 0.1,
+        "read_write": 0.64,
+        "kinesthetic": 0.14
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A359",
+      "lessons": {
+        "L4": 0.71,
+        "L3": 0.29
+      },
+      "style": {
+        "visual": 0.43,
+        "auditory": 0.31,
+        "read_write": 0.03,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A360",
+      "lessons": {
+        "L4": 0.76,
+        "L1": 0.24
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.15,
+        "read_write": 0.36,
+        "kinesthetic": 0.27
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A361",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.19,
+        "auditory": 0.19,
+        "read_write": 0.28,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A362",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.61,
+        "auditory": 0.06,
+        "read_write": 0.27,
+        "kinesthetic": 0.07
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A363",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.07,
+        "auditory": 0.01,
+        "read_write": 0.44,
+        "kinesthetic": 0.48
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A364",
+      "lessons": {
+        "L4": 0.62,
+        "L1": 0.38
+      },
+      "style": {
+        "visual": 0.17,
+        "auditory": 0.39,
+        "read_write": 0.34,
+        "kinesthetic": 0.09
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A365",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.4,
+        "auditory": 0.16,
+        "read_write": 0.36,
+        "kinesthetic": 0.09
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A366",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.08,
+        "read_write": 0.42,
+        "kinesthetic": 0.26
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A367",
+      "lessons": {
+        "L4": 0.63,
+        "L2": 0.19,
+        "L3": 0.18
+      },
+      "style": {
+        "visual": 0.2,
+        "auditory": 0.25,
+        "read_write": 0.28,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A368",
+      "lessons": {
+        "L4": 0.55,
+        "L1": 0.45
+      },
+      "style": {
+        "visual": 0.09,
+        "auditory": 0.27,
+        "read_write": 0.2,
+        "kinesthetic": 0.45
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A369",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.44,
+        "read_write": 0.09,
+        "kinesthetic": 0.09
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A370",
+      "lessons": {
+        "L4": 0.64,
+        "L3": 0.16,
+        "L2": 0.2
+      },
+      "style": {
+        "visual": 0.3,
+        "auditory": 0.03,
+        "read_write": 0.17,
+        "kinesthetic": 0.5
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A371",
+      "lessons": {
+        "L4": 0.53,
+        "L3": 0.43,
+        "L1": 0.04
+      },
+      "style": {
+        "visual": 0.22,
+        "auditory": 0.18,
+        "read_write": 0.09,
+        "kinesthetic": 0.51
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A372",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.3,
+        "auditory": 0.23,
+        "read_write": 0.16,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A373",
+      "lessons": {
+        "L4": 0.8,
+        "L1": 0.2
+      },
+      "style": {
+        "visual": 0.39,
+        "auditory": 0.09,
+        "read_write": 0.34,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A374",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.02,
+        "auditory": 0.39,
+        "read_write": 0.41,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A375",
+      "lessons": {
+        "L4": 0.83,
+        "L1": 0.07,
+        "L3": 0.1
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.04,
+        "read_write": 0.35,
+        "kinesthetic": 0.35
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A376",
+      "lessons": {
+        "L4": 0.86,
+        "L3": 0.14
+      },
+      "style": {
+        "visual": 0.21,
+        "auditory": 0.37,
+        "read_write": 0.03,
+        "kinesthetic": 0.38
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A377",
+      "lessons": {
+        "L4": 0.85,
+        "L3": 0.15
+      },
+      "style": {
+        "visual": 0.2,
+        "auditory": 0.27,
+        "read_write": 0.22,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A378",
+      "lessons": {
+        "L4": 0.51,
+        "L2": 0.49
+      },
+      "style": {
+        "visual": 0.16,
+        "auditory": 0.19,
+        "read_write": 0.1,
+        "kinesthetic": 0.55
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A379",
+      "lessons": {
+        "L4": 0.58,
+        "L2": 0.18,
+        "L1": 0.24
+      },
+      "style": {
+        "visual": 0.42,
+        "auditory": 0.16,
+        "read_write": 0.41,
+        "kinesthetic": 0.02
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A380",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.3,
+        "auditory": 0.37,
+        "read_write": 0.23,
+        "kinesthetic": 0.1
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A381",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.03,
+        "auditory": 0.29,
+        "read_write": 0.65,
+        "kinesthetic": 0.03
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A382",
+      "lessons": {
+        "L4": 0.9,
+        "L2": 0.1
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.31,
+        "read_write": 0.15,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A383",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.03,
+        "auditory": 0.18,
+        "read_write": 0.51,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A384",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.42,
+        "read_write": 0.13,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A385",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.07,
+        "read_write": 0.4,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A386",
+      "lessons": {
+        "L4": 0.7,
+        "L3": 0.22,
+        "L1": 0.08
+      },
+      "style": {
+        "visual": 0.35,
+        "auditory": 0.26,
+        "read_write": 0.37,
+        "kinesthetic": 0.02
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A387",
+      "lessons": {
+        "L4": 0.67,
+        "L3": 0.28,
+        "L1": 0.05
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.11,
+        "read_write": 0.44,
+        "kinesthetic": 0.35
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A388",
+      "lessons": {
+        "L4": 0.66,
+        "L1": 0.31,
+        "L3": 0.03
+      },
+      "style": {
+        "visual": 0.14,
+        "auditory": 0.14,
+        "read_write": 0.32,
+        "kinesthetic": 0.39
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A389",
+      "lessons": {
+        "L4": 0.89,
+        "L2": 0.11
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.01,
+        "read_write": 0.3,
+        "kinesthetic": 0.37
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A390",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.29,
+        "auditory": 0.33,
+        "read_write": 0.37,
+        "kinesthetic": 0.01
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A391",
+      "lessons": {
+        "L4": 0.86,
+        "L1": 0.14
+      },
+      "style": {
+        "visual": 0.41,
+        "auditory": 0.19,
+        "read_write": 0.03,
+        "kinesthetic": 0.37
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A392",
+      "lessons": {
+        "L4": 0.58,
+        "L3": 0.42
+      },
+      "style": {
+        "visual": 0.36,
+        "auditory": 0.43,
+        "read_write": 0.13,
+        "kinesthetic": 0.08
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A393",
+      "lessons": {
+        "L4": 0.59,
+        "L1": 0.3,
+        "L3": 0.11
+      },
+      "style": {
+        "visual": 0.02,
+        "auditory": 0.3,
+        "read_write": 0.47,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A394",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.36,
+        "read_write": 0.02,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A395",
+      "lessons": {
+        "L4": 0.52,
+        "L1": 0.48
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.36,
+        "read_write": 0.17,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A396",
+      "lessons": {
+        "L4": 0.65,
+        "L1": 0.35
+      },
+      "style": {
+        "visual": 0.41,
+        "auditory": 0.19,
+        "read_write": 0.17,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A397",
+      "lessons": {
+        "L4": 0.84,
+        "L2": 0.06,
+        "L3": 0.1
+      },
+      "style": {
+        "visual": 0.1,
+        "auditory": 0.51,
+        "read_write": 0.16,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A398",
+      "lessons": {
+        "L4": 0.73,
+        "L1": 0.17,
+        "L2": 0.1
+      },
+      "style": {
+        "visual": 0.36,
+        "auditory": 0.29,
+        "read_write": 0.13,
+        "kinesthetic": 0.23
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A399",
+      "lessons": {
+        "L4": 1.0
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.09,
+        "read_write": 0.31,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A400",
+      "lessons": {
+        "L4": 0.56,
+        "L2": 0.44
+      },
+      "style": {
+        "visual": 0.25,
+        "auditory": 0.33,
+        "read_write": 0.07,
+        "kinesthetic": 0.36
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A401",
+      "lessons": {
+        "L1": 0.3,
+        "L4": 0.18,
+        "L2": 0.52
+      },
+      "style": {
+        "visual": 0.44,
+        "auditory": 0.09,
+        "read_write": 0.36,
+        "kinesthetic": 0.11
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A402",
+      "lessons": {
+        "L2": 0.09,
+        "L4": 0.91
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.44,
+        "read_write": 0.08,
+        "kinesthetic": 0.16
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A403",
+      "lessons": {
+        "L3": 0.42,
+        "L1": 0.58
+      },
+      "style": {
+        "visual": 0.44,
+        "auditory": 0.01,
+        "read_write": 0.31,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A404",
+      "lessons": {
+        "L2": 0.28,
+        "L3": 0.59,
+        "L1": 0.13
+      },
+      "style": {
+        "visual": 0.09,
+        "auditory": 0.33,
+        "read_write": 0.34,
+        "kinesthetic": 0.24
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A405",
+      "lessons": {
+        "L1": 0.08,
+        "L4": 0.47,
+        "L3": 0.45
+      },
+      "style": {
+        "visual": 0.0,
+        "auditory": 0.41,
+        "read_write": 0.32,
+        "kinesthetic": 0.27
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A406",
+      "lessons": {
+        "L2": 0.29,
+        "L1": 0.71
+      },
+      "style": {
+        "visual": 0.26,
+        "auditory": 0.23,
+        "read_write": 0.08,
+        "kinesthetic": 0.43
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A407",
+      "lessons": {
+        "L2": 0.41,
+        "L1": 0.45,
+        "L4": 0.14
+      },
+      "style": {
+        "visual": 0.08,
+        "auditory": 0.39,
+        "read_write": 0.33,
+        "kinesthetic": 0.2
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A408",
+      "lessons": {
+        "L3": 0.56,
+        "L1": 0.44
+      },
+      "style": {
+        "visual": 0.13,
+        "auditory": 0.41,
+        "read_write": 0.06,
+        "kinesthetic": 0.41
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A409",
+      "lessons": {
+        "L4": 0.01,
+        "L2": 0.97,
+        "L3": 0.02
+      },
+      "style": {
+        "visual": 0.13,
+        "auditory": 0.43,
+        "read_write": 0.42,
+        "kinesthetic": 0.02
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A410",
+      "lessons": {
+        "L4": 0.29,
+        "L2": 0.37,
+        "L1": 0.34
+      },
+      "style": {
+        "visual": 0.35,
+        "auditory": 0.33,
+        "read_write": 0.03,
+        "kinesthetic": 0.29
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A411",
+      "lessons": {
+        "L2": 0.32,
+        "L4": 0.34,
+        "L1": 0.34
+      },
+      "style": {
+        "visual": 0.19,
+        "auditory": 0.18,
+        "read_write": 0.36,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A412",
+      "lessons": {
+        "L1": 0.55,
+        "L4": 0.13,
+        "L2": 0.32
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.32,
+        "read_write": 0.05,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A413",
+      "lessons": {
+        "L1": 0.84,
+        "L3": 0.16
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.22,
+        "read_write": 0.32,
+        "kinesthetic": 0.19
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A414",
+      "lessons": {
+        "L3": 0.16,
+        "L4": 0.4,
+        "L1": 0.44
+      },
+      "style": {
+        "visual": 0.41,
+        "auditory": 0.25,
+        "read_write": 0.1,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A415",
+      "lessons": {
+        "L3": 0.43,
+        "L4": 0.57
+      },
+      "style": {
+        "visual": 0.48,
+        "auditory": 0.18,
+        "read_write": 0.01,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A416",
+      "lessons": {
+        "L4": 0.4,
+        "L3": 0.6
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.32,
+        "read_write": 0.26,
+        "kinesthetic": 0.19
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A417",
+      "lessons": {
+        "L4": 0.57,
+        "L3": 0.43
+      },
+      "style": {
+        "visual": 0.01,
+        "auditory": 0.52,
+        "read_write": 0.45,
+        "kinesthetic": 0.02
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A418",
+      "lessons": {
+        "L1": 0.6,
+        "L2": 0.4
+      },
+      "style": {
+        "visual": 0.01,
+        "auditory": 0.34,
+        "read_write": 0.12,
+        "kinesthetic": 0.53
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A419",
+      "lessons": {
+        "L3": 0.39,
+        "L1": 0.49,
+        "L2": 0.12
+      },
+      "style": {
+        "visual": 0.19,
+        "auditory": 0.44,
+        "read_write": 0.06,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A420",
+      "lessons": {
+        "L2": 0.5,
+        "L3": 0.5
+      },
+      "style": {
+        "visual": 0.37,
+        "auditory": 0.15,
+        "read_write": 0.31,
+        "kinesthetic": 0.18
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A421",
+      "lessons": {
+        "L3": 0.51,
+        "L1": 0.49
+      },
+      "style": {
+        "visual": 0.49,
+        "auditory": 0.44,
+        "read_write": 0.05,
+        "kinesthetic": 0.02
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A422",
+      "lessons": {
+        "L2": 0.52,
+        "L1": 0.48
+      },
+      "style": {
+        "visual": 0.01,
+        "auditory": 0.19,
+        "read_write": 0.36,
+        "kinesthetic": 0.43
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A423",
+      "lessons": {
+        "L1": 0.35,
+        "L3": 0.28,
+        "L2": 0.37
+      },
+      "style": {
+        "visual": 0.51,
+        "auditory": 0.08,
+        "read_write": 0.06,
+        "kinesthetic": 0.35
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A424",
+      "lessons": {
+        "L2": 0.71,
+        "L1": 0.13,
+        "L3": 0.16
+      },
+      "style": {
+        "visual": 0.34,
+        "auditory": 0.24,
+        "read_write": 0.12,
+        "kinesthetic": 0.3
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A425",
+      "lessons": {
+        "L4": 0.23,
+        "L2": 0.38,
+        "L1": 0.39
+      },
+      "style": {
+        "visual": 0.42,
+        "auditory": 0.21,
+        "read_write": 0.3,
+        "kinesthetic": 0.06
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A426",
+      "lessons": {
+        "L4": 0.11,
+        "L1": 0.89
+      },
+      "style": {
+        "visual": 0.39,
+        "auditory": 0.2,
+        "read_write": 0.08,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A427",
+      "lessons": {
+        "L1": 0.25,
+        "L2": 0.5,
+        "L3": 0.25
+      },
+      "style": {
+        "visual": 0.35,
+        "auditory": 0.12,
+        "read_write": 0.28,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A428",
+      "lessons": {
+        "L3": 0.64,
+        "L2": 0.36,
+        "L4": 0.0
+      },
+      "style": {
+        "visual": 0.38,
+        "auditory": 0.3,
+        "read_write": 0.03,
+        "kinesthetic": 0.28
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A429",
+      "lessons": {
+        "L1": 0.43,
+        "L2": 0.37,
+        "L3": 0.2
+      },
+      "style": {
+        "visual": 0.15,
+        "auditory": 0.42,
+        "read_write": 0.0,
+        "kinesthetic": 0.43
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A430",
+      "lessons": {
+        "L4": 0.56,
+        "L1": 0.44
+      },
+      "style": {
+        "visual": 0.24,
+        "auditory": 0.17,
+        "read_write": 0.44,
+        "kinesthetic": 0.15
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A431",
+      "lessons": {
+        "L1": 0.38,
+        "L2": 0.08,
+        "L3": 0.54
+      },
+      "style": {
+        "visual": 0.34,
+        "auditory": 0.23,
+        "read_write": 0.34,
+        "kinesthetic": 0.08
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A432",
+      "lessons": {
+        "L1": 0.24,
+        "L2": 0.27,
+        "L3": 0.49
+      },
+      "style": {
+        "visual": 0.03,
+        "auditory": 0.06,
+        "read_write": 0.59,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A433",
+      "lessons": {
+        "L1": 0.4,
+        "L2": 0.25,
+        "L3": 0.35
+      },
+      "style": {
+        "visual": 0.23,
+        "auditory": 0.22,
+        "read_write": 0.36,
+        "kinesthetic": 0.19
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A434",
+      "lessons": {
+        "L1": 0.05,
+        "L3": 0.95
+      },
+      "style": {
+        "visual": 0.33,
+        "auditory": 0.18,
+        "read_write": 0.31,
+        "kinesthetic": 0.19
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A435",
+      "lessons": {
+        "L1": 0.35,
+        "L2": 0.65
+      },
+      "style": {
+        "visual": 0.05,
+        "auditory": 0.28,
+        "read_write": 0.37,
+        "kinesthetic": 0.31
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A436",
+      "lessons": {
+        "L1": 0.78,
+        "L2": 0.22
+      },
+      "style": {
+        "visual": 0.31,
+        "auditory": 0.09,
+        "read_write": 0.35,
+        "kinesthetic": 0.25
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A437",
+      "lessons": {
+        "L2": 0.68,
+        "L1": 0.32
+      },
+      "style": {
+        "visual": 0.32,
+        "auditory": 0.06,
+        "read_write": 0.29,
+        "kinesthetic": 0.32
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A438",
+      "lessons": {
+        "L1": 0.53,
+        "L4": 0.47
+      },
+      "style": {
+        "visual": 0.17,
+        "auditory": 0.38,
+        "read_write": 0.23,
+        "kinesthetic": 0.22
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A439",
+      "lessons": {
+        "L2": 0.32,
+        "L3": 0.68
+      },
+      "style": {
+        "visual": 0.36,
+        "auditory": 0.15,
+        "read_write": 0.16,
+        "kinesthetic": 0.33
+      },
+      "nb_points": 10
+    },
+    {
+      "id": "A440",
+      "lessons": {
+        "L2": 0.25,
+        "L4": 0.69,
+        "L3": 0.06
+      },
+      "style": {
+        "visual": 0.27,
+        "auditory": 0.16,
+        "read_write": 0.23,
+        "kinesthetic": 0.35
+      },
+      "nb_points": 10
+    }
+  ],
+  "metadata": {
+    "num_lessons": 4,
+    "total_activities": 440,
+    "learning_styles": [
+      "visual",
+      "auditory",
+      "read_write",
+      "kinesthetic"
+    ],
+    "description": "Synthetic curriculum with VARK styles and nb_points."
+  }
+}

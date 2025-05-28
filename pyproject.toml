@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rl-for-adl"
+version = "0.1.0"
+description = ""
+authors = ["herriot <herriotdagoudi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sb3-contrib = "^2.6.0"
+gymnasium = "^1.1.1"
+seaborn = "^0.13.2"
+stable-baselines3 = {extras = ["extra"], version = "^2.6.0"}
+altair = "^5.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
