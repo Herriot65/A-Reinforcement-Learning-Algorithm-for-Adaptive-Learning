@@ -1,6 +1,6 @@
 import random
 from typing import Dict
-from utils.profile_generator import generate_profile
+from utils.student_profile_generator import generate_profile
 
 class Student:
     """Handles student profile generation and performance simulation."""
@@ -73,5 +73,4 @@ class Student:
             # Use self.velocity (the property) here
             performance += weight * self.velocity * activity_style * activity["nb_points"]
         
-        # Scale by activity points and clamp to [0,1]
-        return max(0.0, min(1.0, performance / activity["nb_points"]))
+        return round(performance, 2) 

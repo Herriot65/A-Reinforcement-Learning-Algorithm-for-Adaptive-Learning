@@ -9,40 +9,40 @@ from .LessonMasteryTracker import LessonMasteryTracker
 
 class AdaptiveLearningEnv(gym.Env):
     """Gymnasium environment with integrated Student class and training data logging."""
-    
+
     metadata = {'render_modes': ['human'], 'render_fps': 4}
-    
+
     def __init__(self, 
                  lessons: List[Dict], 
                  activities: List[Dict],
-                 student: Student,  # Use Student instance
+                 student: Student,
                  render_mode: Optional[str] = None,
-                 max_steps: int = 150,
+                 max_steps: int = 1000,
                  log_training_data: bool = True,
                  log_file: str = "training_data.json"):
         super().__init__()
-        
+
         # Curriculum data
         self.lessons = {l['id']: l for l in lessons}
         self.activities = {a['id']: a for a in activities}
         self.activity_ids = list(self.activities.keys())
-        
+
         # RL settings
         self.max_steps = max_steps
         self.step_count = 0
-        self.observation_space = spaces.Box(0.0, 1.0, (len(self.lessons),), dtype=np.float32)
+        self.observation_space = spaces.Box(
+            0.0, 1.0, (len(self.lessons) + len(self.activities),), dtype=np.float32
+        )
         self.action_space = spaces.Discrete(len(self.activities))
-        
+
         # Learning state
-        self.lesson_mastery = LessonMasteryTracker(self.lessons)  # Separated logic
+        self.lesson_mastery = LessonMasteryTracker(self.lessons)
         self.completed_activities = set()
         self.render_mode = render_mode
-        
+
         # Student component
         self.student = student
-        
-        self.ALIGNMENT_BONUS_WEIGHT = 0.5
-        
+
         # Training data logging
         self.log_training_data = log_training_data
         self.log_file = log_file
@@ -61,23 +61,20 @@ class AdaptiveLearningEnv(gym.Env):
     def reset(self, seed=None, options=None) -> Tuple[np.ndarray, Dict]:
         """Reset environment with new episode."""
         super().reset(seed=seed)
-        
-        # Save previous episode data if exists
+
         if self.current_episode_data and self.log_training_data:
             self.training_data['episodes'].append({
                 'episode': self.episode_count,
                 'steps': self.current_episode_data.copy()
             })
             self._save_training_data()
-        
-        # Reset for new episode
+
         self.lesson_mastery.reset()
         self.completed_activities.clear()
         self.step_count = 0
         self.current_episode_data = []
         self.episode_count += 1
-        
-        # Log initial state
+
         if self.log_training_data:
             self.current_episode_data.append({
                 'step': 0,
@@ -85,7 +82,7 @@ class AdaptiveLearningEnv(gym.Env):
                 'activity_id': None,
                 'performance': 0.0
             })
-        
+
         return self._get_state(), {'available_actions': self._get_available_actions_mask()}
 
     def step(self, action: int) -> Tuple[np.ndarray, float, bool, bool, Dict]:
@@ -94,16 +91,11 @@ class AdaptiveLearningEnv(gym.Env):
         activity = self.activities[self.activity_ids[action]]
         self.completed_activities.add(activity['id'])
 
-        # Student performance calculation
         performance = self.student.calculate_performance(activity)
-        
-        # Reward calculation
         reward = performance
-        
-        # Mastery update
+
         self.lesson_mastery.update(activity, performance)
-        
-        # Log training data
+
         if self.log_training_data:
             self.current_episode_data.append({
                 'step': self.step_count,
@@ -111,14 +103,13 @@ class AdaptiveLearningEnv(gym.Env):
                 'activity_id': activity['id'],
                 'performance': performance
             })
-        
-        # Termination conditions
+
         terminated = self.lesson_mastery.all_mastered()
         truncated = self.step_count >= self.max_steps
-        
+
         return (
             self._get_state(),
-            reward,  # Reward
+            reward,
             terminated,
             truncated,
             {
@@ -139,20 +130,23 @@ class AdaptiveLearningEnv(gym.Env):
         return mask
 
     def _get_state(self) -> np.ndarray:
-        """Get current state as numpy array."""
-        return self.lesson_mastery.to_array()
-    
+        """Get current state as numpy array with mastery and activity history."""
+        mastery_array = self.lesson_mastery.to_array()
+        activity_history = np.array([
+            1.0 if activity_id in self.completed_activities else 0.0
+            for activity_id in self.activity_ids
+        ], dtype=np.float32)
+        return np.concatenate([mastery_array, activity_history])
+
     def _save_training_data(self):
         """Save training data to JSON file."""
         try:
-            # Create directory if it doesn't exist
             os.makedirs(os.path.dirname(self.log_file) if os.path.dirname(self.log_file) else '.', exist_ok=True)
-            
             with open(self.log_file, 'w') as f:
                 json.dump(self.training_data, f, indent=2)
         except Exception as e:
             print(f"Warning: Failed to save training data: {e}")
-    
+
     def finalize_logging(self):
         """Call this at the end of training to save final episode data."""
         if self.current_episode_data and self.log_training_data:

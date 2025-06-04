@@ -16,7 +16,7 @@ class LessonMasteryTracker:
         """Update mastery for activity's lessons."""
         for lesson_id, cov in activity['lessons'].items():
             if self.mastery[lesson_id] < 1.0:
-                self.mastery[lesson_id] = min(1.0, self.mastery[lesson_id] + performance * cov)
+                self.mastery[lesson_id] = min(1.0, self.mastery[lesson_id] + performance * cov * 0.01)
     
     def all_mastered(self) -> bool:
         """Check if all lessons are mastered."""
