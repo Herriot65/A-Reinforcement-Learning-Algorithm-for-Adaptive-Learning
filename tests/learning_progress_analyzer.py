@@ -161,7 +161,6 @@ class MasteryAnalyzer:
         
         return x_plot, y_plot, mastery_idx
 
-
 class LearningProgressVisualizer:
     """Handles visualization of learning progress data."""
     
@@ -191,9 +190,7 @@ class LearningProgressVisualizer:
             # Debug information
             if verbose:
                 max_mastery = np.max(mastery_data)
-                start_idx = self.mastery_analyzer.find_improvement_start(mastery_data)
-                print(f"Lesson {lesson}, Phase {phase}: Max mastery = {max_mastery:.3f}, Start idx = {start_idx}")
-                
+                start_idx = self.mastery_analyzer.find_improvement_start(mastery_data)                
                 if mastery_idx is not None:
                     print(f"  Found mastery at step {mastery_idx} with value {mastery_data[mastery_idx]:.3f}")
             
@@ -214,7 +211,7 @@ class LearningProgressVisualizer:
     def _configure_lesson_axes(self, ax, lesson: str, all_x_values: List[int]):
         """Configure axes for a lesson plot."""
         ax.set_title(f"Lesson {lesson}", fontsize=14)
-        ax.set_xlabel("Steps (within episode)", fontsize=12)
+        ax.set_xlabel("Activities (within episode)", fontsize=12)
         ax.set_ylabel("Average Mastery", fontsize=12)
         ax.set_ylim(-0.05, 1.05)
         ax.grid(True, alpha=0.3)
@@ -240,7 +237,7 @@ class LearningProgressVisualizer:
             if i < len(axs):
                 self.plot_lesson_progress(axs[i], lesson, phase_curves, verbose)
         
-        plt.suptitle("Learning Progress Over Time for Each Lesson (Mastery vs Steps)", 
+        plt.suptitle("Learning Progress Over Time for Each Lesson (Mastery vs Activities)", 
                     fontsize=18, y=0.98)
         plt.tight_layout(rect=[0, 0, 1, 0.95])
         
@@ -361,8 +358,6 @@ class LearningProgressAnalyzer:
         
         return report, fig
 
-
-# Convenience functions for backwards compatibility and easy usage
 def analyze_learning_progress(training_data_file: str = None, 
                             plots_folder: str = None,
                             verbose: bool = False,

@@ -1,0 +1,65 @@
+LEARNING PATH FOR LESSON: L1
+Student: Visual_80pct_065vel_trained
+============================================================
+
+EPISODE 1:
+Final Mastery: 1.000
+Mastered: YES (threshold: 1.0)
+Total Mastery Gain: 1.003
+----------------------------------------
+Step-by-step progression (only showing steps with mastery gain):
+  Step  1: Activity A351            -> Mastery:  0.041 (++0.041) Performance:  4.06
+  Step  2: Activity A333            -> Mastery:  0.072 (++0.031) Performance:  3.11
+  Step  3: Activity A282            -> Mastery:  0.108 (++0.037) Performance:  3.67
+  Step  4: Activity A180            -> Mastery:  0.138 (++0.029) Performance:  2.95
+  Step  5: Activity A359            -> Mastery:  0.166 (++0.028) Performance:  2.84
+  Step  6: Activity A90             -> Mastery:  0.194 (++0.028) Performance:  2.80
+  Step  7: Activity A260            -> Mastery:  0.219 (++0.025) Performance:  2.47
+  Step  8: Activity A272            -> Mastery:  0.250 (++0.031) Performance:  3.09
+  Step  9: Activity A398            -> Mastery:  0.278 (++0.028) Performance:  2.76
+  Step 10: Activity A339            -> Mastery:  0.302 (++0.025) Performance:  2.50
+  Step 11: Activity A280            -> Mastery:  0.325 (++0.022) Performance:  2.22
+  Step 12: Activity A103            -> Mastery:  0.352 (++0.028) Performance:  2.76
+  Step 13: Activity A200            -> Mastery:  0.384 (++0.031) Performance:  3.12
+  Step 14: Activity A218            -> Mastery:  0.408 (++0.024) Performance:  2.40
+  Step 15: Activity A318            -> Mastery:  0.436 (++0.029) Performance:  2.88
+  Step 16: Activity A348            -> Mastery:  0.456 (++0.020) Performance:  2.00
+  Step 17: Activity A161            -> Mastery:  0.484 (++0.028) Performance:  2.75
+  Step 18: Activity A295            -> Mastery:  0.508 (++0.024) Performance:  2.43
+  Step 19: Activity A302            -> Mastery:  0.528 (++0.020) Performance:  1.99
+  Step 20: Activity A61             -> Mastery:  0.550 (++0.022) Performance:  2.19
+  Step 21: Activity A155            -> Mastery:  0.570 (++0.020) Performance:  2.01
+  Step 22: Activity A268            -> Mastery:  0.589 (++0.019) Performance:  1.94
+  Step 23: Activity A136            -> Mastery:  0.617 (++0.028) Performance:  2.76
+  Step 24: Activity A207            -> Mastery:  0.635 (++0.018) Performance:  1.77
+  Step 25: Activity A8              -> Mastery:  0.652 (++0.018) Performance:  1.77
+  Step 26: Activity A127            -> Mastery:  0.674 (++0.021) Performance:  2.14
+  Step 27: Activity A225            -> Mastery:  0.696 (++0.023) Performance:  2.25
+  Step 28: Activity A346            -> Mastery:  0.715 (++0.019) Performance:  1.87
+  Step 29: Activity A87             -> Mastery:  0.736 (++0.021) Performance:  2.07
+  Step 30: Activity A57             -> Mastery:  0.755 (++0.019) Performance:  1.92
+  Step 31: Activity A185            -> Mastery:  0.775 (++0.020) Performance:  1.99
+  Step 32: Activity A96             -> Mastery:  0.793 (++0.018) Performance:  1.85
+  Step 33: Activity A238            -> Mastery:  0.832 (++0.039) Performance:  4.77
+  Step 41: Activity A1745           -> Mastery:  0.860 (++0.028) Performance:  3.87
+  Step 43: Activity A388            -> Mastery:  0.877 (++0.016) Performance:  3.09
+  Step 45: Activity A419            -> Mastery:  0.888 (++0.011) Performance:  3.20
+  Step 47: Activity A528            -> Mastery:  0.895 (++0.007) Performance:  3.38
+  Step 51: Activity A1089           -> Mastery:  0.907 (++0.012) Performance:  3.78
+  Step 53: Activity A1720           -> Mastery:  0.918 (++0.011) Performance:  3.20
+  Step 56: Activity A402            -> Mastery:  0.920 (++0.003) Performance:  3.00
+  Step 58: Activity A512            -> Mastery:  0.926 (++0.006) Performance:  2.86
+  Step 59: Activity A1077           -> Mastery:  0.933 (++0.007) Performance:  3.00
+  Step 61: Activity A827            -> Mastery:  0.940 (++0.007) Performance:  2.87
+  Step 62: Activity A487            -> Mastery:  0.945 (++0.005) Performance:  2.78
+  Step 63: Activity A671            -> Mastery:  0.949 (++0.004) Performance:  2.69
+  Step 64: Activity A1699           -> Mastery:  0.963 (++0.014) Performance:  3.01
+  Step 67: Activity A930            -> Mastery:  0.970 (++0.007) Performance:  2.65
+  Step 69: Activity A331            -> Mastery:  0.983 (++0.014) Performance:  2.67
+  Step 70: Activity A135            -> Mastery:  1.000 (++0.017) Performance:  3.06
+
+SUMMARY ACROSS ALL EPISODES:
+------------------------------
+Average Final Mastery: 1.000
+Mastery Rate: 100.0%
+Average Total Gain: 1.003

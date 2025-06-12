@@ -26,12 +26,18 @@ class LessonMasteryTracker:
         """Check if activity is available (prerequisites/mastery)."""
         has_unmastered = False
         for lesson_id, cov in activity['lessons'].items():
-            if self.mastery[lesson_id] >= 1.0:
+            if self.mastery[lesson_id] == 1.0:
                 continue
             has_unmastered = True
-            for prereq, req_m in self.lessons[lesson_id]['prerequisites'].items():
-                if self.mastery[prereq] < req_m:
-                    return False
+            
+            #get lesson's prerequisites
+            prerequisites = self.lessons[lesson_id].get('prerequisites', {})
+            
+            #if lesson has prereqs, check if they are mastered
+            if prerequisites:
+                for prereq, req_m in prerequisites.items():
+                    if self.mastery[prereq] < req_m:
+                        return False
         return has_unmastered
     
     def to_array(self) -> np.ndarray:

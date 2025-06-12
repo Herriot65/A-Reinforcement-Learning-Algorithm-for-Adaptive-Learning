@@ -3,13 +3,13 @@ from typing import Dict
 from utils.student_profile_generator import generate_profile
 
 class Student:
-    """Handles student profile generation and performance simulation."""
+    """Handles student profile generation and performance simulation based on VARK's empirical data."""
     
     def __init__(
         self, 
         dominant_style: str = None, 
         dominant_percent: float = None, 
-        velocity: float = None # This 'velocity' is the initial parameter
+        velocity: float = None 
     ):
         """
         Initialize student with either:
@@ -25,14 +25,13 @@ class Student:
         self.dominant_style = dominant_style or random.choice(
             ["Visual", "Auditory", "Read/Write", "Kinesthetic"]
         )
-        self.dominant_percent = dominant_percent or random.choice([80, 70, 60])
+        self.dominant_percent = dominant_percent or random.choice([80, 70, 45])
         
         # Generate and normalize profile
-        # The velocity provided to __init__ is passed directly to generate_profile
         self.profile = generate_profile(
             self.dominant_style, 
             self.dominant_percent,
-            velocity=velocity # Use the 'velocity' parameter here
+            velocity=velocity 
         )
         self._normalize_profile()
     
@@ -56,13 +55,13 @@ class Student:
     
     def calculate_performance(self, activity: Dict) -> float:
         """
-        Calculate performance on an activity (0-1 scale).
+        Calculate performance on an activity.
         
         Args:
             activity: Dict with "style" and "nb_points" keys
             
         Returns:
-            Performance score between 0 and 1
+            Performance score 
         """
         if not all(k in activity for k in ["style", "nb_points"]):
             raise ValueError("Activity must contain 'style' and 'nb_points'")
@@ -70,7 +69,6 @@ class Student:
         performance = 0.0
         for style, weight in self.learning_style.items():
             activity_style = activity["style"].get(style, 0.0)
-            # Use self.velocity (the property) here
             performance += weight * self.velocity * activity_style * activity["nb_points"]
         
         return round(performance, 2) 

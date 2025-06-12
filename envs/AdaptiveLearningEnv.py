@@ -4,7 +4,7 @@ import numpy as np
 from typing import Dict, List, Tuple, Optional
 import json
 import os
-from . import Student  
+from . import Student 
 from .LessonMasteryTracker import LessonMasteryTracker
 
 class AdaptiveLearningEnv(gym.Env):
@@ -59,9 +59,24 @@ class AdaptiveLearningEnv(gym.Env):
         self.episode_count = 0
 
     def reset(self, seed=None, options=None) -> Tuple[np.ndarray, Dict]:
-        """Reset environment with new episode."""
+        """
+        Resets the environment to its initial state, preparing for a new episode.
+        This includes resetting lesson mastery, clearing completed activities,
+        and re-initializing the step count.
+        If logging is enabled, it also saves the data from the previous episode.
+
+        Args:
+            seed (Optional[int]): A seed for the random number generator to ensure reproducibility.
+            options (Optional[Dict]): Additional options for resetting the environment.
+
+        Returns:
+            Tuple[np.ndarray, Dict]: 
+                - The initial observation of the environment.
+                - An info dictionary containing available actions.
+        """
         super().reset(seed=seed)
 
+        # If there's data from the previous episode and logging is enabled, save it.
         if self.current_episode_data and self.log_training_data:
             self.training_data['episodes'].append({
                 'episode': self.episode_count,
@@ -69,12 +84,14 @@ class AdaptiveLearningEnv(gym.Env):
             })
             self._save_training_data()
 
+        # Reset environment state for a new episode
         self.lesson_mastery.reset()
         self.completed_activities.clear()
         self.step_count = 0
         self.current_episode_data = []
         self.episode_count += 1
 
+        # Log initial state of the new episode if logging is enabled
         if self.log_training_data:
             self.current_episode_data.append({
                 'step': 0,
@@ -86,7 +103,24 @@ class AdaptiveLearningEnv(gym.Env):
         return self._get_state(), {'available_actions': self._get_available_actions_mask()}
 
     def step(self, action: int) -> Tuple[np.ndarray, float, bool, bool, Dict]:
-        """Execute one learning step."""
+        """
+        Executes one learning step in the environment. The agent selects an activity
+        (action), and the student's performance on that activity is simulated.
+        The lesson mastery is updated, and the environment's state, reward,
+        and termination conditions are returned.
+
+        Args:
+            action (int): The index of the activity chosen by the agent.
+
+        Returns:
+            Tuple[np.ndarray, float, bool, bool, Dict]:
+                - observation (np.ndarray): The new observation of the environment after the step.
+                - reward (float): The reward received after performing the action (student's performance).
+                - terminated (bool): Whether the episode has ended due to all lessons being mastered.
+                - truncated (bool): Whether the episode has ended due to reaching the maximum number of steps.
+                - info (Dict): A dictionary containing additional information, such as the activity ID,
+                               performance, and available actions for the next step.
+        """
         self.step_count += 1
         activity = self.activities[self.activity_ids[action]]
         self.completed_activities.add(activity['id'])
@@ -96,6 +130,7 @@ class AdaptiveLearningEnv(gym.Env):
 
         self.lesson_mastery.update(activity, performance)
 
+        # Log current step data if logging is enabled
         if self.log_training_data:
             self.current_episode_data.append({
                 'step': self.step_count,
@@ -104,6 +139,7 @@ class AdaptiveLearningEnv(gym.Env):
                 'performance': performance
             })
 
+        # Determine if the episode should terminate or truncate
         terminated = self.lesson_mastery.all_mastered()
         truncated = self.step_count >= self.max_steps
 
@@ -120,7 +156,12 @@ class AdaptiveLearningEnv(gym.Env):
         )
 
     def _get_available_actions_mask(self) -> np.ndarray:
-        """Generate action mask based on prerequisites/mastery."""
+        """
+        Generates a binary mask indicating which activities are currently available to the agent.
+        
+        Returns:
+            np.ndarray: A boolean array where `True` indicates an available action and `False` otherwise.
+        """
         mask = np.zeros(len(self.activities), dtype=np.int8)
         for i, activity_id in enumerate(self.activity_ids):
             if activity_id in self.completed_activities:
@@ -130,7 +171,14 @@ class AdaptiveLearningEnv(gym.Env):
         return mask
 
     def _get_state(self) -> np.ndarray:
-        """Get current state as numpy array with mastery and activity history."""
+        """
+        Constructs the current observation (state) of the environment.
+        The state combines the current mastery levels of all lessons with a binary
+        representation of completed activities.
+
+        Returns:
+            np.ndarray: A concatenated numpy array representing the current state.
+        """
         mastery_array = self.lesson_mastery.to_array()
         activity_history = np.array([
             1.0 if activity_id in self.completed_activities else 0.0
@@ -139,7 +187,9 @@ class AdaptiveLearningEnv(gym.Env):
         return np.concatenate([mastery_array, activity_history])
 
     def _save_training_data(self):
-        """Save training data to JSON file."""
+        """
+        Saves the accumulated training data for all episodes to the specified JSON file.
+        """
         try:
             os.makedirs(os.path.dirname(self.log_file) if os.path.dirname(self.log_file) else '.', exist_ok=True)
             with open(self.log_file, 'w') as f:
@@ -148,7 +198,9 @@ class AdaptiveLearningEnv(gym.Env):
             print(f"Warning: Failed to save training data: {e}")
 
     def finalize_logging(self):
-        """Call this at the end of training to save final episode data."""
+        """
+        Capture the data from the last episode.
+        """
         if self.current_episode_data and self.log_training_data:
             self.training_data['episodes'].append({
                 'episode': self.episode_count,

@@ -1,1418 +1,352 @@
-GLOBAL LEARNING PATH
+GLOBAL LEARNING PATH - RECOMMENDED ACTIVITIES
 Student: Read_Write_85pct_045vel_trained
-================================================================================
+============================================================
 
-COMPLETE LEARNING SEQUENCE:
-(To master all subjects, follow this activity sequence)
-------------------------------------------------------------
+Activities and their Average Performance:
+--------------------------------------------------
+A981                           : 3.390
+A1520                          : 3.210
+A241                           : 3.140
+A1381                          : 3.030
+A1592                          : 3.000
+A772                           : 2.850
+A765                           : 2.820
+A1615                          : 2.740
+A361                           : 2.670
+A1064                          : 2.570
+A889                           : 2.570
+A1300                          : 2.570
+A1731                          : 2.570
+A1485                          : 2.570
+A1664                          : 2.530
+A1743                          : 2.530
+A57                            : 2.490
+A1630                          : 2.490
+A328                           : 2.460
+A1498                          : 2.460
+A802                           : 2.450
+A1182                          : 2.430
+A1132                          : 2.420
+A1454                          : 2.420
+A446                           : 2.380
+A42                            : 2.350
+A813                           : 2.350
+A957                           : 2.350
+A799                           : 2.320
+A1448                          : 2.320
+A721                           : 2.310
+A875                           : 2.310
+A1493                          : 2.310
+A871                           : 2.280
+A1076                          : 2.280
+A884                           : 2.250
+A853                           : 2.240
+A458                           : 2.240
+A470                           : 2.240
+A1226                          : 2.240
+A454                           : 2.240
+A1646                          : 2.210
+A999                           : 2.210
+A341                           : 2.200
+A317                           : 2.200
+A249                           : 2.200
+A1040                          : 2.200
+A74                            : 2.200
+A81                            : 2.200
+A719                           : 2.170
+A729                           : 2.170
+A1337                          : 2.170
+A1467                          : 2.170
+A393                           : 2.140
+A531                           : 2.140
+A270                           : 2.140
+A343                           : 2.140
+A588                           : 2.130
+A1299                          : 2.130
+A261                           : 2.130
+A821                           : 2.130
+A385                           : 2.100
+A311                           : 2.100
+A302                           : 2.100
+A1117                          : 2.100
+A122                           : 2.100
+A1507                          : 2.100
+A1576                          : 2.100
+A1453                          : 2.070
+A1423                          : 2.060
+A1159                          : 2.030
+A715                           : 2.030
+A271                           : 2.020
+A1151                          : 2.020
+A798                           : 2.020
+A1419                          : 2.020
+A1225                          : 2.020
+A1756                          : 1.990
+A1124                          : 1.990
+A324                           : 1.990
+A918                           : 1.990
+A258                           : 1.990
+A1293                          : 1.990
+A1041                          : 1.980
+A1314                          : 1.980
+A420                           : 1.960
+A1591                          : 1.960
+A1127                          : 1.950
+A1558                          : 1.950
+A389                           : 1.920
+A269                           : 1.920
+A486                           : 1.920
+A708                           : 1.920
+A850                           : 1.920
+A895                           : 1.920
+A1179                          : 1.920
+A1695                          : 1.920
+A162                           : 1.910
+A237                           : 1.880
+A322                           : 1.880
+A1661                          : 1.880
+A38                            : 1.880
+A674                           : 1.880
+A658                           : 1.880
+A972                           : 1.880
+A511                           : 1.870
+A1307                          : 1.870
+A111                           : 1.850
+A334                           : 1.840
+A590                           : 1.840
+A1123                          : 1.840
+A1013                          : 1.840
+A447                           : 1.840
+A55                            : 1.840
+A596                           : 1.810
+A659                           : 1.810
+A669                           : 1.810
+A158                           : 1.810
+A1618                          : 1.810
+A1228                          : 1.810
+A226                           : 1.800
+A268                           : 1.770
+A3                             : 1.770
+A543                           : 1.770
+A845                           : 1.770
+A1135                          : 1.770
+A1187                          : 1.770
+A195                           : 1.740
+A384                           : 1.740
+A202                           : 1.740
+A686                           : 1.740
+A379                           : 1.730
+A1070                          : 1.730
+A1713                          : 1.730
+A94                            : 1.730
+A872                           : 1.710
+A96                            : 1.700
+A779                           : 1.700
+A614                           : 1.700
+A1475                          : 1.700
+A1290                          : 1.700
+A54                            : 1.670
+A1677                          : 1.670
+A1606                          : 1.670
+A1649                          : 1.660
+A1601                          : 1.640
+A239                           : 1.630
+A370                           : 1.630
+A219                           : 1.630
+A896                           : 1.630
+A286                           : 1.630
+A1075                          : 1.620
+A276                           : 1.590
+A386                           : 1.590
+A1162                          : 1.590
+A1622                          : 1.590
+A70                            : 1.560
+A86                            : 1.560
+A30                            : 1.560
+A701                           : 1.560
+A329                           : 1.550
+A1663                          : 1.550
+A223                           : 1.530
+A142                           : 1.520
+A131                           : 1.520
+A156                           : 1.520
+A347                           : 1.520
+A330                           : 1.520
+A31                            : 1.520
+A287                           : 1.510
+A557                           : 1.490
+A274                           : 1.480
+A90                            : 1.480
+A29                            : 1.480
+A667                           : 1.480
+A204                           : 1.450
+A35                            : 1.450
+A365                           : 1.450
+A703                           : 1.450
+A1354                          : 1.450
+A10                            : 1.450
+A841                           : 1.440
+A92                            : 1.410
+A367                           : 1.410
+A348                           : 1.380
+A977                           : 1.380
+A1171                          : 1.380
+A306                           : 1.370
+A637                           : 1.370
+A75                            : 1.350
+A194                           : 1.340
+A366                           : 1.340
+A662                           : 1.340
+A1001                          : 1.340
+A1032                          : 1.310
+A1603                          : 1.310
+A1254                          : 1.310
+A272                           : 1.300
+A1265                          : 1.300
+A1353                          : 1.300
+A1579                          : 1.300
+A529                           : 1.270
+A1267                          : 1.240
+A1748                          : 1.240
+A93                            : 1.230
+A869                           : 1.230
+A570                           : 1.230
+A1499                          : 1.200
+A1309                          : 1.200
+A262                           : 1.200
+A948                           : 1.200
+A1512                          : 1.190
+A1295                          : 1.160
+A1626                          : 1.160
+A78                            : 1.160
+A1310                          : 1.160
+A1223                          : 1.160
+A403                           : 1.130
+A1357                          : 1.120
+A1257                          : 1.120
+A273                           : 1.120
+A1028                          : 1.120
+A1678                          : 1.120
+A709                           : 1.090
+A1744                          : 1.090
+A461                           : 1.090
+A246                           : 1.090
+A479                           : 1.090
+A1584                          : 1.090
+A1235                          : 1.080
+A984                           : 1.060
+A1250                          : 1.060
+A1241                          : 1.060
+A410                           : 1.020
+A408                           : 1.020
+A1459                          : 1.020
+A620                           : 0.990
+A1633                          : 0.990
+A196                           : 0.990
+A1522                          : 0.990
+A542                           : 0.980
+A1096                          : 0.980
+A866                           : 0.950
+A307                           : 0.950
+A1614                          : 0.950
+A1002                          : 0.950
+A1682                          : 0.950
+A1415                          : 0.940
+A1072                          : 0.940
+A373                           : 0.910
+A289                           : 0.910
+A929                           : 0.880
+A1129                          : 0.880
+A718                           : 0.870
+A961                           : 0.870
+A905                           : 0.870
+A357                           : 0.860
+A934                           : 0.840
+A835                           : 0.840
+A350                           : 0.840
+A1458                          : 0.840
+A459                           : 0.830
+A809                           : 0.830
+A888                           : 0.800
+A1378                          : 0.800
+A1605                          : 0.800
+A976                           : 0.790
+A867                           : 0.770
+A1344                          : 0.770
+A105                           : 0.770
+A952                           : 0.760
+A577                           : 0.740
+A558                           : 0.700
+A615                           : 0.690
+A1277                          : 0.690
+A924                           : 0.690
+A781                           : 0.680
+A949                           : 0.670
+A808                           : 0.660
+A668                           : 0.660
+A71                            : 0.660
+A1384                          : 0.660
+A1521                          : 0.650
+A1410                          : 0.630
+A914                           : 0.620
+A135                           : 0.620
+A868                           : 0.620
+A1078                          : 0.620
+A1188                          : 0.620
+A1224                          : 0.620
+A514                           : 0.620
+A1696                          : 0.590
+A805                           : 0.590
+A193                           : 0.590
+A1213                          : 0.590
+A862                           : 0.580
+A1742                          : 0.580
+A778                           : 0.580
+A1221                          : 0.580
+A886                           : 0.580
+A1180                          : 0.580
+A228                           : 0.550
+A478                           : 0.550
+A656                           : 0.550
+A1468                          : 0.520
+A936                           : 0.510
+A118                           : 0.510
+A415                           : 0.510
+A1483                          : 0.510
+A1422                          : 0.480
+A1205                          : 0.480
+A671                           : 0.480
+A431                           : 0.480
+A1620                          : 0.480
+A1562                          : 0.480
+A1406                          : 0.470
+A818                           : 0.470
+A199                           : 0.450
+A493                           : 0.450
+A1156                          : 0.440
+A1647                          : 0.430
+A178                           : 0.410
+A309                           : 0.410
+A649                           : 0.400
+A1313                          : 0.400
+A973                           : 0.370
+A1650                          : 0.370
+A1019                          : 0.360
+A1571                          : 0.360
+A974                           : 0.340
+A1708                          : 0.340
+A1719                          : 0.330
+A1157                          : 0.330
+A1530                          : 0.330
+A849                           : 0.310
+A893                           : 0.300
+A1284                          : 0.290
+A82                            : 0.260
+A1215                          : 0.260
+A1752                          : 0.260
+A1388                          : 0.250
+A1463                          : 0.220
+A1720                          : 0.210
+--------------------------------------------------
 
-EPISODE 1:
-   1. A341 (Performance: 2.20)
-      Mastery impacts:
-        L1: 0.022 (+0.022)
-   2. A329 (Performance: 1.55)
-      Mastery impacts:
-        L1: 0.038 (+0.016)
-   3. A57 (Performance: 2.49)
-      Mastery impacts:
-        L1: 0.062 (+0.025)
-   4. A393 (Performance: 2.14)
-      Mastery impacts:
-        L1: 0.084 (+0.021)
-   5. A271 (Performance: 2.02)
-      Mastery impacts:
-        L1: 0.104 (+0.020)
-   6. A302 (Performance: 2.10)
-      Mastery impacts:
-        L1: 0.125 (+0.021)
-   7. A42 (Performance: 2.35)
-      Mastery impacts:
-        L1: 0.148 (+0.023)
-   8. A334 (Performance: 1.84)
-      Mastery impacts:
-        L1: 0.167 (+0.018)
-   9. A162 (Performance: 1.91)
-      Mastery impacts:
-        L1: 0.186 (+0.019)
-  10. A322 (Performance: 1.88)
-      Mastery impacts:
-        L1: 0.205 (+0.019)
-  11. A202 (Performance: 1.74)
-      Mastery impacts:
-        L1: 0.222 (+0.017)
-  12. A70 (Performance: 1.56)
-      Mastery impacts:
-        L1: 0.238 (+0.016)
-  13. A171 (Performance: 1.74)
-      Mastery impacts:
-        L1: 0.255 (+0.017)
-  14. A311 (Performance: 2.10)
-      Mastery impacts:
-        L1: 0.276 (+0.021)
-  15. A223 (Performance: 1.53)
-      Mastery impacts:
-        L1: 0.292 (+0.015)
-  16. A268 (Performance: 1.77)
-      Mastery impacts:
-        L1: 0.309 (+0.018)
-  17. A239 (Performance: 1.63)
-      Mastery impacts:
-        L1: 0.326 (+0.016)
-  18. A385 (Performance: 2.10)
-      Mastery impacts:
-        L1: 0.346 (+0.021)
-  19. A86 (Performance: 1.56)
-      Mastery impacts:
-        L1: 0.362 (+0.016)
-  20. A384 (Performance: 1.74)
-      Mastery impacts:
-        L1: 0.380 (+0.017)
-  21. A389 (Performance: 1.92)
-      Mastery impacts:
-        L1: 0.399 (+0.019)
-  22. A276 (Performance: 1.59)
-      Mastery impacts:
-        L1: 0.415 (+0.016)
-  23. A269 (Performance: 1.92)
-      Mastery impacts:
-        L1: 0.434 (+0.019)
-  24. A342 (Performance: 1.52)
-      Mastery impacts:
-        L1: 0.449 (+0.015)
-  25. A274 (Performance: 1.48)
-      Mastery impacts:
-        L1: 0.464 (+0.015)
-  26. A142 (Performance: 1.52)
-      Mastery impacts:
-        L1: 0.479 (+0.015)
-  27. A35 (Performance: 1.45)
-      Mastery impacts:
-        L1: 0.494 (+0.014)
-  28. A90 (Performance: 1.48)
-      Mastery impacts:
-        L1: 0.508 (+0.015)
-  29. A96 (Performance: 1.70)
-      Mastery impacts:
-        L1: 0.525 (+0.017)
-  30. A3 (Performance: 1.77)
-      Mastery impacts:
-        L1: 0.543 (+0.018)
-  31. A219 (Performance: 1.63)
-      Mastery impacts:
-        L1: 0.559 (+0.016)
-  32. A92 (Performance: 1.41)
-      Mastery impacts:
-        L1: 0.573 (+0.014)
-  33. A204 (Performance: 1.45)
-      Mastery impacts:
-        L1: 0.588 (+0.014)
-  34. A54 (Performance: 1.67)
-      Mastery impacts:
-        L1: 0.605 (+0.017)
-  35. A370 (Performance: 1.63)
-      Mastery impacts:
-        L1: 0.621 (+0.016)
-  36. A287 (Performance: 1.51)
-      Mastery impacts:
-        L1: 0.636 (+0.015)
-  37. A365 (Performance: 1.45)
-      Mastery impacts:
-        L1: 0.650 (+0.015)
-  38. A112 (Performance: 1.60)
-      Mastery impacts:
-        L1: 0.666 (+0.016)
-  39. A40 (Performance: 1.27)
-      Mastery impacts:
-        L1: 0.679 (+0.013)
-  40. A195 (Performance: 1.74)
-      Mastery impacts:
-        L1: 0.697 (+0.017)
-  41. A165 (Performance: 1.13)
-      Mastery impacts:
-        L1: 0.708 (+0.011)
-  42. A131 (Performance: 1.52)
-      Mastery impacts:
-        L1: 0.723 (+0.015)
-  43. A237 (Performance: 1.88)
-      Mastery impacts:
-        L1: 0.742 (+0.019)
-  44. A260 (Performance: 1.33)
-      Mastery impacts:
-        L1: 0.755 (+0.013)
-  45. A386 (Performance: 1.59)
-      Mastery impacts:
-        L1: 0.771 (+0.016)
-  46. A127 (Performance: 1.34)
-      Mastery impacts:
-        L1: 0.784 (+0.013)
-  47. A203 (Performance: 1.12)
-      Mastery impacts:
-        L1: 0.796 (+0.011)
-  48. A361 (Performance: 2.67)
-      Mastery impacts:
-        L1: 0.817 (+0.021)
-        L2: 0.005 (+0.005)
-  49. A719 (Performance: 2.17)
-      Mastery impacts:
-        L2: 0.027 (+0.022)
-  50. A772 (Performance: 2.85)
-      Mastery impacts:
-        L2: 0.056 (+0.028)
-  51. A231 (Performance: 2.60)
-      Mastery impacts:
-        L1: 0.840 (+0.023)
-        L2: 0.058 (+0.003)
-  52. A799 (Performance: 2.32)
-      Mastery impacts:
-        L2: 0.082 (+0.023)
-  53. A765 (Performance: 2.82)
-      Mastery impacts:
-        L2: 0.110 (+0.028)
-  54. A38 (Performance: 1.88)
-      Mastery impacts:
-        L1: 0.857 (+0.017)
-        L2: 0.112 (+0.002)
-  55. A721 (Performance: 2.31)
-      Mastery impacts:
-        L2: 0.135 (+0.023)
-  56. A1646 (Performance: 2.21)
-      Mastery impacts:
-        L1: 0.866 (+0.009)
-        L2: 0.148 (+0.013)
-  57. A511 (Performance: 1.87)
-      Mastery impacts:
-        L2: 0.167 (+0.019)
-  58. A553 (Performance: 2.13)
-      Mastery impacts:
-        L2: 0.188 (+0.021)
-  59. A678 (Performance: 1.77)
-      Mastery impacts:
-        L2: 0.206 (+0.018)
-  60. A486 (Performance: 1.92)
-      Mastery impacts:
-        L2: 0.225 (+0.019)
-  61. A543 (Performance: 1.77)
-      Mastery impacts:
-        L2: 0.243 (+0.018)
-  62. A1700 (Performance: 1.77)
-      Mastery impacts:
-        L1: 0.874 (+0.008)
-        L2: 0.252 (+0.009)
-  63. A685 (Performance: 1.45)
-      Mastery impacts:
-        L1: 0.877 (+0.003)
-        L2: 0.264 (+0.012)
-  64. A644 (Performance: 1.77)
-      Mastery impacts:
-        L2: 0.281 (+0.018)
-  65. A779 (Performance: 1.70)
-      Mastery impacts:
-        L1: 0.881 (+0.004)
-        L2: 0.294 (+0.013)
-  66. A249 (Performance: 2.20)
-      Mastery impacts:
-        L1: 0.897 (+0.015)
-        L2: 0.301 (+0.007)
-  67. A317 (Performance: 2.20)
-      Mastery impacts:
-        L1: 0.909 (+0.013)
-        L2: 0.310 (+0.009)
-  68. A669 (Performance: 1.81)
-      Mastery impacts:
-        L2: 0.328 (+0.018)
-  69. A1684 (Performance: 1.62)
-      Mastery impacts:
-        L1: 0.918 (+0.008)
-        L2: 0.336 (+0.008)
-  70. A623 (Performance: 1.82)
-      Mastery impacts:
-        L2: 0.354 (+0.018)
-  71. A1661 (Performance: 1.88)
-      Mastery impacts:
-        L1: 0.921 (+0.003)
-        L2: 0.370 (+0.016)
-  72. A672 (Performance: 1.53)
-      Mastery impacts:
-        L2: 0.385 (+0.015)
-  73. A784 (Performance: 1.77)
-      Mastery impacts:
-        L2: 0.403 (+0.018)
-  74. A596 (Performance: 1.81)
-      Mastery impacts:
-        L2: 0.421 (+0.018)
-  75. A508 (Performance: 1.77)
-      Mastery impacts:
-        L2: 0.439 (+0.018)
-  76. A783 (Performance: 1.66)
-      Mastery impacts:
-        L2: 0.455 (+0.017)
-  77. A150 (Performance: 1.81)
-      Mastery impacts:
-        L1: 0.935 (+0.014)
-        L2: 0.459 (+0.004)
-  78. A701 (Performance: 1.56)
-      Mastery impacts:
-        L2: 0.475 (+0.016)
-  79. A531 (Performance: 2.14)
-      Mastery impacts:
-        L1: 0.945 (+0.010)
-        L2: 0.486 (+0.011)
-  80. A633 (Performance: 1.20)
-      Mastery impacts:
-        L2: 0.498 (+0.012)
-  81. A981 (Performance: 3.39)
-      Mastery impacts:
-        L1: 0.953 (+0.008)
-        L3: 0.026 (+0.026)
-  82. A1664 (Performance: 2.53)
-      Mastery impacts:
-        L1: 0.960 (+0.007)
-        L3: 0.044 (+0.018)
-  83. A241 (Performance: 3.14)
-      Mastery impacts:
-        L1: 0.976 (+0.016)
-        L3: 0.059 (+0.015)
-  84. A902 (Performance: 1.88)
-      Mastery impacts:
-        L3: 0.078 (+0.019)
-  85. A853 (Performance: 2.24)
-      Mastery impacts:
-        L3: 0.101 (+0.022)
-  86. A324 (Performance: 1.99)
-      Mastery impacts:
-        L1: 0.991 (+0.015)
-        L3: 0.106 (+0.005)
-  87. A458 (Performance: 2.24)
-      Mastery impacts:
-        L1: 0.997 (+0.006)
-        L2: 0.511 (+0.013)
-        L3: 0.110 (+0.004)
-  88. A889 (Performance: 2.57)
-      Mastery impacts:
-        L3: 0.136 (+0.026)
-  89. A1064 (Performance: 2.57)
-      Mastery impacts:
-        L3: 0.161 (+0.026)
-  90. A1739 (Performance: 2.28)
-      Mastery impacts:
-        L1: 1.000 (+0.003)
-        L2: 0.517 (+0.006)
-        L3: 0.164 (+0.003)
-  91. A1182 (Performance: 2.43)
-      Mastery impacts:
-        L3: 0.188 (+0.024)
-  92. A446 (Performance: 2.38)
-      Mastery impacts:
-        L2: 0.537 (+0.020)
-        L3: 0.190 (+0.002)
-  93. A1132 (Performance: 2.42)
-      Mastery impacts:
-        L3: 0.214 (+0.024)
-  94. A957 (Performance: 2.35)
-      Mastery impacts:
-        L2: 0.543 (+0.006)
-        L3: 0.228 (+0.013)
-  95. A1063 (Performance: 1.84)
-      Mastery impacts:
-        L3: 0.246 (+0.018)
-  96. A875 (Performance: 2.31)
-      Mastery impacts:
-        L3: 0.269 (+0.023)
-  97. A1093 (Performance: 1.80)
-      Mastery impacts:
-        L3: 0.287 (+0.018)
-  98. A813 (Performance: 2.35)
-      Mastery impacts:
-        L3: 0.300 (+0.013)
-  99. A1716 (Performance: 1.91)
-      Mastery impacts:
-        L2: 0.545 (+0.002)
-        L3: 0.318 (+0.017)
-  100. A988 (Performance: 1.84)
-      Mastery impacts:
-        L2: 0.547 (+0.002)
-        L3: 0.330 (+0.013)
-  101. A406 (Performance: 1.91)
-      Mastery impacts:
-        L2: 0.562 (+0.015)
-        L3: 0.335 (+0.005)
-  102. A918 (Performance: 1.99)
-      Mastery impacts:
-        L2: 0.565 (+0.003)
-        L3: 0.351 (+0.016)
-  103. A470 (Performance: 2.24)
-      Mastery impacts:
-        L2: 0.585 (+0.019)
-        L3: 0.354 (+0.003)
-  104. A1040 (Performance: 2.20)
-      Mastery impacts:
-        L3: 0.376 (+0.022)
-  105. A1756 (Performance: 1.99)
-      Mastery impacts:
-        L3: 0.395 (+0.019)
-  106. A420 (Performance: 1.96)
-      Mastery impacts:
-        L2: 0.596 (+0.011)
-        L3: 0.400 (+0.005)
-  107. A1124 (Performance: 1.99)
-      Mastery impacts:
-        L3: 0.420 (+0.020)
-  108. A999 (Performance: 2.21)
-      Mastery impacts:
-        L3: 0.442 (+0.022)
-  109. A1117 (Performance: 2.10)
-      Mastery impacts:
-        L3: 0.457 (+0.015)
-  110. A1714 (Performance: 1.62)
-      Mastery impacts:
-        L3: 0.473 (+0.016)
-  111. A1013 (Performance: 1.84)
-      Mastery impacts:
-        L3: 0.492 (+0.018)
-  112. A884 (Performance: 2.25)
-      Mastery impacts:
-        L3: 0.514 (+0.022)
-  113. A658 (Performance: 1.88)
-      Mastery impacts:
-        L2: 0.611 (+0.015)
-        L3: 0.518 (+0.004)
-  114. A895 (Performance: 1.92)
-      Mastery impacts:
-        L3: 0.532 (+0.014)
-  115. A1104 (Performance: 1.92)
-      Mastery impacts:
-        L3: 0.552 (+0.019)
-  116. A1031 (Performance: 1.88)
-      Mastery impacts:
-        L3: 0.561 (+0.009)
-  117. A871 (Performance: 2.28)
-      Mastery impacts:
-        L3: 0.575 (+0.014)
-  118. A1143 (Performance: 1.52)
-      Mastery impacts:
-        L2: 0.616 (+0.005)
-        L3: 0.585 (+0.010)
-  119. A872 (Performance: 1.71)
-      Mastery impacts:
-        L3: 0.597 (+0.012)
-  120. A1151 (Performance: 2.02)
-      Mastery impacts:
-        L3: 0.607 (+0.011)
-  121. A834 (Performance: 1.92)
-      Mastery impacts:
-        L3: 0.627 (+0.019)
-  122. A1010 (Performance: 1.77)
-      Mastery impacts:
-        L3: 0.640 (+0.014)
-  123. A1498 (Performance: 2.46)
-      Mastery impacts:
-        L2: 0.620 (+0.004)
-        L4: 0.021 (+0.021)
-  124. A1485 (Performance: 2.57)
-      Mastery impacts:
-        L4: 0.046 (+0.026)
-  125. A328 (Performance: 2.46)
-      Mastery impacts:
-        L4: 0.050 (+0.003)
-  126. A1381 (Performance: 3.03)
-      Mastery impacts:
-        L4: 0.080 (+0.030)
-  127. A1520 (Performance: 3.21)
-      Mastery impacts:
-        L4: 0.112 (+0.032)
-  128. A1592 (Performance: 3.00)
-      Mastery impacts:
-        L4: 0.129 (+0.017)
-  129. A1375 (Performance: 2.31)
-      Mastery impacts:
-        L4: 0.152 (+0.023)
-  130. A1731 (Performance: 2.57)
-      Mastery impacts:
-        L2: 0.637 (+0.016)
-        L3: 0.643 (+0.002)
-        L4: 0.160 (+0.007)
-  131. A1448 (Performance: 2.32)
-      Mastery impacts:
-        L3: 0.650 (+0.008)
-        L4: 0.175 (+0.015)
-  132. A1528 (Performance: 1.66)
-      Mastery impacts:
-        L4: 0.192 (+0.017)
-  133. A1630 (Performance: 2.49)
-      Mastery impacts:
-        L2: 0.651 (+0.014)
-        L3: 0.657 (+0.007)
-        L4: 0.196 (+0.004)
-  134. A1454 (Performance: 2.42)
-      Mastery impacts:
-        L4: 0.210 (+0.014)
-  135. A1615 (Performance: 2.74)
-      Mastery impacts:
-        L3: 0.668 (+0.011)
-        L4: 0.214 (+0.004)
-  136. A81 (Performance: 2.20)
-      Mastery impacts:
-        L2: 0.655 (+0.004)
-        L4: 0.217 (+0.003)
-  137. A1486 (Performance: 1.93)
-      Mastery impacts:
-        L3: 0.673 (+0.005)
-        L4: 0.231 (+0.014)
-  138. A1558 (Performance: 1.95)
-      Mastery impacts:
-        L2: 0.658 (+0.003)
-        L4: 0.241 (+0.010)
-  139. A1300 (Performance: 2.57)
-      Mastery impacts:
-        L4: 0.267 (+0.026)
-  140. A1507 (Performance: 2.10)
-      Mastery impacts:
-        L4: 0.288 (+0.021)
-  141. A1453 (Performance: 2.07)
-      Mastery impacts:
-        L2: 0.661 (+0.004)
-        L3: 0.676 (+0.003)
-        L4: 0.302 (+0.014)
-  142. A254 (Performance: 1.92)
-      Mastery impacts:
-        L4: 0.303 (+0.002)
-  143. A270 (Performance: 2.14)
-      Mastery impacts:
-        L4: 0.309 (+0.006)
-  144. A248 (Performance: 1.95)
-      Mastery impacts:
-        L4: 0.318 (+0.008)
-  145. A1743 (Performance: 2.53)
-      Mastery impacts:
-        L3: 0.682 (+0.006)
-        L4: 0.328 (+0.010)
-  146. A1299 (Performance: 2.13)
-      Mastery impacts:
-        L2: 0.670 (+0.007)
-        L4: 0.342 (+0.014)
-  147. A821 (Performance: 2.13)
-      Mastery impacts:
-        L3: 0.700 (+0.018)
-        L4: 0.344 (+0.003)
-  148. A802 (Performance: 2.45)
-      Mastery impacts:
-        L3: 0.714 (+0.014)
-        L4: 0.349 (+0.004)
-  149. A447 (Performance: 1.84)
-      Mastery impacts:
-        L2: 0.685 (+0.014)
-  150. A336 (Performance: 1.66)
-      Mastery impacts:
-        L2: 0.689 (+0.005)
-        L4: 0.353 (+0.003)
-  151. A1225 (Performance: 2.02)
-      Mastery impacts:
-        L2: 0.693 (+0.003)
-        L3: 0.717 (+0.003)
-        L4: 0.366 (+0.014)
-  152. A1127 (Performance: 1.95)
-      Mastery impacts:
-        L3: 0.732 (+0.015)
-        L4: 0.371 (+0.004)
-  153. A1576 (Performance: 2.10)
-      Mastery impacts:
-        L4: 0.388 (+0.017)
-  154. A1159 (Performance: 2.03)
-      Mastery impacts:
-        L2: 0.696 (+0.003)
-        L3: 0.748 (+0.015)
-        L4: 0.389 (+0.002)
-  155. A261 (Performance: 2.13)
-      Mastery impacts:
-        L4: 0.394 (+0.005)
-  156. A1226 (Performance: 2.24)
-      Mastery impacts:
-        L2: 0.703 (+0.007)
-        L4: 0.406 (+0.012)
-  157. A412 (Performance: 1.49)
-      Mastery impacts:
-        L2: 0.711 (+0.009)
-        L4: 0.412 (+0.006)
-  158. A343 (Performance: 2.14)
-      Mastery impacts:
-        L4: 0.418 (+0.006)
-  159. A84 (Performance: 1.88)
-      Mastery impacts:
-        L4: 0.425 (+0.007)
-  160. A454 (Performance: 2.24)
-      Mastery impacts:
-        L2: 0.725 (+0.014)
-        L4: 0.433 (+0.008)
-  161. A122 (Performance: 2.10)
-      Mastery impacts:
-        L4: 0.441 (+0.008)
-  162. A1329 (Performance: 2.07)
-      Mastery impacts:
-        L3: 0.755 (+0.007)
-        L4: 0.455 (+0.014)
-  163. A1234 (Performance: 1.99)
-      Mastery impacts:
-        L4: 0.475 (+0.020)
-  164. A697 (Performance: 1.41)
-      Mastery impacts:
-        L2: 0.735 (+0.010)
-        L4: 0.479 (+0.004)
-  165. A545 (Performance: 1.73)
-      Mastery impacts:
-        L2: 0.744 (+0.009)
-        L4: 0.487 (+0.008)
-  166. A1419 (Performance: 2.02)
-      Mastery impacts:
-        L4: 0.508 (+0.020)
-  167. A828 (Performance: 1.31)
-      Mastery impacts:
-        L3: 0.765 (+0.010)
-  168. A1177 (Performance: 1.16)
-      Mastery impacts:
-        L3: 0.776 (+0.012)
-  169. A1407 (Performance: 0.48)
-      Mastery impacts:
-        L4: 0.511 (+0.003)
-  170. A916 (Performance: 1.41)
-      Mastery impacts:
-        L3: 0.791 (+0.014)
-  171. A938 (Performance: 0.87)
-      Mastery impacts:
-        L3: 0.798 (+0.007)
-        L4: 0.513 (+0.002)
-  172. A966 (Performance: 0.55)
-      Mastery impacts:
-        L3: 0.803 (+0.005)
-  173. A998 (Performance: 1.13)
-      Mastery impacts:
-        L3: 0.815 (+0.011)
-  174. A570 (Performance: 1.23)
-      Mastery impacts:
-        L2: 0.752 (+0.007)
-        L3: 0.818 (+0.003)
-  175. A691 (Performance: 0.99)
-      Mastery impacts:
-        L2: 0.757 (+0.005)
-        L3: 0.822 (+0.004)
-  176. A22 (Performance: 0.62)
-      Mastery impacts:
-        L3: 0.825 (+0.003)
-  177. A527 (Performance: 1.16)
-      Mastery impacts:
-        L2: 0.765 (+0.008)
-  178. A443 (Performance: 0.62)
-      Mastery impacts:
-        L2: 0.771 (+0.006)
-  179. A1709 (Performance: 1.37)
-      Mastery impacts:
-        L3: 0.837 (+0.012)
-  180. A634 (Performance: 1.67)
-      Mastery impacts:
-        L2: 0.785 (+0.014)
-        L4: 0.515 (+0.003)
-  181. A892 (Performance: 0.95)
-      Mastery impacts:
-        L3: 0.846 (+0.010)
-  182. A1045 (Performance: 1.30)
-      Mastery impacts:
-        L2: 0.791 (+0.006)
-        L3: 0.853 (+0.007)
-  183. A801 (Performance: 0.65)
-      Mastery impacts:
-        L3: 0.860 (+0.007)
-  184. A670 (Performance: 0.91)
-      Mastery impacts:
-        L2: 0.797 (+0.006)
-        L3: 0.862 (+0.002)
-  185. A1305 (Performance: 1.06)
-      Mastery impacts:
-        L4: 0.522 (+0.007)
-  186. A33 (Performance: 1.20)
-      Mastery impacts:
-        L3: 0.865 (+0.003)
-  187. A355 (Performance: 0.37)
-  188. A1304 (Performance: 0.98)
-      Mastery impacts:
-        L4: 0.533 (+0.010)
-  189. A130 (Performance: 1.13)
-      Mastery impacts:
-        L3: 0.867 (+0.002)
-  190. A936 (Performance: 0.51)
-      Mastery impacts:
-        L3: 0.871 (+0.004)
-  191. A362 (Performance: 1.31)
-  192. A1236 (Performance: 1.62)
-      Mastery impacts:
-        L2: 0.803 (+0.005)
-        L4: 0.546 (+0.012)
-  193. A1082 (Performance: 0.30)
-      Mastery impacts:
-        L3: 0.875 (+0.003)
-  194. A542 (Performance: 0.98)
-      Mastery impacts:
-        L2: 0.808 (+0.005)
-        L3: 0.879 (+0.005)
-  195. A123 (Performance: 0.62)
-  196. A472 (Performance: 0.77)
-      Mastery impacts:
-        L2: 0.813 (+0.005)
-        L3: 0.883 (+0.002)
-  197. A106 (Performance: 0.95)
-      Mastery impacts:
-        L3: 0.884 (+0.002)
-  198. A1540 (Performance: 0.48)
-      Mastery impacts:
-        L4: 0.550 (+0.004)
-  199. A1144 (Performance: 1.20)
-      Mastery impacts:
-        L3: 0.896 (+0.012)
-  200. A16 (Performance: 0.62)
-  201. A975 (Performance: 1.05)
-      Mastery impacts:
-        L3: 0.903 (+0.007)
-  202. A992 (Performance: 0.45)
-      Mastery impacts:
-        L3: 0.908 (+0.005)
-  203. A484 (Performance: 0.36)
-      Mastery impacts:
-        L2: 0.816 (+0.002)
-  204. A1108 (Performance: 1.42)
-      Mastery impacts:
-        L3: 0.923 (+0.014)
-  205. A885 (Performance: 1.30)
-      Mastery impacts:
-        L2: 0.821 (+0.005)
-        L3: 0.931 (+0.008)
-  206. A924 (Performance: 0.69)
-      Mastery impacts:
-        L3: 0.935 (+0.004)
-  207. A694 (Performance: 1.09)
-      Mastery impacts:
-        L2: 0.833 (+0.011)
-  208. A1015 (Performance: 1.24)
-      Mastery impacts:
-        L3: 0.947 (+0.012)
-  209. A79 (Performance: 0.80)
-      Mastery impacts:
-        L3: 0.951 (+0.004)
-  210. A1464 (Performance: 0.73)
-      Mastery impacts:
-        L4: 0.558 (+0.007)
-  211. A1295 (Performance: 1.16)
-      Mastery impacts:
-        L4: 0.567 (+0.009)
-  212. A1178 (Performance: 1.02)
-      Mastery impacts:
-        L2: 0.837 (+0.002)
-        L3: 0.960 (+0.008)
-  213. A948 (Performance: 1.20)
-      Mastery impacts:
-        L3: 0.967 (+0.008)
-        L4: 0.571 (+0.003)
-  214. A934 (Performance: 0.84)
-      Mastery impacts:
-        L3: 0.972 (+0.005)
-  215. A576 (Performance: 1.01)
-      Mastery impacts:
-        L2: 0.845 (+0.008)
-        L4: 0.573 (+0.002)
-  216. A935 (Performance: 0.54)
-      Mastery impacts:
-        L3: 0.979 (+0.005)
-  217. A1696 (Performance: 0.59)
-      Mastery impacts:
-        L3: 0.982 (+0.003)
-  218. A154 (Performance: 1.06)
-      Mastery impacts:
-        L2: 0.848 (+0.003)
-        L4: 0.575 (+0.002)
-  219. A829 (Performance: 1.31)
-      Mastery impacts:
-        L3: 0.993 (+0.011)
-  220. A431 (Performance: 0.48)
-      Mastery impacts:
-        L2: 0.851 (+0.003)
-        L3: 0.995 (+0.002)
-  221. A558 (Performance: 0.70)
-      Mastery impacts:
-        L2: 0.857 (+0.006)
-  222. A1418 (Performance: 1.38)
-      Mastery impacts:
-        L4: 0.584 (+0.009)
-  223. A881 (Performance: 0.37)
-      Mastery impacts:
-        L3: 0.999 (+0.004)
-  224. A1324 (Performance: 1.49)
-      Mastery impacts:
-        L4: 0.596 (+0.013)
-  225. A113 (Performance: 1.26)
-  226. A668 (Performance: 0.66)
-      Mastery impacts:
-        L2: 0.865 (+0.006)
-  227. A775 (Performance: 1.05)
-      Mastery impacts:
-        L2: 0.874 (+0.009)
-  228. A1543 (Performance: 1.27)
-      Mastery impacts:
-        L4: 0.604 (+0.008)
-  229. A1748 (Performance: 1.24)
-      Mastery impacts:
-        L2: 0.879 (+0.005)
-  230. A1574 (Performance: 1.27)
-      Mastery impacts:
-        L4: 0.617 (+0.013)
-  231. A554 (Performance: 1.23)
-      Mastery impacts:
-        L2: 0.889 (+0.011)
-  232. A917 (Performance: 0.84)
-  233. A947 (Performance: 0.48)
-  234. A1207 (Performance: 0.77)
-      Mastery impacts:
-        L4: 0.622 (+0.005)
-  235. A1440 (Performance: 1.51)
-      Mastery impacts:
-        L4: 0.631 (+0.008)
-  236. A208 (Performance: 1.16)
-      Mastery impacts:
-        L2: 0.893 (+0.003)
-  237. A560 (Performance: 0.44)
-      Mastery impacts:
-        L2: 0.897 (+0.004)
-  238. A471 (Performance: 1.42)
-      Mastery impacts:
-        L2: 0.905 (+0.008)
-        L4: 0.638 (+0.006)
-  239. A1095 (Performance: 0.62)
-  240. A586 (Performance: 0.61)
-      Mastery impacts:
-        L2: 0.912 (+0.006)
-  241. A1319 (Performance: 1.06)
-      Mastery impacts:
-        L2: 0.914 (+0.002)
-        L4: 0.646 (+0.008)
-  242. A98 (Performance: 0.69)
-  243. A338 (Performance: 0.80)
-  244. A737 (Performance: 0.72)
-      Mastery impacts:
-        L2: 0.921 (+0.005)
-  245. A1256 (Performance: 0.52)
-      Mastery impacts:
-        L4: 0.652 (+0.005)
-  246. A837 (Performance: 0.69)
-  247. A1072 (Performance: 0.94)
-  248. A593 (Performance: 0.77)
-      Mastery impacts:
-        L2: 0.930 (+0.008)
-  249. A629 (Performance: 1.05)
-      Mastery impacts:
-        L2: 0.939 (+0.009)
-  250. A547 (Performance: 1.02)
-      Mastery impacts:
-        L2: 0.947 (+0.008)
-        L4: 0.654 (+0.002)
-  251. A1026 (Performance: 0.94)
-      Mastery impacts:
-        L2: 0.950 (+0.002)
-  252. A749 (Performance: 0.66)
-      Mastery impacts:
-        L2: 0.956 (+0.007)
-  253. A700 (Performance: 1.48)
-      Mastery impacts:
-        L2: 0.965 (+0.009)
-  254. A307 (Performance: 0.95)
-      Mastery impacts:
-        L2: 0.968 (+0.003)
-  255. A1373 (Performance: 1.31)
-      Mastery impacts:
-        L4: 0.667 (+0.013)
-  256. A790 (Performance: 0.69)
-      Mastery impacts:
-        L2: 0.974 (+0.006)
-  257. A1516 (Performance: 1.19)
-      Mastery impacts:
-        L4: 0.674 (+0.007)
-  258. A532 (Performance: 0.29)
-      Mastery impacts:
-        L2: 0.976 (+0.002)
-  259. A234 (Performance: 1.38)
-      Mastery impacts:
-        L4: 0.681 (+0.007)
-  260. A1596 (Performance: 1.09)
-      Mastery impacts:
-        L4: 0.689 (+0.008)
-  261. A733 (Performance: 1.16)
-      Mastery impacts:
-        L2: 0.985 (+0.009)
-  262. A478 (Performance: 0.55)
-      Mastery impacts:
-        L2: 0.989 (+0.004)
-  263. A718 (Performance: 0.87)
-      Mastery impacts:
-        L2: 0.996 (+0.007)
-  264. A1690 (Performance: 1.44)
-      Mastery impacts:
-        L4: 0.691 (+0.002)
-  265. A1546 (Performance: 1.59)
-      Mastery impacts:
-        L4: 0.701 (+0.010)
-  266. A402 (Performance: 0.94)
-      Mastery impacts:
-        L2: 1.000 (+0.004)
-  267. A1757 (Performance: 1.37)
-      Mastery impacts:
-        L4: 0.709 (+0.008)
-  268. A1097 (Performance: 0.55)
-  269. A284 (Performance: 0.87)
-  270. A863 (Performance: 0.38)
-  271. A1217 (Performance: 0.34)
-      Mastery impacts:
-        L4: 0.714 (+0.003)
-  272. A400 (Performance: 1.55)
-      Mastery impacts:
-        L4: 0.716 (+0.002)
-  273. A1099 (Performance: 1.59)
-      Mastery impacts:
-        L4: 0.718 (+0.002)
-  274. A1658 (Performance: 0.69)
-  275. A242 (Performance: 0.37)
-  276. A323 (Performance: 0.30)
-  277. A1414 (Performance: 0.80)
-      Mastery impacts:
-        L4: 0.727 (+0.007)
-  278. A663 (Performance: 1.49)
-      Mastery impacts:
-        L4: 0.729 (+0.002)
-  279. A206 (Performance: 0.65)
-  280. A1561 (Performance: 1.48)
-      Mastery impacts:
-        L4: 0.741 (+0.011)
-  281. A298 (Performance: 1.38)
-      Mastery impacts:
-        L4: 0.747 (+0.006)
-  282. A1056 (Performance: 0.98)
-      Mastery impacts:
-        L4: 0.750 (+0.003)
-  283. A1203 (Performance: 0.95)
-      Mastery impacts:
-        L4: 0.759 (+0.010)
-  284. A1168 (Performance: 0.80)
-  285. A793 (Performance: 1.34)
-      Mastery impacts:
-        L4: 0.763 (+0.003)
-  286. A1707 (Performance: 1.27)
-      Mastery impacts:
-        L4: 0.770 (+0.007)
-  287. A1505 (Performance: 1.24)
-      Mastery impacts:
-        L4: 0.780 (+0.010)
-  288. A630 (Performance: 0.33)
-  289. A1328 (Performance: 0.40)
-      Mastery impacts:
-        L4: 0.785 (+0.004)
-  290. A297 (Performance: 0.70)
-  291. A1480 (Performance: 0.66)
-      Mastery impacts:
-        L4: 0.789 (+0.004)
-  292. A509 (Performance: 1.16)
-  293. A174 (Performance: 1.48)
-  294. A843 (Performance: 1.23)
-      Mastery impacts:
-        L4: 0.795 (+0.005)
-  295. A44 (Performance: 0.80)
-  296. A1626 (Performance: 1.16)
-      Mastery impacts:
-        L4: 0.800 (+0.004)
-  297. A77 (Performance: 0.95)
-      Mastery impacts:
-        L4: 0.803 (+0.003)
-  298. A946 (Performance: 0.44)
-  299. A823 (Performance: 1.08)
-  300. A1325 (Performance: 1.20)
-      Mastery impacts:
-        L4: 0.817 (+0.012)
-  301. A1445 (Performance: 0.72)
-      Mastery impacts:
-        L4: 0.820 (+0.004)
-  302. A1638 (Performance: 1.56)
-      Mastery impacts:
-        L4: 0.830 (+0.009)
-  303. A1589 (Performance: 1.06)
-      Mastery impacts:
-        L4: 0.840 (+0.011)
-  304. A1126 (Performance: 1.48)
-      Mastery impacts:
-        L4: 0.843 (+0.003)
-  305. A1388 (Performance: 0.25)
-      Mastery impacts:
-        L4: 0.846 (+0.002)
-  306. A1610 (Performance: 1.67)
-      Mastery impacts:
-        L4: 0.855 (+0.010)
-  307. A959 (Performance: 0.74)
-      Mastery impacts:
-        L4: 0.857 (+0.002)
-  308. A1565 (Performance: 0.99)
-      Mastery impacts:
-        L4: 0.867 (+0.010)
-  309. A1482 (Performance: 0.48)
-      Mastery impacts:
-        L4: 0.872 (+0.005)
-  310. A1437 (Performance: 0.59)
-      Mastery impacts:
-        L4: 0.878 (+0.006)
-  311. A1530 (Performance: 0.33)
-      Mastery impacts:
-        L4: 0.881 (+0.003)
-  312. A886 (Performance: 0.58)
-  313. A1223 (Performance: 1.16)
-      Mastery impacts:
-        L4: 0.893 (+0.012)
-  314. A970 (Performance: 0.80)
-      Mastery impacts:
-        L4: 0.895 (+0.003)
-  315. A1551 (Performance: 0.44)
-      Mastery impacts:
-        L4: 0.900 (+0.004)
-  316. A1521 (Performance: 0.65)
-      Mastery impacts:
-        L4: 0.904 (+0.004)
-  317. A942 (Performance: 0.31)
-  318. A928 (Performance: 1.05)
-  319. A147 (Performance: 0.83)
-  320. A1087 (Performance: 0.73)
-  321. A1628 (Performance: 0.59)
-      Mastery impacts:
-        L4: 0.910 (+0.002)
-  322. A1415 (Performance: 0.94)
-      Mastery impacts:
-        L4: 0.918 (+0.008)
-  323. A1101 (Performance: 1.20)
-      Mastery impacts:
-        L4: 0.919 (+0.002)
-  324. A1740 (Performance: 1.06)
-      Mastery impacts:
-        L4: 0.925 (+0.006)
-  325. A1430 (Performance: 0.65)
-      Mastery impacts:
-        L4: 0.930 (+0.006)
-  326. A1406 (Performance: 0.47)
-      Mastery impacts:
-        L4: 0.935 (+0.005)
-  327. A1534 (Performance: 1.09)
-      Mastery impacts:
-        L4: 0.946 (+0.011)
-  328. A1405 (Performance: 0.87)
-      Mastery impacts:
-        L4: 0.952 (+0.006)
-  329. A1635 (Performance: 0.87)
-      Mastery impacts:
-        L4: 0.954 (+0.002)
-  330. A1564 (Performance: 0.47)
-      Mastery impacts:
-        L4: 0.957 (+0.003)
-  331. A1291 (Performance: 0.26)
-      Mastery impacts:
-        L4: 0.959 (+0.002)
-  332. A1366 (Performance: 1.59)
-      Mastery impacts:
-        L4: 0.967 (+0.008)
-  333. A373 (Performance: 0.91)
-  334. A1311 (Performance: 0.95)
-      Mastery impacts:
-        L4: 0.972 (+0.005)
-  335. A1442 (Performance: 0.66)
-      Mastery impacts:
-        L4: 0.976 (+0.004)
-  336. A1403 (Performance: 0.33)
-      Mastery impacts:
-        L4: 0.979 (+0.003)
-  337. A1736 (Performance: 0.91)
-      Mastery impacts:
-        L4: 0.984 (+0.004)
-  338. A1648 (Performance: 0.29)
-  339. A462 (Performance: 1.19)
-      Mastery impacts:
-        L4: 0.986 (+0.002)
-  340. A675 (Performance: 0.69)
-  341. A751 (Performance: 0.62)
-      Mastery impacts:
-        L4: 0.989 (+0.003)
-  342. A1687 (Performance: 0.91)
-      Mastery impacts:
-        L4: 0.997 (+0.008)
-  343. A1496 (Performance: 1.05)
-      Mastery impacts:
-        L4: 1.000 (+0.003)
-
-RECOMMENDED LEARNING SEQUENCE:
-----------------------------------------
-Optimal activity sequence (deduplicated):
- 1. A341 (Avg Performance: 2.20)
- 2. A329 (Avg Performance: 1.55)
- 3. A57 (Avg Performance: 2.49)
- 4. A393 (Avg Performance: 2.14)
- 5. A271 (Avg Performance: 2.02)
- 6. A302 (Avg Performance: 2.10)
- 7. A42 (Avg Performance: 2.35)
- 8. A334 (Avg Performance: 1.84)
- 9. A162 (Avg Performance: 1.91)
-10. A322 (Avg Performance: 1.88)
-11. A202 (Avg Performance: 1.74)
-12. A70 (Avg Performance: 1.56)
-13. A171 (Avg Performance: 1.74)
-14. A311 (Avg Performance: 2.10)
-15. A223 (Avg Performance: 1.53)
-16. A268 (Avg Performance: 1.77)
-17. A239 (Avg Performance: 1.63)
-18. A385 (Avg Performance: 2.10)
-19. A86 (Avg Performance: 1.56)
-20. A384 (Avg Performance: 1.74)
-21. A389 (Avg Performance: 1.92)
-22. A276 (Avg Performance: 1.59)
-23. A269 (Avg Performance: 1.92)
-24. A342 (Avg Performance: 1.52)
-25. A274 (Avg Performance: 1.48)
-26. A142 (Avg Performance: 1.52)
-27. A35 (Avg Performance: 1.45)
-28. A90 (Avg Performance: 1.48)
-29. A96 (Avg Performance: 1.70)
-30. A3 (Avg Performance: 1.77)
-31. A219 (Avg Performance: 1.63)
-32. A92 (Avg Performance: 1.41)
-33. A204 (Avg Performance: 1.45)
-34. A54 (Avg Performance: 1.67)
-35. A370 (Avg Performance: 1.63)
-36. A287 (Avg Performance: 1.51)
-37. A365 (Avg Performance: 1.45)
-38. A112 (Avg Performance: 1.60)
-39. A40 (Avg Performance: 1.27)
-40. A195 (Avg Performance: 1.74)
-41. A165 (Avg Performance: 1.13)
-42. A131 (Avg Performance: 1.52)
-43. A237 (Avg Performance: 1.88)
-44. A260 (Avg Performance: 1.33)
-45. A386 (Avg Performance: 1.59)
-46. A127 (Avg Performance: 1.34)
-47. A203 (Avg Performance: 1.12)
-48. A361 (Avg Performance: 2.67)
-49. A719 (Avg Performance: 2.17)
-50. A772 (Avg Performance: 2.85)
-51. A231 (Avg Performance: 2.60)
-52. A799 (Avg Performance: 2.32)
-53. A765 (Avg Performance: 2.82)
-54. A38 (Avg Performance: 1.88)
-55. A721 (Avg Performance: 2.31)
-56. A1646 (Avg Performance: 2.21)
-57. A511 (Avg Performance: 1.87)
-58. A553 (Avg Performance: 2.13)
-59. A678 (Avg Performance: 1.77)
-60. A486 (Avg Performance: 1.92)
-61. A543 (Avg Performance: 1.77)
-62. A1700 (Avg Performance: 1.77)
-63. A685 (Avg Performance: 1.45)
-64. A644 (Avg Performance: 1.77)
-65. A779 (Avg Performance: 1.70)
-66. A249 (Avg Performance: 2.20)
-67. A317 (Avg Performance: 2.20)
-68. A669 (Avg Performance: 1.81)
-69. A1684 (Avg Performance: 1.62)
-70. A623 (Avg Performance: 1.82)
-71. A1661 (Avg Performance: 1.88)
-72. A672 (Avg Performance: 1.53)
-73. A784 (Avg Performance: 1.77)
-74. A596 (Avg Performance: 1.81)
-75. A508 (Avg Performance: 1.77)
-76. A783 (Avg Performance: 1.66)
-77. A150 (Avg Performance: 1.81)
-78. A701 (Avg Performance: 1.56)
-79. A531 (Avg Performance: 2.14)
-80. A633 (Avg Performance: 1.20)
-81. A981 (Avg Performance: 3.39)
-82. A1664 (Avg Performance: 2.53)
-83. A241 (Avg Performance: 3.14)
-84. A902 (Avg Performance: 1.88)
-85. A853 (Avg Performance: 2.24)
-86. A324 (Avg Performance: 1.99)
-87. A458 (Avg Performance: 2.24)
-88. A889 (Avg Performance: 2.57)
-89. A1064 (Avg Performance: 2.57)
-90. A1739 (Avg Performance: 2.28)
-91. A1182 (Avg Performance: 2.43)
-92. A446 (Avg Performance: 2.38)
-93. A1132 (Avg Performance: 2.42)
-94. A957 (Avg Performance: 2.35)
-95. A1063 (Avg Performance: 1.84)
-96. A875 (Avg Performance: 2.31)
-97. A1093 (Avg Performance: 1.80)
-98. A813 (Avg Performance: 2.35)
-99. A1716 (Avg Performance: 1.91)
-100. A988 (Avg Performance: 1.84)
-101. A406 (Avg Performance: 1.91)
-102. A918 (Avg Performance: 1.99)
-103. A470 (Avg Performance: 2.24)
-104. A1040 (Avg Performance: 2.20)
-105. A1756 (Avg Performance: 1.99)
-106. A420 (Avg Performance: 1.96)
-107. A1124 (Avg Performance: 1.99)
-108. A999 (Avg Performance: 2.21)
-109. A1117 (Avg Performance: 2.10)
-110. A1714 (Avg Performance: 1.62)
-111. A1013 (Avg Performance: 1.84)
-112. A884 (Avg Performance: 2.25)
-113. A658 (Avg Performance: 1.88)
-114. A895 (Avg Performance: 1.92)
-115. A1104 (Avg Performance: 1.92)
-116. A1031 (Avg Performance: 1.88)
-117. A871 (Avg Performance: 2.28)
-118. A1143 (Avg Performance: 1.52)
-119. A872 (Avg Performance: 1.71)
-120. A1151 (Avg Performance: 2.02)
-121. A834 (Avg Performance: 1.92)
-122. A1010 (Avg Performance: 1.77)
-123. A1498 (Avg Performance: 2.46)
-124. A1485 (Avg Performance: 2.57)
-125. A328 (Avg Performance: 2.46)
-126. A1381 (Avg Performance: 3.03)
-127. A1520 (Avg Performance: 3.21)
-128. A1592 (Avg Performance: 3.00)
-129. A1375 (Avg Performance: 2.31)
-130. A1731 (Avg Performance: 2.57)
-131. A1448 (Avg Performance: 2.32)
-132. A1528 (Avg Performance: 1.66)
-133. A1630 (Avg Performance: 2.49)
-134. A1454 (Avg Performance: 2.42)
-135. A1615 (Avg Performance: 2.74)
-136. A81 (Avg Performance: 2.20)
-137. A1486 (Avg Performance: 1.93)
-138. A1558 (Avg Performance: 1.95)
-139. A1300 (Avg Performance: 2.57)
-140. A1507 (Avg Performance: 2.10)
-141. A1453 (Avg Performance: 2.07)
-142. A254 (Avg Performance: 1.92)
-143. A270 (Avg Performance: 2.14)
-144. A248 (Avg Performance: 1.95)
-145. A1743 (Avg Performance: 2.53)
-146. A1299 (Avg Performance: 2.13)
-147. A821 (Avg Performance: 2.13)
-148. A802 (Avg Performance: 2.45)
-149. A447 (Avg Performance: 1.84)
-150. A336 (Avg Performance: 1.66)
-151. A1225 (Avg Performance: 2.02)
-152. A1127 (Avg Performance: 1.95)
-153. A1576 (Avg Performance: 2.10)
-154. A1159 (Avg Performance: 2.03)
-155. A261 (Avg Performance: 2.13)
-156. A1226 (Avg Performance: 2.24)
-157. A412 (Avg Performance: 1.49)
-158. A343 (Avg Performance: 2.14)
-159. A84 (Avg Performance: 1.88)
-160. A454 (Avg Performance: 2.24)
-161. A122 (Avg Performance: 2.10)
-162. A1329 (Avg Performance: 2.07)
-163. A1234 (Avg Performance: 1.99)
-164. A697 (Avg Performance: 1.41)
-165. A545 (Avg Performance: 1.73)
-166. A1419 (Avg Performance: 2.02)
-167. A828 (Avg Performance: 1.31)
-168. A1177 (Avg Performance: 1.16)
-169. A1407 (Avg Performance: 0.48)
-170. A916 (Avg Performance: 1.41)
-171. A938 (Avg Performance: 0.87)
-172. A966 (Avg Performance: 0.55)
-173. A998 (Avg Performance: 1.13)
-174. A570 (Avg Performance: 1.23)
-175. A691 (Avg Performance: 0.99)
-176. A22 (Avg Performance: 0.62)
-177. A527 (Avg Performance: 1.16)
-178. A443 (Avg Performance: 0.62)
-179. A1709 (Avg Performance: 1.37)
-180. A634 (Avg Performance: 1.67)
-181. A892 (Avg Performance: 0.95)
-182. A1045 (Avg Performance: 1.30)
-183. A801 (Avg Performance: 0.65)
-184. A670 (Avg Performance: 0.91)
-185. A1305 (Avg Performance: 1.06)
-186. A33 (Avg Performance: 1.20)
-187. A355 (Avg Performance: 0.37)
-188. A1304 (Avg Performance: 0.98)
-189. A130 (Avg Performance: 1.13)
-190. A936 (Avg Performance: 0.51)
-191. A362 (Avg Performance: 1.31)
-192. A1236 (Avg Performance: 1.62)
-193. A1082 (Avg Performance: 0.30)
-194. A542 (Avg Performance: 0.98)
-195. A123 (Avg Performance: 0.62)
-196. A472 (Avg Performance: 0.77)
-197. A106 (Avg Performance: 0.95)
-198. A1540 (Avg Performance: 0.48)
-199. A1144 (Avg Performance: 1.20)
-200. A16 (Avg Performance: 0.62)
-201. A975 (Avg Performance: 1.05)
-202. A992 (Avg Performance: 0.45)
-203. A484 (Avg Performance: 0.36)
-204. A1108 (Avg Performance: 1.42)
-205. A885 (Avg Performance: 1.30)
-206. A924 (Avg Performance: 0.69)
-207. A694 (Avg Performance: 1.09)
-208. A1015 (Avg Performance: 1.24)
-209. A79 (Avg Performance: 0.80)
-210. A1464 (Avg Performance: 0.73)
-211. A1295 (Avg Performance: 1.16)
-212. A1178 (Avg Performance: 1.02)
-213. A948 (Avg Performance: 1.20)
-214. A934 (Avg Performance: 0.84)
-215. A576 (Avg Performance: 1.01)
-216. A935 (Avg Performance: 0.54)
-217. A1696 (Avg Performance: 0.59)
-218. A154 (Avg Performance: 1.06)
-219. A829 (Avg Performance: 1.31)
-220. A431 (Avg Performance: 0.48)
-221. A558 (Avg Performance: 0.70)
-222. A1418 (Avg Performance: 1.38)
-223. A881 (Avg Performance: 0.37)
-224. A1324 (Avg Performance: 1.49)
-225. A113 (Avg Performance: 1.26)
-226. A668 (Avg Performance: 0.66)
-227. A775 (Avg Performance: 1.05)
-228. A1543 (Avg Performance: 1.27)
-229. A1748 (Avg Performance: 1.24)
-230. A1574 (Avg Performance: 1.27)
-231. A554 (Avg Performance: 1.23)
-232. A917 (Avg Performance: 0.84)
-233. A947 (Avg Performance: 0.48)
-234. A1207 (Avg Performance: 0.77)
-235. A1440 (Avg Performance: 1.51)
-236. A208 (Avg Performance: 1.16)
-237. A560 (Avg Performance: 0.44)
-238. A471 (Avg Performance: 1.42)
-239. A1095 (Avg Performance: 0.62)
-240. A586 (Avg Performance: 0.61)
-241. A1319 (Avg Performance: 1.06)
-242. A98 (Avg Performance: 0.69)
-243. A338 (Avg Performance: 0.80)
-244. A737 (Avg Performance: 0.72)
-245. A1256 (Avg Performance: 0.52)
-246. A837 (Avg Performance: 0.69)
-247. A1072 (Avg Performance: 0.94)
-248. A593 (Avg Performance: 0.77)
-249. A629 (Avg Performance: 1.05)
-250. A547 (Avg Performance: 1.02)
-251. A1026 (Avg Performance: 0.94)
-252. A749 (Avg Performance: 0.66)
-253. A700 (Avg Performance: 1.48)
-254. A307 (Avg Performance: 0.95)
-255. A1373 (Avg Performance: 1.31)
-256. A790 (Avg Performance: 0.69)
-257. A1516 (Avg Performance: 1.19)
-258. A532 (Avg Performance: 0.29)
-259. A234 (Avg Performance: 1.38)
-260. A1596 (Avg Performance: 1.09)
-261. A733 (Avg Performance: 1.16)
-262. A478 (Avg Performance: 0.55)
-263. A718 (Avg Performance: 0.87)
-264. A1690 (Avg Performance: 1.44)
-265. A1546 (Avg Performance: 1.59)
-266. A402 (Avg Performance: 0.94)
-267. A1757 (Avg Performance: 1.37)
-268. A1097 (Avg Performance: 0.55)
-269. A284 (Avg Performance: 0.87)
-270. A863 (Avg Performance: 0.38)
-271. A1217 (Avg Performance: 0.34)
-272. A400 (Avg Performance: 1.55)
-273. A1099 (Avg Performance: 1.59)
-274. A1658 (Avg Performance: 0.69)
-275. A242 (Avg Performance: 0.37)
-276. A323 (Avg Performance: 0.30)
-277. A1414 (Avg Performance: 0.80)
-278. A663 (Avg Performance: 1.49)
-279. A206 (Avg Performance: 0.65)
-280. A1561 (Avg Performance: 1.48)
-281. A298 (Avg Performance: 1.38)
-282. A1056 (Avg Performance: 0.98)
-283. A1203 (Avg Performance: 0.95)
-284. A1168 (Avg Performance: 0.80)
-285. A793 (Avg Performance: 1.34)
-286. A1707 (Avg Performance: 1.27)
-287. A1505 (Avg Performance: 1.24)
-288. A630 (Avg Performance: 0.33)
-289. A1328 (Avg Performance: 0.40)
-290. A297 (Avg Performance: 0.70)
-291. A1480 (Avg Performance: 0.66)
-292. A509 (Avg Performance: 1.16)
-293. A174 (Avg Performance: 1.48)
-294. A843 (Avg Performance: 1.23)
-295. A44 (Avg Performance: 0.80)
-296. A1626 (Avg Performance: 1.16)
-297. A77 (Avg Performance: 0.95)
-298. A946 (Avg Performance: 0.44)
-299. A823 (Avg Performance: 1.08)
-300. A1325 (Avg Performance: 1.20)
-301. A1445 (Avg Performance: 0.72)
-302. A1638 (Avg Performance: 1.56)
-303. A1589 (Avg Performance: 1.06)
-304. A1126 (Avg Performance: 1.48)
-305. A1388 (Avg Performance: 0.25)
-306. A1610 (Avg Performance: 1.67)
-307. A959 (Avg Performance: 0.74)
-308. A1565 (Avg Performance: 0.99)
-309. A1482 (Avg Performance: 0.48)
-310. A1437 (Avg Performance: 0.59)
-311. A1530 (Avg Performance: 0.33)
-312. A886 (Avg Performance: 0.58)
-313. A1223 (Avg Performance: 1.16)
-314. A970 (Avg Performance: 0.80)
-315. A1551 (Avg Performance: 0.44)
-316. A1521 (Avg Performance: 0.65)
-317. A942 (Avg Performance: 0.31)
-318. A928 (Avg Performance: 1.05)
-319. A147 (Avg Performance: 0.83)
-320. A1087 (Avg Performance: 0.73)
-321. A1628 (Avg Performance: 0.59)
-322. A1415 (Avg Performance: 0.94)
-323. A1101 (Avg Performance: 1.20)
-324. A1740 (Avg Performance: 1.06)
-325. A1430 (Avg Performance: 0.65)
-326. A1406 (Avg Performance: 0.47)
-327. A1534 (Avg Performance: 1.09)
-328. A1405 (Avg Performance: 0.87)
-329. A1635 (Avg Performance: 0.87)
-330. A1564 (Avg Performance: 0.47)
-331. A1291 (Avg Performance: 0.26)
-332. A1366 (Avg Performance: 1.59)
-333. A373 (Avg Performance: 0.91)
-334. A1311 (Avg Performance: 0.95)
-335. A1442 (Avg Performance: 0.66)
-336. A1403 (Avg Performance: 0.33)
-337. A1736 (Avg Performance: 0.91)
-338. A1648 (Avg Performance: 0.29)
-339. A462 (Avg Performance: 1.19)
-340. A675 (Avg Performance: 0.69)
-341. A751 (Avg Performance: 0.62)
-342. A1687 (Avg Performance: 0.91)
-343. A1496 (Avg Performance: 1.05)
-
-Total unique activities: 343
-
-ACTIVITY EFFECTIVENESS ANALYSIS:
-----------------------------------------
-Most effective activities (by average performance):
-  A981: 3.390 (used 1 times)
-    Best for: L3 (0.026), L1 (0.008)
-  A1520: 3.210 (used 1 times)
-    Best for: L4 (0.032)
-  A241: 3.140 (used 1 times)
-    Best for: L1 (0.016), L3 (0.015)
-  A1381: 3.030 (used 1 times)
-    Best for: L4 (0.030)
-  A1592: 3.000 (used 1 times)
-    Best for: L4 (0.017)
-  A772: 2.850 (used 1 times)
-    Best for: L2 (0.028)
-  A765: 2.820 (used 1 times)
-    Best for: L2 (0.028)
-  A1615: 2.740 (used 1 times)
-    Best for: L3 (0.011), L4 (0.004)
-  A361: 2.670 (used 1 times)
-    Best for: L1 (0.021), L2 (0.005)
-  A231: 2.600 (used 1 times)
-    Best for: L1 (0.023), L2 (0.003)
+Total unique activities encountered: 343

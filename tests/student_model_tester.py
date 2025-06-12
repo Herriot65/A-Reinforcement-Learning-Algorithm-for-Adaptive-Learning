@@ -437,7 +437,7 @@ class ModelTester:
                     ax.set_xlim([min_step - padding, max_step + padding])
                 
                 ax.set_title(f'Mastery Evolution - {lesson_id}')
-                ax.set_xlabel('Step')
+                ax.set_xlabel('Activiies')
                 ax.set_ylabel('Mastery Level')
                 ax.set_ylim([-0.05, 1.05])
                 ax.grid(True, alpha=0.3)

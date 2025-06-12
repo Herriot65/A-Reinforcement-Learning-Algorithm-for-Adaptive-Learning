@@ -1,301 +1,221 @@
 import json
-import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.patheffects as path_effects
 import seaborn as sns
 from collections import defaultdict, Counter
-from typing import Dict, List, Tuple
-import pandas as pd
+import os
+from typing import Dict
 
-class CurriculumAnalyzer:
+# Set style for beautiful plots
+plt.style.use('seaborn-v0_8')
+sns.set_palette("husl")
+
+class StreamlinedDatasetAnalyzer:
     """
-    Analyzes curriculum datasets for balance, bias, and learning style distribution.
-    Evaluates strong dominance patterns and provides comprehensive statistics.
+    Streamlined analyzer focusing on:
+    1. Primary activities per lesson distribution
+    2. Dominant learning style distribution
     """
     
     def __init__(self, curriculum_path: str):
-        """Initialize analyzer with curriculum JSON file."""
+        """Load and initialize the curriculum data."""
         with open(curriculum_path, 'r', encoding='utf-8') as f:
             self.curriculum = json.load(f)
         
         self.lessons = self.curriculum['lessons']
         self.activities = self.curriculum['activities']
         self.learning_styles = ['visual', 'auditory', 'read_write', 'kinesthetic']
-        self.dominance_threshold = 0.4
         
-    def analyze_learning_style_distribution(self) -> Dict:
-        """Analyze distribution of learning styles across all activities."""
-        style_stats = {style: [] for style in self.learning_styles}
+        # Create output directory
+        os.makedirs('data', exist_ok=True)
         
-        for activity in self.activities:
-            for style in self.learning_styles:
-                style_stats[style].append(activity['style'][style])
-        
-        distribution_stats = {}
-        for style in self.learning_styles:
-            values = style_stats[style]
-            distribution_stats[style] = {
-                'mean': np.mean(values),
-                'std': np.std(values),
-                'min': np.min(values),
-                'max': np.max(values),
-                'median': np.median(values),
-                'q25': np.percentile(values, 25),
-                'q75': np.percentile(values, 75)
-            }
-        
-        return distribution_stats, style_stats
-    
-    def analyze_dominance_patterns(self) -> Dict:
-        """Analyze strong dominance patterns (>=0.4 threshold)."""
-        dominance_analysis = {
-            'strong_dominant_activities': {style: 0 for style in self.learning_styles},
-            'multi_dominant_activities': 0,
-            'no_dominant_activities': 0,
-            'dominance_combinations': defaultdict(int),
-            'dominance_details': []
-        }
+    def analyze_primary_activities_per_lesson(self) -> Dict:
+        """Analyze primary activities distribution across lessons."""
+        lesson_stats = defaultdict(lambda: {'primary_activities': 0})
         
         for activity in self.activities:
-            dominant_styles = []
-            for style in self.learning_styles:
-                if activity['style'][style] >= self.dominance_threshold:
-                    dominant_styles.append(style)
-                    dominance_analysis['strong_dominant_activities'][style] += 1
+            lessons_coverage = activity['lessons']
             
-            if len(dominant_styles) > 1:
-                dominance_analysis['multi_dominant_activities'] += 1
-                combo_key = '+'.join(sorted(dominant_styles))
-                dominance_analysis['dominance_combinations'][combo_key] += 1
-            elif len(dominant_styles) == 0:
-                dominance_analysis['no_dominant_activities'] += 1
-            else:
-                dominance_analysis['dominance_combinations'][dominant_styles[0]] += 1
+            # Find the lesson with highest coverage (primary lesson)
+            primary_lesson = max(lessons_coverage.items(), key=lambda x: x[1])
+            primary_lesson_id, primary_coverage = primary_lesson
             
-            dominance_analysis['dominance_details'].append({
-                'activity_id': activity['id'],
-                'dominant_styles': dominant_styles,
-                'style_values': activity['style']
-            })
+            # Count as primary if coverage > 0.5 (highly dedicated to this lesson)
+            if primary_coverage > 0.5:
+                lesson_stats[primary_lesson_id]['primary_activities'] += 1
         
-        return dominance_analysis
+        return dict(lesson_stats)
     
-    def analyze_lesson_coverage(self) -> Dict:
-        """Analyze how lessons are covered across activities."""
-        lesson_coverage = {lesson['id']: {'total_coverage': 0, 'activity_count': 0, 'coverages': []} 
-                           for lesson in self.lessons}
+    def analyze_dominant_learning_styles(self) -> Dict:
+        """Analyze dominant learning style distribution."""
+        dominant_styles = []
         
         for activity in self.activities:
-            for lesson_id, coverage in activity['lessons'].items():
-                if lesson_id in lesson_coverage:
-                    lesson_coverage[lesson_id]['total_coverage'] += coverage
-                    lesson_coverage[lesson_id]['activity_count'] += 1
-                    lesson_coverage[lesson_id]['coverages'].append(coverage)
+            style_values = activity['style']
+            # Find dominant style (highest value)
+            dominant_style = max(style_values.items(), key=lambda x: x[1])
+            dominant_styles.append(dominant_style[0])
         
-        # Calculate statistics for each lesson
-        for lesson_id in lesson_coverage:
-            coverages = lesson_coverage[lesson_id]['coverages']
-            if coverages:
-                lesson_coverage[lesson_id]['mean_coverage'] = np.mean(coverages)
-                lesson_coverage[lesson_id]['std_coverage'] = np.std(coverages)
-                lesson_coverage[lesson_id]['min_coverage'] = np.min(coverages)
-                lesson_coverage[lesson_id]['max_coverage'] = np.max(coverages)
-        
-        return lesson_coverage
+        dominant_counts = Counter(dominant_styles)
+        return dominant_counts
     
-    def analyze_prerequisites_complexity(self) -> Dict:
-        """Analyze prerequisite complexity and distribution."""
-        prereq_stats = {
-            'lessons_with_prerequisites': 0,
-            'total_prerequisite_relationships': 0,
-            'prerequisite_strengths': [],
-            'lessons_by_prereq_count': defaultdict(int)
-        }
+    def create_combined_analysis_plot(self, lesson_stats: Dict, dominant_counts: Counter):
+        """Create a beautiful combined visualization for the report."""
+        # Set up the figure with custom styling
+        fig = plt.figure(figsize=(16, 8))
+        fig.patch.set_facecolor('white')
         
-        for lesson in self.lessons:
-            prereq_count = len(lesson['prerequisites'])
-            prereq_stats['lessons_by_prereq_count'][prereq_count] += 1
-            
-            if prereq_count > 0:
-                prereq_stats['lessons_with_prerequisites'] += 1
-                prereq_stats['total_prerequisite_relationships'] += prereq_count
-                
-                for strength in lesson['prerequisites'].values():
-                    prereq_stats['prerequisite_strengths'].append(strength)
+        # Create subplots with custom spacing
+        gs = fig.add_gridspec(1, 2, width_ratios=[1, 1], hspace=0.3, wspace=0.3)
+        ax1 = fig.add_subplot(gs[0])
+        ax2 = fig.add_subplot(gs[1])
         
-        if prereq_stats['prerequisite_strengths']:
-            prereq_stats['mean_prereq_strength'] = np.mean(prereq_stats['prerequisite_strengths'])
-            prereq_stats['std_prereq_strength'] = np.std(prereq_stats['prerequisite_strengths'])
+        # Define color palettes
+        lesson_colors = ['#2E86AB', '#A23B72', '#F18F01', '#C73E1D']
+        style_colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4']
         
-        return prereq_stats
-    
-    def check_balance_and_bias(self) -> Dict:
-        """Comprehensive balance and bias analysis."""
-        distribution_stats, style_stats = self.analyze_learning_style_distribution()
-        dominance_stats = self.analyze_dominance_patterns()
+        # Plot 1: Primary Activities per Lesson
+        lessons = list(lesson_stats.keys())
+        primary_activities = [lesson_stats[lesson]['primary_activities'] for lesson in lessons]
         
-        # Statistical tests for balance
-        balance_analysis = {
-            'style_balance_score': 0,
-            'coefficient_of_variation': {},
-            'style_correlation_matrix': {},
-            'balance_verdict': '',
-            'bias_indicators': []
-        }
+        bars = ax1.bar(lessons, primary_activities, 
+                      color=lesson_colors[:len(lessons)], 
+                      alpha=0.8, 
+                      edgecolor='white', 
+                      linewidth=2,
+                      capsize=5)
         
-        # Calculate coefficient of variation for each style
-        total_activities = len(self.activities)
-        style_means = [distribution_stats[style]['mean'] for style in self.learning_styles]
-        overall_mean = np.mean(style_means)
-        overall_std = np.std(style_means)
+        # Enhance the first plot
+        ax1.set_xlabel('Lesson ID', fontsize=14, fontweight='600', color='#2C3E50')
+        ax1.set_ylabel('Number of Primary Activities', fontsize=14, fontweight='600', color='#2C3E50')
+        ax1.grid(axis='y', alpha=0.3, linestyle='--', linewidth=0.8)
+        ax1.set_facecolor('#FAFAFA')
         
-        balance_analysis['style_balance_score'] = 1 - (overall_std / overall_mean) if overall_mean > 0 else 0
-        
-        for style in self.learning_styles:
-            cv = distribution_stats[style]['std'] / distribution_stats[style]['mean']
-            balance_analysis['coefficient_of_variation'][style] = cv
-        
-        # Correlation analysis
-        style_matrix = np.array([style_stats[style] for style in self.learning_styles]).T
-        correlation_matrix = np.corrcoef(style_matrix.T)
-        balance_analysis['style_correlation_matrix'] = {
-            self.learning_styles[i]: {
-                self.learning_styles[j]: correlation_matrix[i][j] 
-                for j in range(len(self.learning_styles))
-            } for i in range(len(self.learning_styles))
-        }
-        
-        # Bias detection
-        dominance_percentages = {
-            style: (dominance_stats['strong_dominant_activities'][style] / total_activities) * 100
-            for style in self.learning_styles
-        }
-        
-        max_dominance = max(dominance_percentages.values())
-        min_dominance = min(dominance_percentages.values())
-        dominance_range = max_dominance - min_dominance
-        
-        if dominance_range > 15:  # More than 15% difference
-            balance_analysis['bias_indicators'].append(f"High dominance range: {dominance_range:.1f}%")
-        
-        if balance_analysis['style_balance_score'] > 0.8:
-            balance_analysis['balance_verdict'] = "Well Balanced"
-        elif balance_analysis['style_balance_score'] > 0.6:
-            balance_analysis['balance_verdict'] = "Moderately Balanced"
-        else:
-            balance_analysis['balance_verdict'] = "Potentially Biased"
-        
-        balance_analysis['dominance_percentages'] = dominance_percentages
-        
-        return balance_analysis
-    
-    def create_visualizations(self, save_path: str = "curriculum_analysis"):
-        """Create comprehensive visualizations."""
-        distribution_stats, style_stats = self.analyze_learning_style_distribution()
-        dominance_stats = self.analyze_dominance_patterns()
-        balance_analysis = self.check_balance_and_bias()
-        
-        # Adjusting subplots to only show the plots you are actively filling
-        # There are 4 plots you're using: axes[0,0], axes[0,1], axes[1,0], axes[1,1]
-        # So, we need a 2x2 grid.
-        fig, axes = plt.subplots(2, 2, figsize=(14, 10)) # Changed from 2,3 to 2,2 and adjusted figsize
-        fig.suptitle('Curriculum Dataset Analysis', fontsize=16, fontweight='bold')
-        
-        # 1. Learning Style Distribution
-        ax1 = axes[0, 0]
-        style_data = [style_stats[style] for style in self.learning_styles]
-        ax1.boxplot(style_data, tick_labels=[s.capitalize() for s in self.learning_styles])
-        ax1.set_title('Learning Style Value Distribution')
-        ax1.set_ylabel('Style Value')
-        ax1.grid(True, alpha=0.3)
-        
-        # 2. Dominance Analysis
-        ax2 = axes[0, 1]
-        dominance_counts = [dominance_stats['strong_dominant_activities'][style] for style in self.learning_styles]
-        bars = ax2.bar([s.capitalize() for s in self.learning_styles], dominance_counts, 
-                       color=['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4'])
-        ax2.set_title(f'Strong Dominance Distribution (≥{self.dominance_threshold})')
-        ax2.set_ylabel('Number of Activities')
-        
-        # Add percentage labels on bars
-        total = len(self.activities)
-        for bar, count in zip(bars, dominance_counts):
+        # Add value labels on bars with style
+        for bar, value in zip(bars, primary_activities):
             height = bar.get_height()
-            ax2.text(bar.get_x() + bar.get_width()/2., height,
-                     f'{(count/total)*100:.1f}%', ha='center', va='bottom')
+            ax1.text(bar.get_x() + bar.get_width()/2., height + max(primary_activities) * 0.02,
+                    f'{int(value)}', ha='center', va='bottom', 
+                    fontweight='bold', fontsize=12, color='#2C3E50')
         
-        # 4. Balance Score Visualization
-        ax4 = axes[1, 0] # This was originally axes[1,0] and remains the same
-        categories = ['Balance\nScore', 'Multi-Dom\n%', 'No-Dom\n%']
-        values = [
-            balance_analysis['style_balance_score'],
-            (dominance_stats['multi_dominant_activities'] / len(self.activities)),
-            (dominance_stats['no_dominant_activities'] / len(self.activities))
-        ]
-        colors = ['green' if v > 0.7 else 'orange' if v > 0.4 else 'red' for v in values]
-        bars = ax4.bar(categories, values, color=colors, alpha=0.7)
-        ax4.set_title('Balance Metrics')
-        ax4.set_ylabel('Score/Percentage')
-        ax4.set_ylim(0, 1)
+        # Add subtle shadow effect
+        for bar in bars:
+            bar.set_path_effects([path_effects.SimplePatchShadow(offset=(1, -1), 
+                                                                shadow_rgbFace='gray', 
+                                                                alpha=0.3)])
         
-        for bar, val in zip(bars, values):
-            ax4.text(bar.get_x() + bar.get_width()/2., bar.get_height() + 0.01,
-                     f'{val:.3f}', ha='center', va='bottom')
+        # Plot 2: Dominant Learning Styles Distribution
+        styles = list(dominant_counts.keys())
+        counts = list(dominant_counts.values())
         
-        # 5. Lesson Coverage Distribution
-        ax5 = axes[1, 1] # This was originally axes[1,1] and remains the same
-        lesson_coverage = self.analyze_lesson_coverage()
-        lesson_ids = list(lesson_coverage.keys())
-        activity_counts = [lesson_coverage[lid]['activity_count'] for lid in lesson_ids]
-        ax5.bar(lesson_ids, activity_counts, color='skyblue')
-        ax5.set_title('Activities per Lesson')
-        ax5.set_ylabel('Number of Activities')
-        ax5.set_xlabel('Lesson ID')
+        # Create pie chart with enhanced styling
+        wedges, texts, autotexts = ax2.pie(counts, 
+                                          labels=[style.replace('_', ' ').title() for style in styles],
+                                          autopct='%1.1f%%',
+                                          colors=style_colors[:len(styles)],
+                                          startangle=90,
+                                          explode=[0.05] * len(styles),
+                                          shadow=True,
+                                          textprops={'fontsize': 11, 'fontweight': '600'})
         
+        # Enhance pie chart appearance
+        ax2.set_title('Dominant Learning Styles\nDistribution', 
+                     fontsize=16, fontweight='bold', pad=20, color='#2C3E50')
         
+        # Style the percentage labels
+        for autotext in autotexts:
+            autotext.set_color('white')
+            autotext.set_fontweight('bold')
+            autotext.set_fontsize(12)
+        
+        # Style the labels
+        for text in texts:
+            text.set_fontsize(12)
+            text.set_fontweight('600')
+            text.set_color('#2C3E50')
+        
+        # Add a subtle border around the pie
+        circle = plt.Circle((0, 0), 1.1, fill=False, edgecolor='#BDC3C7', linewidth=2, alpha=0.5)
+        ax2.add_patch(circle)
+        
+        # Add overall title and styling
+        fig.suptitle('Learning Dataset Analysis: Key Distributions', 
+                    fontsize=20, fontweight='bold', y=0.95, color='#2C3E50')
+        
+        # Add a subtle background pattern
+        fig.patch.set_facecolor('#FEFEFE')
+        
+        # Add footer text
+        fig.text(0.5, 0.02, 'Generated for Educational Dataset Quality Assessment', 
+                ha='center', va='bottom', fontsize=10, style='italic', color='#7F8C8D')
+        
+        # Adjust layout
         plt.tight_layout()
-        plt.savefig(f'{save_path}_visualizations.png', dpi=300, bbox_inches='tight')
+        plt.subplots_adjust(top=0.88, bottom=0.08)
         
-        return fig
-
-def get_activity_dominant_style(activity):
-    """Get the dominant learning style for an activity."""
-    style_dict = activity['style']
-    return max(style_dict, key=style_dict.get)
-
-def analyze_style_distribution_in_activities(activities):
-    """Analyze the distribution of dominant styles in the activity set."""
-    style_counts = {'visual': 0, 'auditory': 0, 'read_write': 0, 'kinesthetic': 0}
+        # Save with high quality
+        plt.savefig('data/dataset_analysis_report.png', 
+                   dpi=300, 
+                   bbox_inches='tight', 
+                   facecolor='white',
+                   edgecolor='none',
+                   pad_inches=0.2)
+        plt.show()
     
-    for activity in activities:
-        dominant_style = get_activity_dominant_style(activity)
-        style_counts[dominant_style] += 1
-    
-    total_activities = len(activities)
-    print(f"\nActivity Style Distribution:")
-    print(f"  Total activities: {total_activities}")
-    for style, count in style_counts.items():
-        percentage = (count / total_activities) * 100
-        print(f"  {style.replace('_', '/').title()}: {count} ({percentage:.1f}%)")
-    
-    return style_counts
-
-
-def main(curriculum_file: str = "data/balanced_curriculum.json"):
-    """Main function to run the analysis."""  
-    try:
-        analyzer = CurriculumAnalyzer(curriculum_file)
-
-        # Create visualizations
-        analyzer.create_visualizations()
+    def generate_quick_summary(self, lesson_stats: Dict, dominant_counts: Counter):
+        """Generate a quick summary of the key findings."""
+        print("=" * 60)
+        print("DATASET ANALYSIS SUMMARY")
+        print("=" * 60)
         
-        print(f" Visualizations saved as 'curriculum_analysis_visualizations.png'")
+        # Primary activities summary
+        primary_activities = [lesson_stats[lesson]['primary_activities'] for lesson in lesson_stats.keys()]
+        total_primary = sum(primary_activities)
         
-    except FileNotFoundError:
-        print(f" Error: Curriculum file '{curriculum_file}' not found.")
-        print("Please run the curriculum generator first to create the dataset.")
-    except Exception as e:
-        print(f" Error during analysis: {str(e)}")
+        print(f"\n Primary Activities Distribution:")
+        print(f"   Total Primary Activities: {total_primary}")
+        for lesson_id, stats in lesson_stats.items():
+            percentage = (stats['primary_activities'] / total_primary) * 100 if total_primary > 0 else 0
+            print(f"   Lesson {lesson_id}: {stats['primary_activities']} ({percentage:.1f}%)")
+        
+        # Learning styles summary
+        total_activities = sum(dominant_counts.values())
+        print(f"\n Dominant Learning Styles:")
+        print(f"   Total Activities Analyzed: {total_activities}")
+        for style, count in dominant_counts.most_common():
+            percentage = (count / total_activities) * 100
+            print(f"   {style.replace('_', ' ').title()}: {count} ({percentage:.1f}%)")
+        
+        print("=" * 60)
+    
+    def run_analysis(self):
+        """Run the streamlined analysis and generate visualization."""
+        print("Running streamlined dataset analysis...")
+        
+        # Perform analyses
+        lesson_stats = self.analyze_primary_activities_per_lesson()
+        dominant_counts = self.analyze_dominant_learning_styles()
+        
+        # Create visualization
+        print("Generating combined visualization...")
+        self.create_combined_analysis_plot(lesson_stats, dominant_counts)
+        
+        # Generate summary
+        self.generate_quick_summary(lesson_stats, dominant_counts)
+        
+        print("Analysis complete!")
+        print("Report visualization saved as: data/dataset_analysis_report.png")
 
 
+# Usage example
 if __name__ == "__main__":
-    main()
+    # First, generate the curriculum using the provided code if needed
+    curriculum_path = "data/learning_curriculum.json"
+    
+    if not os.path.exists(curriculum_path):
+        print("Curriculum file not found. Please generate it first using CurriculumGenerator.")
+        print("Expected path: data/learning_curriculum.json")
+    else:
+        # Run streamlined analysis
+        analyzer = StreamlinedDatasetAnalyzer(curriculum_path)
+        analyzer.run_analysis()
