@@ -103,6 +103,7 @@ def test_trained_model_with_style_tracking(model_path, lessons, activities, stud
     print("Testing trained model...")
 
     results = []
+    
     # Convert student's dominant style for consistent comparison with activity styles
     student_style_key = convert_student_style_to_activity_format(student.dominant_style)
 
@@ -114,27 +115,21 @@ def test_trained_model_with_style_tracking(model_path, lessons, activities, stud
         total_reward = 0
         steps = 0
         done = False
-        style_matches = 0 # Counter for activities matching student's dominant style
-        total_actions = 0 # Counter for total actions taken in the episode
+        style_matches = 0 
+        total_actions = 0 
 
         while not done:
-            # Get available action masks from the environment info
             action_masks = info.get('available_actions', None)
-            # Model predicts the next action, using masks for valid actions.
-            # deterministic=True ensures consistent action selection during evaluation.
             action, _ = model.predict(obs, action_masks=action_masks, deterministic=True)
             
-            # Identify the activity chosen by the agent
             selected_activity = activities[action]
-            # Determine the dominant style of the chosen activity
+            
             activity_dominant_style = get_activity_dominant_style(selected_activity)
             
-            # Check if the activity's dominant style aligns with the student's dominant style
             if activity_dominant_style == student_style_key:
                 style_matches += 1
-            total_actions += 1 # Increment total actions taken
+            total_actions += 1 
 
-            # Take a step in the environment with the chosen action
             obs, reward, terminated, truncated, info = env.step(action)
             total_reward += reward
             steps += 1
@@ -143,8 +138,8 @@ def test_trained_model_with_style_tracking(model_path, lessons, activities, stud
         # Calculate final metrics for the episode
         final_mastery = np.mean(list(env.unwrapped.lesson_mastery.mastery.values()))
         completion = 1.0 if terminated else 0.0 
-        style_alignment = (style_matches / total_actions) * 100 if total_actions > 0 else 0 # Percentage of style-aligned activities
-
+        style_alignment = (style_matches / total_actions) * 100 if total_actions > 0 else 0 
+        
         # Store results for the current episode
         results.append({
             'reward': total_reward,
@@ -175,12 +170,11 @@ def test_random_model_with_style_tracking(lessons, activities, student, num_epis
     print("Testing random model...")
 
     results = []
-    # Convert student's dominant style for consistent comparison with activity styles
     student_style_key = convert_student_style_to_activity_format(student.dominant_style)
 
     for episode in range(num_episodes):
         env = create_test_env(lessons, activities, student)
-        _, info = env.reset() # Reset the environment
+        _, info = env.reset() 
 
         total_reward = 0
         steps = 0
@@ -191,28 +185,20 @@ def test_random_model_with_style_tracking(lessons, activities, student, num_epis
         while not done:
             action_masks = info.get('available_actions', None)
             if action_masks is not None:
-                # Get indices of valid actions (where mask is 1)
                 valid_actions = np.where(action_masks == 1)[0]
                 if len(valid_actions) > 0:
-                    # Choose a random action from the valid ones
                     action = np.random.choice(valid_actions)
             else:
-                # If no action mask is provided, choose from all possible actions randomly
                 action = np.random.randint(0, len(activities))
 
-            # Identify the activity chosen by the random agent
             selected_activity = activities[action]
-            # Determine the dominant style of the chosen activity
             activity_dominant_style = get_activity_dominant_style(selected_activity)
             
-            # Check for style alignment
             if activity_dominant_style == student_style_key:
                 style_matches += 1
             total_actions += 1
 
-            # Take a step in the environment
-            _, reward, terminated, truncated, info = env.step(action)
-            total_reward += reward
+            _, _, terminated, truncated, info = env.step(action)
             steps += 1
             done = terminated or truncated
 
@@ -229,8 +215,7 @@ def test_random_model_with_style_tracking(lessons, activities, student, num_epis
             'final_mastery': final_mastery,
             'style_alignment': style_alignment
         })
-        # Print progress for random model for easier tracking
-        print(f"Episode {episode + 1}: Reward: {total_reward}, Steps: {steps}, Completed: {completion}, Final Mastery: {final_mastery}, Style Alignment: {style_alignment:.2f}%")
+        print(f"Episode {episode + 1}: Steps: {steps}, Completed: {completion}, Final Mastery: {final_mastery}, Style Alignment: {style_alignment:.2f}%")
     return results
 
 def create_comparison_charts(trained_results, random_results, student, model_name):
@@ -259,17 +244,16 @@ def create_comparison_charts(trained_results, random_results, student, model_nam
         ax.annotate(
             text,
             xy=(x, y),
-            xytext=(x - 0.3, ytext), # Offset text slightly to the left
+            xytext=(x - 0.3, ytext), 
             ha='center', fontsize=12, fontweight='bold',
             bbox=dict(boxstyle="round,pad=0.5", facecolor=color, alpha=0.8),
             arrowprops=dict(arrowstyle='->', color=arrow_color, lw=2)
         )
 
-    # Set plot style and color palette for box plots
     plt.style.use('seaborn-v0_8-whitegrid')
     sns.set_palette("husl")
 
-    colors = ['#FF6B6B', '#4ECDC4'] # Define colors for box plots
+    colors = ['#FF6B6B', '#4ECDC4']  # Red and Blue
 
     # Extract relevant data for plotting
     trained_steps = [r['steps'] for r in trained_results]
@@ -320,9 +304,9 @@ def create_comparison_charts(trained_results, random_results, student, model_nam
                   color='lightgreen',
                   arrow_color='darkgreen')
 
-    plt.tight_layout() # Adjust plot to prevent labels from overlapping
+    plt.tight_layout() 
     plt.savefig(os.path.join(output_dir, 'activities_comparison.png'), dpi=300, bbox_inches='tight')
-    plt.close(fig_steps) # Close the figure to free up memory
+    plt.close(fig_steps) 
 
     # --- 2. Style Alignment Chart ---
     fig_style = plt.figure(figsize=(9, 7))
@@ -373,7 +357,7 @@ def create_comparison_charts(trained_results, random_results, student, model_nam
 
     fig_table = plt.figure(figsize=(12, 6))
     ax_table = fig_table.add_subplot(111)
-    ax_table.axis('off') # Hide axes for a clean table appearance
+    ax_table.axis('off') 
 
     # Create the table
     table_separate = ax_table.table(cellText=summary_data[1:], colLabels=summary_data[0],
@@ -385,11 +369,10 @@ def create_comparison_charts(trained_results, random_results, student, model_nam
 
     # Style table header
     for i in range(len(summary_data[0])):
-        table_separate[(0, i)].set_facecolor('#4ECDC4') # Header background color
-        table_separate[(0, i)].set_text_props(weight='bold', color='white') # Header text style
-    # Style 'Improvement' column
+        table_separate[(0, i)].set_facecolor('#4ECDC4') 
+        table_separate[(0, i)].set_text_props(weight='bold', color='white') 
     for i in range(1, len(summary_data)):
-        table_separate[(i, 3)].set_facecolor('#E8F5E8') # Background color for improvement column
+        table_separate[(i, 3)].set_facecolor('#E8F5E8') 
 
     # Set title for the table
     ax_table.set_title(f'Performance Summary Statistics\nStudent Profile: {student.dominant_style} Learner ({student.dominant_percent}% dominant, velocity={display_velocity}%)',
@@ -417,7 +400,6 @@ def main(students, model_paths, curriculum_path="learning_curriculum.json", mode
         model_num_episodes (int, optional): Number of episodes to evaluate the trained model. Defaults to 1.
         random_model_num_episodes (int, optional): Number of episodes to evaluate the random baseline. Defaults to 100.
     """
-    # Load curriculum data from JSON file
     with open(curriculum_path) as f:
         data = json.load(f)
     lessons = data["lessons"]
@@ -425,12 +407,13 @@ def main(students, model_paths, curriculum_path="learning_curriculum.json", mode
 
     # Iterate through each model path and corresponding student profile
     for model_path, student in zip(model_paths, students):
-        model_name = os.path.basename(model_path) # Extract model name from path
+        model_name = os.path.basename(model_path) 
         print(f"\n--- Evaluating {model_name} ---")
         print(f"Student: {student.dominant_style}, {student.dominant_percent}% (vel={student.velocity})")
 
         # Test the trained model
         trained_results = test_trained_model_with_style_tracking(model_path, lessons, activities, student, model_num_episodes)
+        
         # Test the random baseline model
         random_results = test_random_model_with_style_tracking(lessons, activities, student, random_model_num_episodes)
         
@@ -438,7 +421,6 @@ def main(students, model_paths, curriculum_path="learning_curriculum.json", mode
         create_comparison_charts(trained_results, random_results, student, model_name)
 
 if __name__ == "__main__":
-    # Define paths to trained models
     model_paths = [
         "models/student_model_Read_Write_85pct_045vel",
         "models/student_model_Read_Write_85pct_075vel",
@@ -447,7 +429,7 @@ if __name__ == "__main__":
         "models/student_model_Visual_80pct_065vel",
         "models/student_model_Visual_80pct_09vel"
     ]
-    # Define corresponding student profiles
+
     students = [
         Student(dominant_style="Read/Write", dominant_percent=85, velocity=0.45),
         Student(dominant_style="Read/Write", dominant_percent=85, velocity=0.75),
@@ -456,6 +438,6 @@ if __name__ == "__main__":
         Student(dominant_style="Visual", dominant_percent=80, velocity=0.65),
         Student(dominant_style="Visual", dominant_percent=80, velocity=0.9)
     ]
-    # Call the main function to start the evaluation
+
     main(model_num_episodes=1, random_model_num_episodes=1000, curriculum_path="data/learning_curriculum.json",
          students=students, model_paths=model_paths)

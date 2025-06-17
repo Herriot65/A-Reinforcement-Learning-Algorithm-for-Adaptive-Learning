@@ -21,6 +21,7 @@ class Student:
             dominant_percent: If None, random percentage is chosen
             velocity: If None, random velocity is chosen
         """
+        
         # Generate random values if not specified
         self.dominant_style = dominant_style or random.choice(
             ["Visual", "Auditory", "Read/Write", "Kinesthetic"]
@@ -50,7 +51,6 @@ class Student:
     @property
     def velocity(self) -> float:
         """Get velocity value."""
-        # This property correctly accesses the velocity from the generated profile
         return self.profile['velocity']
     
     def calculate_performance(self, activity: Dict) -> float:

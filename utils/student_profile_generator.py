@@ -1,5 +1,5 @@
-from typing import Dict
 import random
+from typing import Dict
 from collections import defaultdict
 
 COMBINATIONS = {

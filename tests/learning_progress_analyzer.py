@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-from typing import Dict, List, Tuple, Optional, Set
+from typing import Dict, List, Tuple, Optional
 
 
 class LearningProgressConfig:
@@ -163,7 +163,6 @@ class MasteryAnalyzer:
 
 class LearningProgressVisualizer:
     """Handles visualization of learning progress data."""
-    
     def __init__(self, config: LearningProgressConfig):
         self.config = config
         self.mastery_analyzer = MasteryAnalyzer(config)
@@ -194,7 +193,6 @@ class LearningProgressVisualizer:
                 if mastery_idx is not None:
                     print(f"  Found mastery at step {mastery_idx} with value {mastery_data[mastery_idx]:.3f}")
             
-            # Plot the curve
             ax.plot(x_plot, y_plot, label=phase, color=self.config.colors[phase], linewidth=2)
             
             # Add mastery achievement marker
@@ -205,7 +203,6 @@ class LearningProgressVisualizer:
             
             all_x_values.extend(x_plot)
         
-        # Configure axes
         self._configure_lesson_axes(ax, lesson, all_x_values)
     
     def _configure_lesson_axes(self, ax, lesson: str, all_x_values: List[int]):
@@ -217,10 +214,8 @@ class LearningProgressVisualizer:
         ax.grid(True, alpha=0.3)
         ax.legend(title="Training Phase", fontsize=10, title_fontsize=11)
         
-        # Set x-axis ticks
         if all_x_values:
             min_x, max_x = min(all_x_values), max(all_x_values)
-            # Change tick interval to 30 instead of 10
             tick_start = (min_x // 25) * 25
             tick_end = ((max_x // 25) + 1) * 25
             ax.set_xticks(np.arange(tick_start, tick_end + 1, 25)) #
@@ -251,7 +246,6 @@ class LearningProgressVisualizer:
         print(f"Plot saved to '{fig_path}'")
         return fig_path
 
-
 class LearningProgressAnalyzer:
     """Main analyzer class that orchestrates the analysis workflow."""
     
@@ -260,7 +254,6 @@ class LearningProgressAnalyzer:
         self.phase_analyzer = PhaseAnalyzer(self.config)
         self.visualizer = LearningProgressVisualizer(self.config)
         
-        # Data storage
         self.data = None
         self.lessons = None
         self.phase_curves = None

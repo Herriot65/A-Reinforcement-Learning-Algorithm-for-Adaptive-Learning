@@ -25,7 +25,7 @@ class LessonMasteryTracker:
     def is_activity_available(self, activity: Dict) -> bool:
         """Check if activity is available (prerequisites/mastery)."""
         has_unmastered = False
-        for lesson_id, cov in activity['lessons'].items():
+        for lesson_id, _ in activity['lessons'].items():
             if self.mastery[lesson_id] == 1.0:
                 continue
             has_unmastered = True

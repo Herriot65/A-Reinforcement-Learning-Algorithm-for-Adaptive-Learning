@@ -4,28 +4,11 @@ import json
 import random
 from typing import Dict, List
 
-# Add the parent directory to the system path. This is a common practice
-# to allow importing modules from higher-level directories in a project
-# structure, especially when running scripts from a subdirectory.
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 class CurriculumGenerator:
-    """
-    Creates a synthetic learning curriculum in JSON format for an adaptive-learning
-    Reinforcement Learning (RL) simulation environment.
-
-    This generator customizes activities with detailed attributes:
-        • lessons     : A dictionary where keys are lesson IDs and values represent
-                        the `coverage` of that lesson within the activity (a float between 0 and 1).
-                        This indicates how much an activity contributes to understanding a specific lesson.
-        • style       : A dictionary representing the activity's alignment with VARK learning styles
-                        (Visual, Auditory, Read/Write, Kinesthetic). Values are floats summing to 1,
-                        indicating the proportion of each style addressed.
-        • nb_points   : An integer representing the `points` awarded to a student
-                        if they successfully complete this activity.
-    """
-
+    """A class for generating a synthetic learning curriculum."""
     def __init__(
         self,
         num_lessons: int = 4,
@@ -49,7 +32,6 @@ class CurriculumGenerator:
         """
         self.num_lessons = num_lessons
         self.activities_per_lesson = activities_per_lesson
-        # Convert to list to allow modification if needed, though not used here.
         self.learning_styles = list(learning_styles)
         self.max_prerequisites = max_prerequisites
         self.max_lessons_per_activity = max_lessons_per_activity
@@ -96,11 +78,9 @@ class CurriculumGenerator:
                               their normalized probability scores for an activity.
         """
         while True:
-            # Assign a random value between 0 and 1 (rounded to 2 decimals) for each style.
             vec = {s: round(random.random(), 2) for s in self.learning_styles}
             total = sum(vec.values())
             if total > 0:
-                # Normalize the values so they sum up to 1.0.
                 return {k: round(v / total, 2) for k, v in vec.items()}
 
     # ───────────────────────────────────────────────────── lessons ──
@@ -122,14 +102,10 @@ class CurriculumGenerator:
 
             # Lesson 1 (index 0) has no prerequisites.
             if i:
-                # Determine a random number of prerequisites for the current lesson,
-                # ensuring it doesn't exceed the number of already generated lessons.
                 num = min(i, random.randint(1, self.max_prerequisites))
-                # Randomly select `num` lesson IDs from the lessons generated so far (0 to i-1).
                 for prereq in random.sample(
                     [self.generate_lesson_id(j) for j in range(i)], num
                 ):
-                    # Assign a random mastery threshold for each prerequisite.
                     prerequisites[prereq] = round(random.uniform(0.4, 0.8), 2)
 
             lessons.append({"id": lesson_id, "prerequisites": prerequisites})
@@ -151,32 +127,24 @@ class CurriculumGenerator:
             Dict[str, float]: A dictionary mapping lesson IDs to their coverage percentages
                               within this activity.
         """
-        # A simple case: the activity focuses entirely on the focal lesson.
         if random.randint(1, self.max_lessons_per_activity) == 1:
             return {focal: 1.0}
 
-        # Otherwise, the activity covers the focal lesson significantly and potentially others.
-        main_cov = round(random.uniform(0.5, 0.9), 2)  # High coverage for the focal lesson.
-        # Get all lesson IDs except the focal one.
+        main_cov = round(random.uniform(0.5, 0.9), 2)  
         others = [self.generate_lesson_id(i) for i in range(self.num_lessons) if self.generate_lesson_id(i) != focal]
-        # Randomly decide how many other lessons (besides focal) to include.
         n_others = random.randint(1, self.max_lessons_per_activity - 1)
-        # Select specific other lessons to include.
         selected = random.sample(others, n_others)
 
         while True:
-            # Assign random weights to the selected other lessons.
             weights = [round(random.random(), 2) for _ in selected]
             tot = sum(weights)
-            if tot:  # Ensure total weight is not zero to prevent division by zero.
+            if tot:  
                 coverage = {focal: main_cov}
-                rem = round(1.0 - main_cov, 2)  # Remaining coverage to distribute.
-                # Distribute the remaining coverage proportionally among other selected lessons.
+                rem = round(1.0 - main_cov, 2)  
+                
                 for w, les in zip(weights, selected):
                     coverage[les] = round(rem * w / tot, 2)
                 
-                # Re-normalize the entire coverage dictionary to ensure sum is exactly 1.0
-                # after rounding errors, and all values are positive.
                 s = sum(coverage.values())
                 if all(0 < v <= 1 for v in coverage.values()):
                     return {k: round(v / s, 2) for k, v in coverage.items()}
@@ -199,7 +167,7 @@ class CurriculumGenerator:
             List[Dict]: A list of dictionaries, each representing a distinct activity.
         """
         acts: List[Dict] = []
-        aid = 0  # Initialize activity ID counter.
+        aid = 0  
 
         # 1. Generate focused activities for each lesson.
         for lesson in lessons:
@@ -212,22 +180,16 @@ class CurriculumGenerator:
                         "nb_points": self.points
                     }
                 )
-                aid += 1  # Increment activity ID for the next activity.
-
+                aid += 1  
+                
         # 2. Generate 10% mixed review activities.
-        # These activities cover multiple lessons, not primarily focused on one.
         for _ in range(int(len(acts) * 0.1)):
-            # Randomly select 2 to `self.max_lessons_per_activity` lesson IDs for mixed review.
             select = random.sample([l["id"] for l in lessons],
                                    random.randint(2, self.max_lessons_per_activity))
             while True:
-                # Generate random weights for each selected lesson.
                 w = [round(random.random(), 2) for _ in select]
-                # Ensure the sum of weights is positive.
                 if (tot := sum(w)):
-                    # Calculate coverage for each selected lesson based on its weight.
                     cov = {l: round(v / tot, 2) for l, v in zip(select, w)}
-                    # Ensure the total coverage sums to approximately 1.0 (handle floating point inaccuracies).
                     if abs(sum(cov.values()) - 1.0) < 1e-3:
                         acts.append(
                             {
@@ -237,7 +199,7 @@ class CurriculumGenerator:
                                 "nb_points": self.points,
                             }
                         )
-                        aid += 1  # Increment activity ID.
+                        aid += 1  
                         break  # Break the inner loop once a valid activity is generated.
         return acts
 
@@ -268,18 +230,15 @@ class CurriculumGenerator:
                 "description": "Synthetic curriculum with VARK styles and nb_points.",
             },
         }
+        
         if file_path:
-            # Ensure the directory for the file exists.
             os.makedirs(os.path.dirname(file_path), exist_ok=True)
             with open(file_path, "w", encoding="utf-8") as fp:
-                json.dump(curriculum, fp, indent=2)  # Save with a 2-space indentation for readability.
+                json.dump(curriculum, fp, indent=2)  
         return curriculum
 
 if __name__ == "__main__":
     
-    # Create an instance of the CurriculumGenerator with 4 lessons and 400 activities per lesson.
     gen = CurriculumGenerator(num_lessons=4, activities_per_lesson=400)
-    
-    # Generate the curriculum and save it to the specified JSON file.
     gen.generate_curriculum("data/learning_curriculum.json")
     print("Saved → data/learning_curriculum.json")

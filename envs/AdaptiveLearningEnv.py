@@ -1,10 +1,10 @@
+import os
+import json
+import numpy as np
+from . import Student 
 import gymnasium as gym
 from gymnasium import spaces
-import numpy as np
 from typing import Dict, List, Tuple, Optional
-import json
-import os
-from . import Student 
 from .LessonMasteryTracker import LessonMasteryTracker
 
 class AdaptiveLearningEnv(gym.Env):

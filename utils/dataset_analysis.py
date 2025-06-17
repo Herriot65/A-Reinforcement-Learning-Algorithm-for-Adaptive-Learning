@@ -1,12 +1,11 @@
+import os
 import json
+import seaborn as sns
+from typing import Dict
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as path_effects
-import seaborn as sns
 from collections import defaultdict, Counter
-import os
-from typing import Dict
 
-# Set style for beautiful plots
 plt.style.use('seaborn-v0_8')
 sns.set_palette("husl")
 
@@ -26,7 +25,6 @@ class StreamlinedDatasetAnalyzer:
         self.activities = self.curriculum['activities']
         self.learning_styles = ['visual', 'auditory', 'read_write', 'kinesthetic']
         
-        # Create output directory
         os.makedirs('data', exist_ok=True)
         
     def analyze_primary_activities_per_lesson(self) -> Dict:
@@ -52,7 +50,6 @@ class StreamlinedDatasetAnalyzer:
         
         for activity in self.activities:
             style_values = activity['style']
-            # Find dominant style (highest value)
             dominant_style = max(style_values.items(), key=lambda x: x[1])
             dominant_styles.append(dominant_style[0])
         
@@ -61,7 +58,7 @@ class StreamlinedDatasetAnalyzer:
     
     def create_combined_analysis_plot(self, lesson_stats: Dict, dominant_counts: Counter):
         """Create a beautiful combined visualization for the report."""
-        # Set up the figure with custom styling
+
         fig = plt.figure(figsize=(16, 8))
         fig.patch.set_facecolor('white')
         
@@ -134,26 +131,21 @@ class StreamlinedDatasetAnalyzer:
             text.set_fontweight('600')
             text.set_color('#2C3E50')
         
-        # Add a subtle border around the pie
         circle = plt.Circle((0, 0), 1.1, fill=False, edgecolor='#BDC3C7', linewidth=2, alpha=0.5)
         ax2.add_patch(circle)
         
-        # Add overall title and styling
         fig.suptitle('Learning Dataset Analysis: Key Distributions', 
                     fontsize=20, fontweight='bold', y=0.95, color='#2C3E50')
         
-        # Add a subtle background pattern
         fig.patch.set_facecolor('#FEFEFE')
         
         # Add footer text
         fig.text(0.5, 0.02, 'Generated for Educational Dataset Quality Assessment', 
                 ha='center', va='bottom', fontsize=10, style='italic', color='#7F8C8D')
         
-        # Adjust layout
         plt.tight_layout()
         plt.subplots_adjust(top=0.88, bottom=0.08)
         
-        # Save with high quality
         plt.savefig('data/dataset_analysis_report.png', 
                    dpi=300, 
                    bbox_inches='tight', 
@@ -168,7 +160,6 @@ class StreamlinedDatasetAnalyzer:
         print("DATASET ANALYSIS SUMMARY")
         print("=" * 60)
         
-        # Primary activities summary
         primary_activities = [lesson_stats[lesson]['primary_activities'] for lesson in lesson_stats.keys()]
         total_primary = sum(primary_activities)
         
@@ -192,7 +183,6 @@ class StreamlinedDatasetAnalyzer:
         """Run the streamlined analysis and generate visualization."""
         print("Running streamlined dataset analysis...")
         
-        # Perform analyses
         lesson_stats = self.analyze_primary_activities_per_lesson()
         dominant_counts = self.analyze_dominant_learning_styles()
         
@@ -206,16 +196,12 @@ class StreamlinedDatasetAnalyzer:
         print("Analysis complete!")
         print("Report visualization saved as: data/dataset_analysis_report.png")
 
-
-# Usage example
 if __name__ == "__main__":
-    # First, generate the curriculum using the provided code if needed
     curriculum_path = "data/learning_curriculum.json"
     
     if not os.path.exists(curriculum_path):
         print("Curriculum file not found. Please generate it first using CurriculumGenerator.")
         print("Expected path: data/learning_curriculum.json")
     else:
-        # Run streamlined analysis
         analyzer = StreamlinedDatasetAnalyzer(curriculum_path)
         analyzer.run_analysis()
