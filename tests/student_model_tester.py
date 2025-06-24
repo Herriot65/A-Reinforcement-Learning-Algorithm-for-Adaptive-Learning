@@ -1,10 +1,10 @@
 import os
 import sys
-import json
 import csv
+import json
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
+import matplotlib.pyplot as plt
 from typing import Dict, List, Tuple
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from matplotlib import patheffects
@@ -12,7 +12,6 @@ from sb3_contrib.common.wrappers import ActionMasker
 from sb3_contrib.ppo_mask import MaskablePPO
 from envs.Student import Student
 from envs.AdaptiveLearningEnv import AdaptiveLearningEnv
-
 class ModelTester:
     def __init__(self, model_path: str, curriculum_path: str, output_dir: str = "tests/", mastery_threshold: float = 1.0):
         """Initialize the model tester.
@@ -39,10 +38,6 @@ class ModelTester:
         with open(self.curriculum_path) as f:
             data = json.load(f)
         return data["lessons"], data["activities"]
-    
-    def _mask_fn(self, env):
-        """Action masking function for environment."""
-        return env._get_available_actions_mask()
     
     def test_student(self, student: Student, num_episodes: int = 1, student_name: str = None, deterministic: bool = True) -> Dict:
         """Test the model with a specific student profile.

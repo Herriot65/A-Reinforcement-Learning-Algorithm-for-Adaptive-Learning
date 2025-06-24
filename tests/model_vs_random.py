@@ -2,27 +2,17 @@ import os
 import sys
 import json
 import numpy as np
+import seaborn as sns
 import matplotlib.pyplot as plt
 from sb3_contrib import MaskablePPO
 from sb3_contrib.common.wrappers import ActionMasker
-import seaborn as sns
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from envs.Student import Student
 from envs.AdaptiveLearningEnv import AdaptiveLearningEnv
+from training.environment_setup import mask_fn
 
-def mask_fn(env):
-    """
-    Returns the action mask from the environment. This mask indicates which actions
-    are currently valid (e.g., based on prerequisites or already completed activities).
-    This function is used by the ActionMasker wrapper for Stable Baselines3.
-
-    Args:
-        env (gym.Env): The Gymnasium environment instance.
-
-    Returns:
-        np.ndarray: A binary array where 1 indicates a valid action and 0 an invalid one.
-    """
-    return env._get_available_actions_mask()
 
 def create_test_env(lessons, activities, student, max_steps=1000):
     """
@@ -239,7 +229,7 @@ def create_comparison_charts(trained_results, random_results, student, model_nam
         y_values = [line.get_ydata() for line in ax.lines if hasattr(line, 'get_ydata')]
         y_non_empty = [y for y in y_values if len(y) > 0]
         ymax = max(y.max() for y in y_non_empty) if y_non_empty else y + dy
-        ytext = y + dy if y + dy < ymax + 10 else y - dy # Adjust text position based on max y-value
+        ytext = y + dy if y + dy < ymax + 10 else y - dy 
 
         ax.annotate(
             text,
@@ -253,8 +243,8 @@ def create_comparison_charts(trained_results, random_results, student, model_nam
     plt.style.use('seaborn-v0_8-whitegrid')
     sns.set_palette("husl")
 
-    colors = ['#FF6B6B', '#4ECDC4']  # Red and Blue
-
+    colors = ['#FF6B6B', '#4ECDC4']  
+    
     # Extract relevant data for plotting
     trained_steps = [r['steps'] for r in trained_results]
     random_steps = [r['steps'] for r in random_results]
@@ -266,7 +256,6 @@ def create_comparison_charts(trained_results, random_results, student, model_nam
     style_multiplier = np.mean(trained_style) / max(np.mean(random_style), 1e-6)
     completion_multiplier = np.mean([r["completed"] for r in trained_results]) / max(np.mean([r["completed"] for r in random_results]), 1e-6)
 
-    # Sanitize model name for use in file paths (remove slashes)
     sanitized_model_name = model_name.replace("/", "_").replace("\\", "_")
     output_dir = f"tests/model_vs_random_evaluation/{sanitized_model_name}"
     os.makedirs(output_dir, exist_ok=True)
@@ -290,7 +279,6 @@ def create_comparison_charts(trained_results, random_results, student, model_nam
         patch.set_facecolor(color)
         patch.set_alpha(0.7)
 
-    # Set title and labels for the chart
     ax_steps.set_title(f'Performance Summary: Activities to Completion\nStudent Profile: {student.dominant_style} Learner ({student.dominant_percent}% dominant, velocity={display_velocity}%)',
                        fontsize=16, fontweight='bold', pad=20)
     ax_steps.set_ylabel('Number of Activities', fontsize=12)
@@ -321,18 +309,15 @@ def create_comparison_charts(trained_results, random_results, student, model_nam
                                  whiskerprops=dict(linewidth=1.5),
                                  capprops=dict(linewidth=1.5))
 
-    # Apply colors to the box plot patches
     for patch, color in zip(bp_style['boxes'], colors):
         patch.set_facecolor(color)
         patch.set_alpha(0.7)
 
-    # Set title and labels for the chart
     ax_style.set_title(f'Personalized Learning: Style Alignment\nStudent Profile: {student.dominant_style} Learner ({student.dominant_percent}% dominant, velocity={display_velocity}%)',
                        fontsize=16, fontweight='bold', pad=20)
     ax_style.set_ylabel('Style Alignment (%)', fontsize=12)
     ax_style.grid(True, linestyle='--', alpha=0.6)
 
-    # Add annotation for style alignment improvement
     safe_annotate(ax_style,
                   f'{style_multiplier:.1f}x better alignment',
                   x=1.5, 
@@ -374,7 +359,6 @@ def create_comparison_charts(trained_results, random_results, student, model_nam
     for i in range(1, len(summary_data)):
         table_separate[(i, 3)].set_facecolor('#E8F5E8') 
 
-    # Set title for the table
     ax_table.set_title(f'Performance Summary Statistics\nStudent Profile: {student.dominant_style} Learner ({student.dominant_percent}% dominant, velocity={display_velocity}%)',
                        fontsize=18, fontweight='bold', pad=15)
 
@@ -411,13 +395,10 @@ def main(students, model_paths, curriculum_path="learning_curriculum.json", mode
         print(f"\n--- Evaluating {model_name} ---")
         print(f"Student: {student.dominant_style}, {student.dominant_percent}% (vel={student.velocity})")
 
-        # Test the trained model
         trained_results = test_trained_model_with_style_tracking(model_path, lessons, activities, student, model_num_episodes)
         
-        # Test the random baseline model
         random_results = test_random_model_with_style_tracking(lessons, activities, student, random_model_num_episodes)
         
-        # Generate and save comparison charts
         create_comparison_charts(trained_results, random_results, student, model_name)
 
 if __name__ == "__main__":

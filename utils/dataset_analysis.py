@@ -67,7 +67,6 @@ class StreamlinedDatasetAnalyzer:
         ax1 = fig.add_subplot(gs[0])
         ax2 = fig.add_subplot(gs[1])
         
-        # Define color palettes
         lesson_colors = ['#2E86AB', '#A23B72', '#F18F01', '#C73E1D']
         style_colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4']
         
@@ -82,20 +81,17 @@ class StreamlinedDatasetAnalyzer:
                       linewidth=2,
                       capsize=5)
         
-        # Enhance the first plot
         ax1.set_xlabel('Lesson ID', fontsize=14, fontweight='600', color='#2C3E50')
         ax1.set_ylabel('Number of Primary Activities', fontsize=14, fontweight='600', color='#2C3E50')
         ax1.grid(axis='y', alpha=0.3, linestyle='--', linewidth=0.8)
         ax1.set_facecolor('#FAFAFA')
         
-        # Add value labels on bars with style
         for bar, value in zip(bars, primary_activities):
             height = bar.get_height()
             ax1.text(bar.get_x() + bar.get_width()/2., height + max(primary_activities) * 0.02,
                     f'{int(value)}', ha='center', va='bottom', 
                     fontweight='bold', fontsize=12, color='#2C3E50')
         
-        # Add subtle shadow effect
         for bar in bars:
             bar.set_path_effects([path_effects.SimplePatchShadow(offset=(1, -1), 
                                                                 shadow_rgbFace='gray', 
@@ -115,17 +111,14 @@ class StreamlinedDatasetAnalyzer:
                                           shadow=True,
                                           textprops={'fontsize': 11, 'fontweight': '600'})
         
-        # Enhance pie chart appearance
         ax2.set_title('Dominant Learning Styles\nDistribution', 
                      fontsize=16, fontweight='bold', pad=20, color='#2C3E50')
         
-        # Style the percentage labels
         for autotext in autotexts:
             autotext.set_color('white')
             autotext.set_fontweight('bold')
             autotext.set_fontsize(12)
         
-        # Style the labels
         for text in texts:
             text.set_fontsize(12)
             text.set_fontweight('600')
@@ -139,7 +132,6 @@ class StreamlinedDatasetAnalyzer:
         
         fig.patch.set_facecolor('#FEFEFE')
         
-        # Add footer text
         fig.text(0.5, 0.02, 'Generated for Educational Dataset Quality Assessment', 
                 ha='center', va='bottom', fontsize=10, style='italic', color='#7F8C8D')
         
@@ -169,7 +161,6 @@ class StreamlinedDatasetAnalyzer:
             percentage = (stats['primary_activities'] / total_primary) * 100 if total_primary > 0 else 0
             print(f"   Lesson {lesson_id}: {stats['primary_activities']} ({percentage:.1f}%)")
         
-        # Learning styles summary
         total_activities = sum(dominant_counts.values())
         print(f"\n Dominant Learning Styles:")
         print(f"   Total Activities Analyzed: {total_activities}")
@@ -186,11 +177,9 @@ class StreamlinedDatasetAnalyzer:
         lesson_stats = self.analyze_primary_activities_per_lesson()
         dominant_counts = self.analyze_dominant_learning_styles()
         
-        # Create visualization
         print("Generating combined visualization...")
         self.create_combined_analysis_plot(lesson_stats, dominant_counts)
         
-        # Generate summary
         self.generate_quick_summary(lesson_stats, dominant_counts)
         
         print("Analysis complete!")

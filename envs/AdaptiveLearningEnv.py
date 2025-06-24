@@ -114,7 +114,7 @@ class AdaptiveLearningEnv(gym.Env):
 
         Returns:
             Tuple[np.ndarray, float, bool, bool, Dict]:
-                - observation (np.ndarray): The new observation of the environment after the step.
+                - observation (np.ndarray): The new observation or state of the environment after the step.
                 - reward (float): The reward received after performing the action (student's performance).
                 - terminated (bool): Whether the episode has ended due to all lessons being mastered.
                 - truncated (bool): Whether the episode has ended due to reaching the maximum number of steps.

@@ -1,9 +1,8 @@
-import json
-import matplotlib.pyplot as plt
-import numpy as np
 import os
+import json
+import numpy as np
+import matplotlib.pyplot as plt
 from typing import Dict, List, Tuple, Optional
-
 
 class LearningProgressConfig:
     """Configuration class for learning progress analysis."""
@@ -149,7 +148,6 @@ class MasteryAnalyzer:
         mastery_idx = self.find_mastery_achievement(mastery_data, start_idx)
         end_idx = (mastery_idx + 1) if mastery_idx is not None else len(mastery_data)
         
-        # Ensure indices are within bounds
         start_idx = max(0, start_idx)
         end_idx = min(end_idx, len(mastery_data))
         
