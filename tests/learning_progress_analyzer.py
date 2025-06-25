@@ -379,5 +379,5 @@ def analyze_learning_progress(training_data_file: str = None,
 
 if __name__ == "__main__":
     log_file = "training_data/student_data_Read_Write_85pct_09vel.json"
-    unified_output_dir = "tests/model_test_results/student_data_Read_Write_85pct_09vel"
+    unified_output_dir = "tests/model_test_results/student_model_Read_Write_85pct_09vel_1"#add _1 just for testing
     report, _= analyze_learning_progress(log_file, unified_output_dir)

@@ -12,6 +12,7 @@ from sb3_contrib.common.wrappers import ActionMasker
 from sb3_contrib.ppo_mask import MaskablePPO
 from envs.Student import Student
 from envs.AdaptiveLearningEnv import AdaptiveLearningEnv
+from training.environment_setup import mask_fn
 class ModelTester:
     def __init__(self, model_path: str, curriculum_path: str, output_dir: str = "tests/", mastery_threshold: float = 1.0):
         """Initialize the model tester.
@@ -70,7 +71,7 @@ class ModelTester:
                 log_training_data=False,
                 
             )
-            masked_env = ActionMasker(env, self._mask_fn)
+            masked_env = ActionMasker(env, mask_fn)
             
             episode_data = self._run_episode(masked_env, episode + 1, deterministic=deterministic)
             all_episodes_data.extend(episode_data)
@@ -584,7 +585,7 @@ def main(model_path: str , output_dir: str, test_students: str, mastery_threshol
 
 if __name__ == "__main__":
     model_path="models/student_model_Read_Write_85pct_09vel"
-    output_dir="tests/model_test_results/student_model_Read_Write_85pct_09vel"
+    output_dir="tests/model_test_results/student_model_Read_Write_85pct_09vel_1" #add _1 just for testing
     main(model_path=model_path,output_dir = output_dir,
          test_students=[Student(dominant_style = "Read/Write", dominant_percent = 85, velocity = 0.9)], deterministic = True
          )
